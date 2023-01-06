@@ -1,6 +1,6 @@
 
--- IF NOT EXISTS (SELECT * FROM sys.schemas where [name] = 'Bikes')
---     CREATE SCHEMA Bikes
+-- IF NOT EXISTS (SELECT * FROM sys.schemas where [name] = 'BikeSalesStaging')
+--     CREATE SCHEMA BikeSalesStaging
 -- GO
 
 IF NOT EXISTS (SELECT * FROM sys.external_file_formats WHERE [name] = 'SynapseDelimitedTextFormatSkipHeader') 
@@ -13,51 +13,52 @@ IF NOT EXISTS (SELECT * FROM sys.external_file_formats WHERE [name] = 'SynapseDe
 			))
 GO
 
-IF NOT EXISTS (SELECT * FROM sys.external_data_sources WHERE [name] = 'bikes_shop_data_lake') 
-	CREATE EXTERNAL DATA SOURCE [bikes_shop_data_lake] 
+--DROP EXTERNAL DATA SOURCE [samples_data_lake] 
+IF NOT EXISTS (SELECT * FROM sys.external_data_sources WHERE [name] = 'samples_data_lake') 
+	CREATE EXTERNAL DATA SOURCE [samples_data_lake] 
 	WITH (
-		LOCATION = 'abfss://[container_name]@[data_lake_name].dfs.core.windows.net' 
+		LOCATION = 'abfss://[container]@[storage_acct].dfs.core.windows.net/' 
 	)
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Addresses')
-    DROP EXTERNAL TABLE Bikes.Addresses
+    DROP EXTERNAL TABLE BikeSalesStaging.Addresses
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'BusinessPartners')
-    DROP EXTERNAL TABLE Bikes.BusinessPartners
+    DROP EXTERNAL TABLE BikeSalesStaging.BusinessPartners
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Employees')
-    DROP EXTERNAL TABLE Bikes.Employees
+    DROP EXTERNAL TABLE BikeSalesStaging.Employees
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'ProductCategories')
-    DROP EXTERNAL TABLE Bikes.ProductCategories
+    DROP EXTERNAL TABLE BikeSalesStaging.ProductCategories
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'ProductCategoryText')
-    DROP EXTERNAL TABLE Bikes.ProductCategoryText
+    DROP EXTERNAL TABLE BikeSalesStaging.ProductCategoryText
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Products')
-    DROP EXTERNAL TABLE Bikes.Products
+    DROP EXTERNAL TABLE BikeSalesStaging.Products
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'ProductTexts')
-    DROP EXTERNAL TABLE Bikes.ProductTexts
+    DROP EXTERNAL TABLE BikeSalesStaging.ProductTexts
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'SalesOrderItems')
-    DROP EXTERNAL TABLE Bikes.SalesOrderItems
+    DROP EXTERNAL TABLE BikeSalesStaging.SalesOrderItems
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'SalesOrders')
-    DROP EXTERNAL TABLE Bikes.SalesOrders
+    DROP EXTERNAL TABLE BikeSalesStaging.SalesOrders
 GO
 
 
-CREATE EXTERNAL TABLE Bikes.Addresses (
+CREATE EXTERNAL TABLE BikeSalesStaging.Addresses (
 	[ADDRESSID] bigint,
 	[CITY] nvarchar(80),
 	[POSTALCODE] nvarchar(10),
@@ -72,14 +73,14 @@ CREATE EXTERNAL TABLE Bikes.Addresses (
 	[LONGITUDE] float
 	)
 	WITH (
-	LOCATION = 'bikes_shop/Addresses.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/Addresses.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
 
-CREATE EXTERNAL TABLE Bikes.BusinessPartners (
+CREATE EXTERNAL TABLE BikeSalesStaging.BusinessPartners (
 	[PARTNERID] bigint,
 	[PARTNERROLE] bigint,
 	[EMAILADDRESS] nvarchar(1024),
@@ -96,13 +97,13 @@ CREATE EXTERNAL TABLE Bikes.BusinessPartners (
 	[CURRENCY] nvarchar(3)
 	)
 	WITH (
-	LOCATION = 'bikes_shop/BusinessPartners.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/BusinessPartners.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.Employees (
+CREATE EXTERNAL TABLE BikeSalesStaging.Employees (
 	[EMPLOYEEID] bigint,
 	[NAME_FIRST] nvarchar(80),
 	[NAME_MIDDLE] nvarchar(80),
@@ -118,25 +119,25 @@ CREATE EXTERNAL TABLE Bikes.Employees (
 	[VALIDITY_ENDDATE] bigint
 	)
 	WITH (
-	LOCATION = 'bikes_shop/Employees.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/Employees.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.ProductCategories (
+CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategories (
 	[PRODCATEGORYID] nvarchar(2),
 	[CREATEDBY] bigint,
 	[CREATEDAT] bigint
 	)
 	WITH (
-	LOCATION = 'bikes_shop/ProductCategories.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/ProductCategories.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.ProductCategoryText (
+CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategoryText (
 	[PRODCATEGORYID] nvarchar(2),
 	[LANGUAGE] nvarchar(5),
 	[SHORT_DESCR] nvarchar(256),
@@ -144,13 +145,13 @@ CREATE EXTERNAL TABLE Bikes.ProductCategoryText (
 	[LONG_DESCR] nvarchar(4000)
 	)
 	WITH (
-	LOCATION = 'bikes_shop/ProductCategoryText.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/ProductCategoryText.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.Products (
+CREATE EXTERNAL TABLE BikeSalesStaging.Products (
 	[PRODUCTID] nvarchar(10),
 	[TYPECODE] nvarchar(2),
 	[PRODCATEGORYID] nvarchar(2),
@@ -172,13 +173,13 @@ CREATE EXTERNAL TABLE Bikes.Products (
 	[PRODUCTPICURL] nvarchar(1024)
 	)
 	WITH (
-	LOCATION = 'bikes_shop/Products.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/Products.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.ProductTexts (
+CREATE EXTERNAL TABLE BikeSalesStaging.ProductTexts (
 	[PRODUCTID] nvarchar(10),
 	[LANGUAGE] nvarchar(5),
 	[SHORT_DESCR] nvarchar(256),
@@ -186,13 +187,13 @@ CREATE EXTERNAL TABLE Bikes.ProductTexts (
 	[LONG_DESCR] nvarchar(4000)
 	)
 	WITH (
-	LOCATION = 'bikes_shop/ProductTexts.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/ProductTexts.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.SalesOrderItems (
+CREATE EXTERNAL TABLE BikeSalesStaging.SalesOrderItems (
 	[SALESORDERID] bigint,
 	[SALESORDERITEM] bigint,
 	[PRODUCTID] nvarchar(10),
@@ -208,13 +209,13 @@ CREATE EXTERNAL TABLE Bikes.SalesOrderItems (
 	[DELIVERYDATE] bigint
 	)
 	WITH (
-	LOCATION = 'bikes_shop/SalesOrderItems.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/SalesOrderItems.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-CREATE EXTERNAL TABLE Bikes.SalesOrders (
+CREATE EXTERNAL TABLE BikeSalesStaging.SalesOrders (
 	[SALESORDERID] bigint,
 	[CREATEDBY] bigint,
 	[CREATEDAT] bigint,
@@ -234,27 +235,27 @@ CREATE EXTERNAL TABLE Bikes.SalesOrders (
 	[DELIVERYSTATUS] nvarchar(10)
 	)
 	WITH (
-	LOCATION = 'bikes_shop/SalesOrders.csv',
-	DATA_SOURCE = [bikes_shop_data_lake],
+	LOCATION = 'BikeSales/SalesOrders.csv',
+	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
 GO
 
-SELECT TOP 5 * FROM Bikes.Addresses;
+SELECT TOP 5 * FROM BikeSalesStaging.Addresses;
 GO
-SELECT TOP 5 * FROM Bikes.BusinessPartners;
+SELECT TOP 5 * FROM BikeSalesStaging.BusinessPartners;
 GO
-SELECT TOP 5 * FROM Bikes.Employees;
+SELECT TOP 5 * FROM BikeSalesStaging.Employees;
 GO
-SELECT TOP 5 * FROM Bikes.ProductCategories;
+SELECT TOP 5 * FROM BikeSalesStaging.ProductCategories;
 GO
-SELECT TOP 5 * FROM Bikes.ProductCategoryText;
+SELECT TOP 5 * FROM BikeSalesStaging.ProductCategoryText;
 GO
-SELECT TOP 5 * FROM Bikes.Products;
+SELECT TOP 5 * FROM BikeSalesStaging.Products;
 GO
-SELECT TOP 5 * FROM Bikes.ProductTexts;
+SELECT TOP 5 * FROM BikeSalesStaging.ProductTexts;
 GO
-SELECT TOP 5 * FROM Bikes.SalesOrderItems;
+SELECT TOP 5 * FROM BikeSalesStaging.SalesOrderItems;
 GO
-SELECT TOP 5 * FROM Bikes.SalesOrders;
+SELECT TOP 5 * FROM BikeSalesStaging.SalesOrders;
 GO
