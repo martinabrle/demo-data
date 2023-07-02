@@ -26,7 +26,7 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.external_data_sources WHERE [name] = 'samples_data_lake') 
 	CREATE EXTERNAL DATA SOURCE [samples_data_lake] 
 	WITH (
-		LOCATION = 'abfss://[container]@[storage_acct].dfs.core.windows.net/' 
+		LOCATION = 'abfss://samples@mabrledatasets.dfs.core.windows.net/' 
 	)
 GO
 
