@@ -2,11 +2,11 @@
     {
         "productId": "RO-1001",
         "typeCode": "PR",
-        "productCategoryId": "RO",
+        "prodCategoryId": "RO",
         "createdBy": "0000000009",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000009",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000000",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -19,6 +19,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
         "texts": [
             {
                 "productId": "RO-1001",
@@ -32,11 +46,11 @@
     {
         "productId": "RO-1002",
         "typeCode": "PR",
-        "productCategoryId": "RO",
+        "prodCategoryId": "RO",
         "createdBy": "0000000009",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000009",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000001",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -49,6 +63,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
         "texts": [
             {
                 "productId": "RO-1002",
@@ -62,11 +90,11 @@
     {
         "productId": "RO-1003",
         "typeCode": "PR",
-        "productCategoryId": "RO",
+        "prodCategoryId": "RO",
         "createdBy": "0000000012",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000012",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000002",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -79,6 +107,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
         "texts": [
             {
                 "productId": "RO-1003",
@@ -92,11 +134,11 @@
     {
         "productId": "BX-1011",
         "typeCode": "PR",
-        "productCategoryId": "BX",
+        "prodCategoryId": "BX",
         "createdBy": "0000000009",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000009",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000003",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -109,6 +151,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
         "texts": [
             {
                 "productId": "BX-1011",
@@ -122,11 +178,11 @@
     {
         "productId": "BX-1012",
         "typeCode": "PR",
-        "productCategoryId": "BX",
+        "prodCategoryId": "BX",
         "createdBy": "0000000006",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000006",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000004",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -139,6 +195,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
         "texts": [
             {
                 "productId": "BX-1012",
@@ -152,11 +222,11 @@
     {
         "productId": "BX-1013",
         "typeCode": "PR",
-        "productCategoryId": "BX",
+        "prodCategoryId": "BX",
         "createdBy": "0000000007",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000007",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000005",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -169,6 +239,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
         "texts": [
             {
                 "productId": "BX-1013",
@@ -182,11 +266,11 @@
     {
         "productId": "BX-1014",
         "typeCode": "PR",
-        "productCategoryId": "BX",
+        "prodCategoryId": "BX",
         "createdBy": "0000000011",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000011",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000006",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -199,6 +283,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Nelson",
+            "lastName": "Wilkens",
+            "middleName": "J",
+            "emailAddress": "nelson.wilkens@itelo.info",
+            "loginName": "nelsonm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Nelson",
+            "lastName": "Wilkens",
+            "middleName": "J",
+            "emailAddress": "nelson.wilkens@itelo.info",
+            "loginName": "nelsonm"
+        },
         "texts": [
             {
                 "productId": "BX-1014",
@@ -212,11 +310,11 @@
     {
         "productId": "BX-1015",
         "typeCode": "PR",
-        "productCategoryId": "BX",
+        "prodCategoryId": "BX",
         "createdBy": "0000000008",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000008",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000007",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -229,6 +327,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "P\ufffdn\ufffdlope",
+            "lastName": "Duperr\ufffd",
+            "middleName": "G",
+            "emailAddress": "penelope.duperre@itelo.info",
+            "loginName": "penelopef"
+        },
+        "modifiedByEmpl": {
+            "firstName": "P\ufffdn\ufffdlope",
+            "lastName": "Duperr\ufffd",
+            "middleName": "G",
+            "emailAddress": "penelope.duperre@itelo.info",
+            "loginName": "penelopef"
+        },
         "texts": [
             {
                 "productId": "BX-1015",
@@ -242,11 +354,11 @@
     {
         "productId": "BX-1016",
         "typeCode": "PR",
-        "productCategoryId": "BX",
+        "prodCategoryId": "BX",
         "createdBy": "0000000011",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000011",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000008",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -259,6 +371,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Nelson",
+            "lastName": "Wilkens",
+            "middleName": "J",
+            "emailAddress": "nelson.wilkens@itelo.info",
+            "loginName": "nelsonm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Nelson",
+            "lastName": "Wilkens",
+            "middleName": "J",
+            "emailAddress": "nelson.wilkens@itelo.info",
+            "loginName": "nelsonm"
+        },
         "texts": [
             {
                 "productId": "BX-1016",
@@ -272,11 +398,11 @@
     {
         "productId": "CC-1021",
         "typeCode": "PR",
-        "productCategoryId": "CC",
+        "prodCategoryId": "CC",
         "createdBy": "0000000010",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000010",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000009",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -289,6 +415,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Janet",
+            "lastName": "Gray",
+            "middleName": "R",
+            "emailAddress": "janet.gray@itelo.info",
+            "loginName": "janetf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Janet",
+            "lastName": "Gray",
+            "middleName": "R",
+            "emailAddress": "janet.gray@itelo.info",
+            "loginName": "janetf"
+        },
         "texts": [
             {
                 "productId": "CC-1021",
@@ -302,11 +442,11 @@
     {
         "productId": "CC-1022",
         "typeCode": "PR",
-        "productCategoryId": "CC",
+        "prodCategoryId": "CC",
         "createdBy": "0000000013",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000013",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000010",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -319,6 +459,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Carroll",
+            "lastName": "Pewitt",
+            "middleName": "S",
+            "emailAddress": "carroll.pewitt@itelo.info",
+            "loginName": "carrollm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Carroll",
+            "lastName": "Pewitt",
+            "middleName": "S",
+            "emailAddress": "carroll.pewitt@itelo.info",
+            "loginName": "carrollm"
+        },
         "texts": [
             {
                 "productId": "CC-1022",
@@ -332,11 +486,11 @@
     {
         "productId": "CC-1023",
         "typeCode": "PR",
-        "productCategoryId": "CC",
+        "prodCategoryId": "CC",
         "createdBy": "0000000012",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000012",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000011",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -349,6 +503,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
         "texts": [
             {
                 "productId": "CC-1023",
@@ -362,11 +530,11 @@
     {
         "productId": "MB-1031",
         "typeCode": "PR",
-        "productCategoryId": "MB",
+        "prodCategoryId": "MB",
         "createdBy": "0000000012",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000012",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000012",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -379,6 +547,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
         "texts": [
             {
                 "productId": "MB-1031",
@@ -392,11 +574,11 @@
     {
         "productId": "MB-1032",
         "typeCode": "PR",
-        "productCategoryId": "MB",
+        "prodCategoryId": "MB",
         "createdBy": "0000000002",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000002",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000013",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -409,6 +591,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Philipp",
+            "lastName": "Egger",
+            "middleName": "T",
+            "emailAddress": "philipp.egger@itelo.info",
+            "loginName": "philippm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Philipp",
+            "lastName": "Egger",
+            "middleName": "T",
+            "emailAddress": "philipp.egger@itelo.info",
+            "loginName": "philippm"
+        },
         "texts": [
             {
                 "productId": "MB-1032",
@@ -422,11 +618,11 @@
     {
         "productId": "MB-1033",
         "typeCode": "PR",
-        "productCategoryId": "MB",
+        "prodCategoryId": "MB",
         "createdBy": "0000000007",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000007",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000014",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -439,6 +635,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
         "texts": [
             {
                 "productId": "MB-1033",
@@ -452,11 +662,11 @@
     {
         "productId": "MB-1034",
         "typeCode": "PR",
-        "productCategoryId": "MB",
+        "prodCategoryId": "MB",
         "createdBy": "0000000011",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000011",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000015",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -469,6 +679,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Nelson",
+            "lastName": "Wilkens",
+            "middleName": "J",
+            "emailAddress": "nelson.wilkens@itelo.info",
+            "loginName": "nelsonm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Nelson",
+            "lastName": "Wilkens",
+            "middleName": "J",
+            "emailAddress": "nelson.wilkens@itelo.info",
+            "loginName": "nelsonm"
+        },
         "texts": [
             {
                 "productId": "MB-1034",
@@ -482,11 +706,11 @@
     {
         "productId": "RC-1051",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000001",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000001",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000016",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -499,6 +723,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
         "texts": [
             {
                 "productId": "RC-1051",
@@ -512,11 +750,11 @@
     {
         "productId": "RC-1052",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000005",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000005",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000017",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -529,6 +767,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Javas",
+            "lastName": "Hegde",
+            "middleName": null,
+            "emailAddress": "javas.hegde@itelo.info",
+            "loginName": "javasm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Javas",
+            "lastName": "Hegde",
+            "middleName": null,
+            "emailAddress": "javas.hegde@itelo.info",
+            "loginName": "javasm"
+        },
         "texts": [
             {
                 "productId": "RC-1052",
@@ -542,11 +794,11 @@
     {
         "productId": "RC-1053",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000003",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000003",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000018",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -559,6 +811,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Ellis",
+            "lastName": "Robertson",
+            "middleName": "K",
+            "emailAddress": "ellis.robertson@itelo.info",
+            "loginName": "ellism"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Ellis",
+            "lastName": "Robertson",
+            "middleName": "K",
+            "emailAddress": "ellis.robertson@itelo.info",
+            "loginName": "ellism"
+        },
         "texts": [
             {
                 "productId": "RC-1053",
@@ -572,11 +838,11 @@
     {
         "productId": "RC-1054",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000014",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000014",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000019",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -589,6 +855,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
         "texts": [
             {
                 "productId": "RC-1054",
@@ -602,11 +882,11 @@
     {
         "productId": "RC-1055",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000002",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000002",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000020",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -619,6 +899,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Philipp",
+            "lastName": "Egger",
+            "middleName": "T",
+            "emailAddress": "philipp.egger@itelo.info",
+            "loginName": "philippm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Philipp",
+            "lastName": "Egger",
+            "middleName": "T",
+            "emailAddress": "philipp.egger@itelo.info",
+            "loginName": "philippm"
+        },
         "texts": [
             {
                 "productId": "RC-1055",
@@ -639,11 +933,11 @@
     {
         "productId": "RC-1056",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000013",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000013",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000021",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -656,6 +950,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Carroll",
+            "lastName": "Pewitt",
+            "middleName": "S",
+            "emailAddress": "carroll.pewitt@itelo.info",
+            "loginName": "carrollm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Carroll",
+            "lastName": "Pewitt",
+            "middleName": "S",
+            "emailAddress": "carroll.pewitt@itelo.info",
+            "loginName": "carrollm"
+        },
         "texts": [
             {
                 "productId": "RC-1056",
@@ -676,11 +984,11 @@
     {
         "productId": "RC-1057",
         "typeCode": "PR",
-        "productCategoryId": "RC",
+        "prodCategoryId": "RC",
         "createdBy": "0000000012",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000012",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000022",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -693,6 +1001,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
         "texts": [
             {
                 "productId": "RC-1057",
@@ -706,11 +1028,11 @@
     {
         "productId": "DB-1081",
         "typeCode": "PR",
-        "productCategoryId": "DB",
+        "prodCategoryId": "DB",
         "createdBy": "0000000010",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000010",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000023",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -723,6 +1045,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Janet",
+            "lastName": "Gray",
+            "middleName": "R",
+            "emailAddress": "janet.gray@itelo.info",
+            "loginName": "janetf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Janet",
+            "lastName": "Gray",
+            "middleName": "R",
+            "emailAddress": "janet.gray@itelo.info",
+            "loginName": "janetf"
+        },
         "texts": [
             {
                 "productId": "DB-1081",
@@ -736,11 +1072,11 @@
     {
         "productId": "DB-1082",
         "typeCode": "PR",
-        "productCategoryId": "DB",
+        "prodCategoryId": "DB",
         "createdBy": "0000000004",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000004",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000024",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -753,6 +1089,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "William",
+            "lastName": "Mussen",
+            "middleName": "M",
+            "emailAddress": "william.mussen@itelo.info",
+            "loginName": "williamm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "William",
+            "lastName": "Mussen",
+            "middleName": "M",
+            "emailAddress": "william.mussen@itelo.info",
+            "loginName": "williamm"
+        },
         "texts": [
             {
                 "productId": "DB-1082",
@@ -766,11 +1116,11 @@
     {
         "productId": "DB-1083",
         "typeCode": "PR",
-        "productCategoryId": "DB",
+        "prodCategoryId": "DB",
         "createdBy": "0000000006",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000006",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000025",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -783,6 +1133,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
         "texts": [
             {
                 "productId": "DB-1083",
@@ -796,11 +1160,11 @@
     {
         "productId": "EB-1131",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000014",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000014",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000026",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -813,6 +1177,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
         "texts": [
             {
                 "productId": "EB-1131",
@@ -826,11 +1204,11 @@
     {
         "productId": "EB-1132",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000014",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000014",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000027",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -843,6 +1221,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
         "texts": [
             {
                 "productId": "EB-1132",
@@ -856,11 +1248,11 @@
     {
         "productId": "EB-1133",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000005",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000005",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000028",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -873,6 +1265,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Javas",
+            "lastName": "Hegde",
+            "middleName": null,
+            "emailAddress": "javas.hegde@itelo.info",
+            "loginName": "javasm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Javas",
+            "lastName": "Hegde",
+            "middleName": null,
+            "emailAddress": "javas.hegde@itelo.info",
+            "loginName": "javasm"
+        },
         "texts": [
             {
                 "productId": "EB-1133",
@@ -886,11 +1292,11 @@
     {
         "productId": "EB-1134",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000004",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000004",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000029",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -903,6 +1309,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "William",
+            "lastName": "Mussen",
+            "middleName": "M",
+            "emailAddress": "william.mussen@itelo.info",
+            "loginName": "williamm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "William",
+            "lastName": "Mussen",
+            "middleName": "M",
+            "emailAddress": "william.mussen@itelo.info",
+            "loginName": "williamm"
+        },
         "texts": [
             {
                 "productId": "EB-1134",
@@ -916,11 +1336,11 @@
     {
         "productId": "EB-1135",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000012",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000012",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000030",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -933,6 +1353,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Willard",
+            "lastName": "Chatman",
+            "middleName": "R",
+            "emailAddress": "willard.chatman@itelo.info",
+            "loginName": "willardm"
+        },
         "texts": [
             {
                 "productId": "EB-1135",
@@ -946,11 +1380,11 @@
     {
         "productId": "EB-1136",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000007",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000007",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000031",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -963,6 +1397,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
         "texts": [
             {
                 "productId": "EB-1136",
@@ -976,11 +1424,11 @@
     {
         "productId": "EB-1137",
         "typeCode": "PR",
-        "productCategoryId": "EB",
+        "prodCategoryId": "EB",
         "createdBy": "0000000006",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000006",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000032",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -993,6 +1441,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
         "texts": [
             {
                 "productId": "EB-1137",
@@ -1006,11 +1468,11 @@
     {
         "productId": "CB-1161",
         "typeCode": "PR",
-        "productCategoryId": "CB",
+        "prodCategoryId": "CB",
         "createdBy": "0000000006",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000006",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000033",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1023,6 +1485,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Haseena\ufffdal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseena\ufffdalf"
+        },
         "texts": [
             {
                 "productId": "CB-1161",
@@ -1036,11 +1512,11 @@
     {
         "productId": "CB-1162",
         "typeCode": "PR",
-        "productCategoryId": "CB",
+        "prodCategoryId": "CB",
         "createdBy": "0000000009",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000009",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000034",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1053,6 +1529,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kirk",
+            "lastName": "Lee",
+            "middleName": "J",
+            "emailAddress": "kirk.lee@itelo.info",
+            "loginName": "kirkm"
+        },
         "texts": [
             {
                 "productId": "CB-1162",
@@ -1066,11 +1556,11 @@
     {
         "productId": "CB-1163",
         "typeCode": "PR",
-        "productCategoryId": "CB",
+        "prodCategoryId": "CB",
         "createdBy": "0000000014",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000014",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000035",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1083,6 +1573,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Kenneth",
+            "lastName": "Weise",
+            "middleName": "H",
+            "emailAddress": "kenneth.weise@itelo.info",
+            "loginName": "kennethm"
+        },
         "texts": [
             {
                 "productId": "CB-1163",
@@ -1096,11 +1600,11 @@
     {
         "productId": "HB-1171",
         "typeCode": "PR",
-        "productCategoryId": "HB",
+        "prodCategoryId": "HB",
         "createdBy": "0000000001",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000001",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000036",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1113,6 +1617,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
         "texts": [
             {
                 "productId": "HB-1171",
@@ -1126,11 +1644,11 @@
     {
         "productId": "HB-1172",
         "typeCode": "PR",
-        "productCategoryId": "HB",
+        "prodCategoryId": "HB",
         "createdBy": "0000000001",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000001",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000037",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1143,6 +1661,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
         "texts": [
             {
                 "productId": "HB-1172",
@@ -1156,11 +1688,11 @@
     {
         "productId": "HB-1173",
         "typeCode": "PR",
-        "productCategoryId": "HB",
+        "prodCategoryId": "HB",
         "createdBy": "0000000003",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000003",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000038",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1173,6 +1705,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Ellis",
+            "lastName": "Robertson",
+            "middleName": "K",
+            "emailAddress": "ellis.robertson@itelo.info",
+            "loginName": "ellism"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Ellis",
+            "lastName": "Robertson",
+            "middleName": "K",
+            "emailAddress": "ellis.robertson@itelo.info",
+            "loginName": "ellism"
+        },
         "texts": [
             {
                 "productId": "HB-1173",
@@ -1186,11 +1732,11 @@
     {
         "productId": "HB-1174",
         "typeCode": "PR",
-        "productCategoryId": "HB",
+        "prodCategoryId": "HB",
         "createdBy": "0000000003",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000003",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000039",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1203,6 +1749,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Ellis",
+            "lastName": "Robertson",
+            "middleName": "K",
+            "emailAddress": "ellis.robertson@itelo.info",
+            "loginName": "ellism"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Ellis",
+            "lastName": "Robertson",
+            "middleName": "K",
+            "emailAddress": "ellis.robertson@itelo.info",
+            "loginName": "ellism"
+        },
         "texts": [
             {
                 "productId": "HB-1174",
@@ -1216,11 +1776,11 @@
     {
         "productId": "HB-1175",
         "typeCode": "PR",
-        "productCategoryId": "HB",
+        "prodCategoryId": "HB",
         "createdBy": "0000000007",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000007",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000040",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1233,6 +1793,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Roberta",
+            "lastName": "Holloway",
+            "middleName": "M",
+            "emailAddress": "roberta.holloway@itelo.info",
+            "loginName": "robertaf"
+        },
         "texts": [
             {
                 "productId": "HB-1175",
@@ -1246,11 +1820,11 @@
     {
         "productId": "HB-1176",
         "typeCode": "PR",
-        "productCategoryId": "HB",
+        "prodCategoryId": "HB",
         "createdBy": "0000000005",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": 20181003,
         "modifiedBy": "0000000005",
-        "modifiedDateTime": "2018-10-03T00:00:00Z",
+        "modifiedDateTime": 20181003,
         "vendorId": "0100000041",
         "taxTariffCode": "1",
         "quantityUnit": "EA",
@@ -1263,6 +1837,20 @@
         "height": null,
         "dimensionUnit": null,
         "productPicUrl": null,
+        "createdByEmpl": {
+            "firstName": "Javas",
+            "lastName": "Hegde",
+            "middleName": null,
+            "emailAddress": "javas.hegde@itelo.info",
+            "loginName": "javasm"
+        },
+        "modifiedByEmpl": {
+            "firstName": "Javas",
+            "lastName": "Hegde",
+            "middleName": null,
+            "emailAddress": "javas.hegde@itelo.info",
+            "loginName": "javasm"
+        },
         "texts": [
             {
                 "productId": "HB-1176",

@@ -25,8 +25,12 @@ IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Addresses')
     DROP EXTERNAL TABLE BikeSalesStaging.Addresses
 GO
 
-IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'BusinessPartners')
-    DROP EXTERNAL TABLE BikeSalesStaging.BusinessPartners
+IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Customers')
+    DROP EXTERNAL TABLE BikeSalesStaging.Customers
+GO
+
+IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Vendors')
+    DROP EXTERNAL TABLE BikeSalesStaging.Vendors
 GO
 
 IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'Employees')
@@ -78,10 +82,8 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Addresses (
 	)
 GO
 
-
-CREATE EXTERNAL TABLE BikeSalesStaging.BusinessPartners (
-	[PARTNERID] bigint,
-	[PARTNERROLE] bigint,
+CREATE EXTERNAL TABLE BikeSalesStaging.Customers (
+	[CUSTOMERID] bigint,
 	[EMAILADDRESS] nvarchar(1024),
 	[PHONENUMBER] nvarchar(20),
 	[FAXNUMBER] nvarchar(20),
@@ -96,7 +98,29 @@ CREATE EXTERNAL TABLE BikeSalesStaging.BusinessPartners (
 	[CURRENCY] nvarchar(3)
 	)
 	WITH (
-	LOCATION = 'BikeSales/BusinessPartners.csv',
+	LOCATION = 'BikeSales/Customers.csv',
+	DATA_SOURCE = [samples_data_lake],
+	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
+	)
+GO
+
+CREATE EXTERNAL TABLE BikeSalesStaging.Vendors (
+	[VENDORID] bigint,
+	[EMAILADDRESS] nvarchar(1024),
+	[PHONENUMBER] nvarchar(20),
+	[FAXNUMBER] nvarchar(20),
+	[WEBADDRESS] nvarchar(1024),
+	[ADDRESSID] bigint,
+	[COMPANYNAME] nvarchar(256),
+	[LEGALFORM] nvarchar(1024),
+	[CREATEDBY] bigint,
+	[CREATEDAT] bigint,
+	[CHANGEDBY] bigint,
+	[CHANGEDAT] bigint,
+	[CURRENCY] nvarchar(3)
+	)
+	WITH (
+	LOCATION = 'BikeSales/Vendors.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -158,7 +182,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Products (
 	[CREATEDAT] bigint,
 	[CHANGEDBY] bigint,
 	[CHANGEDAT] bigint,
-	[SUPPLIER_PARTNERID] bigint,
+	[VENDORID] bigint,
 	[TAXTARIFFCODE] bigint,
 	[QUANTITYUNIT] nvarchar(10),
 	[WEIGHTMEASURE] decimal(10,4),
@@ -223,7 +247,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.SalesOrders (
 	[FISCVARIANT] nvarchar(10),
 	[FISCALYEARPERIOD] bigint,
 	[NOTEID] nvarchar(10),
-	[PARTNERID] bigint,
+	[CUSTOMERID] bigint,
 	[SALESORG] nvarchar(10),
 	[CURRENCY] nvarchar(3),
 	[GROSSAMOUNT] decimal(10,4),
@@ -242,7 +266,9 @@ GO
 
 SELECT TOP 5 * FROM BikeSalesStaging.Addresses;
 GO
-SELECT TOP 5 * FROM BikeSalesStaging.BusinessPartners;
+SELECT TOP 5 * FROM BikeSalesStaging.Customers;
+GO
+SELECT TOP 5 * FROM BikeSalesStaging.Vendors;
 GO
 SELECT TOP 5 * FROM BikeSalesStaging.Employees;
 GO

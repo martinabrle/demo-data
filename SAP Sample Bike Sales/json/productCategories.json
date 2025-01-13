@@ -2,11 +2,11 @@
     {
         "productCategoryId": "RO",
         "createdBy": "0000000012",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "RO",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Road Bike",
                 "mediumDescription": null,
                 "longDescription": null
@@ -16,11 +16,11 @@
     {
         "productCategoryId": "BX",
         "createdBy": "0000000004",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "BX",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "BMX",
                 "mediumDescription": null,
                 "longDescription": null
@@ -30,11 +30,11 @@
     {
         "productCategoryId": "CC",
         "createdBy": "0000000007",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "CC",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Cyclo-cross Bike",
                 "mediumDescription": null,
                 "longDescription": null
@@ -44,11 +44,11 @@
     {
         "productCategoryId": "MB",
         "createdBy": "0000000011",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "MB",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Mountain Bike",
                 "mediumDescription": null,
                 "longDescription": null
@@ -58,11 +58,11 @@
     {
         "productCategoryId": "RC",
         "createdBy": "0000000009",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "RC",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Racing Bike",
                 "mediumDescription": null,
                 "longDescription": null
@@ -72,11 +72,11 @@
     {
         "productCategoryId": "DB",
         "createdBy": "0000000008",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "DB",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Downhill Bike",
                 "mediumDescription": null,
                 "longDescription": null
@@ -86,11 +86,11 @@
     {
         "productCategoryId": "EB",
         "createdBy": "0000000011",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "EB",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "eBike",
                 "mediumDescription": null,
                 "longDescription": null
@@ -100,11 +100,11 @@
     {
         "productCategoryId": "CB",
         "createdBy": "0000000010",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "CB",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Cruiser",
                 "mediumDescription": null,
                 "longDescription": null
@@ -114,11 +114,11 @@
     {
         "productCategoryId": "HB",
         "createdBy": "0000000006",
-        "createdDateTime": "2018-10-03T00:00:00Z",
+        "createdDateTime": "20181003",
         "texts": [
             {
                 "productCategoryId": "HB",
-                "languageId": "en-us",
+                "languageId": "EN",
                 "shortDescription": "Hybrid Bike",
                 "mediumDescription": null,
                 "longDescription": null
