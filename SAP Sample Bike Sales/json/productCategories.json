@@ -1,0 +1,128 @@
+[
+    {
+        "productCategoryId": "RO",
+        "createdBy": "0000000012",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "RO",
+                "languageId": "en-us",
+                "shortDescription": "Road Bike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "BX",
+        "createdBy": "0000000004",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "BX",
+                "languageId": "en-us",
+                "shortDescription": "BMX",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "CC",
+        "createdBy": "0000000007",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "CC",
+                "languageId": "en-us",
+                "shortDescription": "Cyclo-cross Bike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "MB",
+        "createdBy": "0000000011",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "MB",
+                "languageId": "en-us",
+                "shortDescription": "Mountain Bike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "RC",
+        "createdBy": "0000000009",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "RC",
+                "languageId": "en-us",
+                "shortDescription": "Racing Bike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "DB",
+        "createdBy": "0000000008",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "DB",
+                "languageId": "en-us",
+                "shortDescription": "Downhill Bike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "EB",
+        "createdBy": "0000000011",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "EB",
+                "languageId": "en-us",
+                "shortDescription": "eBike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "CB",
+        "createdBy": "0000000010",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "CB",
+                "languageId": "en-us",
+                "shortDescription": "Cruiser",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    },
+    {
+        "productCategoryId": "HB",
+        "createdBy": "0000000006",
+        "createdDateTime": "2018-10-03T00:00:00Z",
+        "texts": [
+            {
+                "productCategoryId": "HB",
+                "languageId": "en-us",
+                "shortDescription": "Hybrid Bike",
+                "mediumDescription": null,
+                "longDescription": null
+            }
+        ]
+    }
+]
