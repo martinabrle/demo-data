@@ -76,7 +76,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Addresses (
 	[LONGITUDE] float
 	)
 	WITH (
-	LOCATION = 'BikeSales/Addresses.csv',
+	LOCATION = 'Sample_Bike_Sales/Addresses.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -98,7 +98,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Customers (
 	[CURRENCY] nvarchar(3)
 	)
 	WITH (
-	LOCATION = 'BikeSales/Customers.csv',
+	LOCATION = 'Sample_Bike_Sales/Customers.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -120,7 +120,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Vendors (
 	[CURRENCY] nvarchar(3)
 	)
 	WITH (
-	LOCATION = 'BikeSales/Vendors.csv',
+	LOCATION = 'Sample_Bike_Sales/Vendors.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -142,7 +142,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Employees (
 	[VALIDITY_ENDDATE] bigint
 	)
 	WITH (
-	LOCATION = 'BikeSales/Employees.csv',
+	LOCATION = 'Sample_Bike_Sales/Employees.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -154,7 +154,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategories (
 	[CREATEDAT] bigint
 	)
 	WITH (
-	LOCATION = 'BikeSales/ProductCategories.csv',
+	LOCATION = 'Sample_Bike_Sales/ProductCategories.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -168,7 +168,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategoryText (
 	[LONG_DESCR] nvarchar(4000)
 	)
 	WITH (
-	LOCATION = 'BikeSales/ProductCategoryText.csv',
+	LOCATION = 'Sample_Bike_Sales/ProductCategoryText.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -196,7 +196,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.Products (
 	[PRODUCTPICURL] nvarchar(1024)
 	)
 	WITH (
-	LOCATION = 'BikeSales/Products.csv',
+	LOCATION = 'Sample_Bike_Sales/Products.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -210,7 +210,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.ProductTexts (
 	[LONG_DESCR] nvarchar(4000)
 	)
 	WITH (
-	LOCATION = 'BikeSales/ProductTexts.csv',
+	LOCATION = 'Sample_Bike_Sales/ProductTexts.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -232,7 +232,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.SalesOrderItems (
 	[DELIVERYDATE] bigint
 	)
 	WITH (
-	LOCATION = 'BikeSales/SalesOrderItems.csv',
+	LOCATION = 'Sample_Bike_Sales/SalesOrderItems.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -258,7 +258,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.SalesOrders (
 	[DELIVERYSTATUS] nvarchar(10)
 	)
 	WITH (
-	LOCATION = 'BikeSales/SalesOrders.csv',
+	LOCATION = 'Sample_Bike_Sales/SalesOrders.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
