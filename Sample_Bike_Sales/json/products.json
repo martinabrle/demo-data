@@ -1,6 +1,7 @@
 [
     {
         "productId": "RO-1001",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RO",
         "createdBy": "0000000009",
@@ -20,6 +21,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -27,6 +29,7 @@
             "loginName": "kirkm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -35,6 +38,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RO-1001",
                 "language": "EN",
                 "shortDescription": "Roady 1001",
@@ -45,6 +49,7 @@
     },
     {
         "productId": "RO-1002",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RO",
         "createdBy": "0000000009",
@@ -64,6 +69,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -71,6 +77,7 @@
             "loginName": "kirkm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -79,6 +86,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RO-1002",
                 "language": "EN",
                 "shortDescription": "Roady 1002",
@@ -89,6 +97,7 @@
     },
     {
         "productId": "RO-1003",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RO",
         "createdBy": "0000000012",
@@ -108,6 +117,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -115,6 +125,7 @@
             "loginName": "willardm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -123,6 +134,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RO-1003",
                 "language": "EN",
                 "shortDescription": "Roady 1003",
@@ -133,6 +145,7 @@
     },
     {
         "productId": "BX-1011",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "BX",
         "createdBy": "0000000009",
@@ -152,6 +165,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -159,6 +173,7 @@
             "loginName": "kirkm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -167,6 +182,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "BX-1011",
                 "language": "EN",
                 "shortDescription": "BMX Vintage 1011",
@@ -177,6 +193,7 @@
     },
     {
         "productId": "BX-1012",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "BX",
         "createdBy": "0000000006",
@@ -196,21 +213,24 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "modifiedByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "BX-1012",
                 "language": "EN",
                 "shortDescription": "BMX Jump 1012",
@@ -221,6 +241,7 @@
     },
     {
         "productId": "BX-1013",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "BX",
         "createdBy": "0000000007",
@@ -240,6 +261,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -247,6 +269,7 @@
             "loginName": "robertaf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -255,6 +278,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "BX-1013",
                 "language": "EN",
                 "shortDescription": "BMX Jump Lux I",
@@ -265,6 +289,7 @@
     },
     {
         "productId": "BX-1014",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "BX",
         "createdBy": "0000000011",
@@ -284,6 +309,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Nelson",
             "lastName": "Wilkens",
             "middleName": "J",
@@ -291,6 +317,7 @@
             "loginName": "nelsonm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Nelson",
             "lastName": "Wilkens",
             "middleName": "J",
@@ -299,6 +326,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "BX-1014",
                 "language": "EN",
                 "shortDescription": "BMX Jump Lux II",
@@ -309,6 +337,7 @@
     },
     {
         "productId": "BX-1015",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "BX",
         "createdBy": "0000000008",
@@ -328,21 +357,24 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "modifiedByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "BX-1015",
                 "language": "EN",
                 "shortDescription": "BMX Optima",
@@ -353,6 +385,7 @@
     },
     {
         "productId": "BX-1016",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "BX",
         "createdBy": "0000000011",
@@ -372,6 +405,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Nelson",
             "lastName": "Wilkens",
             "middleName": "J",
@@ -379,6 +413,7 @@
             "loginName": "nelsonm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Nelson",
             "lastName": "Wilkens",
             "middleName": "J",
@@ -387,6 +422,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "BX-1016",
                 "language": "EN",
                 "shortDescription": "BMX Optima II",
@@ -397,6 +433,7 @@
     },
     {
         "productId": "CC-1021",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "CC",
         "createdBy": "0000000010",
@@ -416,6 +453,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -423,6 +461,7 @@
             "loginName": "janetf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -431,6 +470,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "CC-1021",
                 "language": "EN",
                 "shortDescription": "Cyclone Basic",
@@ -441,6 +481,7 @@
     },
     {
         "productId": "CC-1022",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "CC",
         "createdBy": "0000000013",
@@ -460,6 +501,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -467,6 +509,7 @@
             "loginName": "carrollm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -475,6 +518,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "CC-1022",
                 "language": "EN",
                 "shortDescription": "Cyclone Speed",
@@ -485,6 +529,7 @@
     },
     {
         "productId": "CC-1023",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "CC",
         "createdBy": "0000000012",
@@ -504,6 +549,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -511,6 +557,7 @@
             "loginName": "willardm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -519,6 +566,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "CC-1023",
                 "language": "EN",
                 "shortDescription": "Cyclone III",
@@ -529,6 +577,7 @@
     },
     {
         "productId": "MB-1031",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "MB",
         "createdBy": "0000000012",
@@ -548,6 +597,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -555,6 +605,7 @@
             "loginName": "willardm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -563,6 +614,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "MB-1031",
                 "language": "EN",
                 "shortDescription": "Mt Discovery B",
@@ -573,6 +625,7 @@
     },
     {
         "productId": "MB-1032",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "MB",
         "createdBy": "0000000002",
@@ -592,6 +645,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Philipp",
             "lastName": "Egger",
             "middleName": "T",
@@ -599,6 +653,7 @@
             "loginName": "philippm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Philipp",
             "lastName": "Egger",
             "middleName": "T",
@@ -607,6 +662,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "MB-1032",
                 "language": "EN",
                 "shortDescription": "Mt Discovery Drive",
@@ -617,6 +673,7 @@
     },
     {
         "productId": "MB-1033",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "MB",
         "createdBy": "0000000007",
@@ -636,6 +693,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -643,6 +701,7 @@
             "loginName": "robertaf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -651,6 +710,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "MB-1033",
                 "language": "EN",
                 "shortDescription": "Mt Discovery Rush",
@@ -661,6 +721,7 @@
     },
     {
         "productId": "MB-1034",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "MB",
         "createdBy": "0000000011",
@@ -680,6 +741,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Nelson",
             "lastName": "Wilkens",
             "middleName": "J",
@@ -687,6 +749,7 @@
             "loginName": "nelsonm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Nelson",
             "lastName": "Wilkens",
             "middleName": "J",
@@ -695,6 +758,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "MB-1034",
                 "language": "EN",
                 "shortDescription": "Mt Discovery Ulti",
@@ -705,6 +769,7 @@
     },
     {
         "productId": "RC-1051",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000001",
@@ -724,6 +789,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -731,6 +797,7 @@
             "loginName": "derrickm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -739,6 +806,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1051",
                 "language": "EN",
                 "shortDescription": "Tornado I",
@@ -749,6 +817,7 @@
     },
     {
         "productId": "RC-1052",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000005",
@@ -768,6 +837,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -775,6 +845,7 @@
             "loginName": "javasm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -783,6 +854,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1052",
                 "language": "EN",
                 "shortDescription": "Tornado II",
@@ -793,6 +865,7 @@
     },
     {
         "productId": "RC-1053",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000003",
@@ -812,6 +885,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -819,6 +893,7 @@
             "loginName": "ellism"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -827,6 +902,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1053",
                 "language": "EN",
                 "shortDescription": "Stream I",
@@ -837,6 +913,7 @@
     },
     {
         "productId": "RC-1054",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000014",
@@ -856,6 +933,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -863,6 +941,7 @@
             "loginName": "kennethm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -871,6 +950,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1054",
                 "language": "EN",
                 "shortDescription": "Stream II",
@@ -881,6 +961,7 @@
     },
     {
         "productId": "RC-1055",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000002",
@@ -900,6 +981,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Philipp",
             "lastName": "Egger",
             "middleName": "T",
@@ -907,6 +989,7 @@
             "loginName": "philippm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Philipp",
             "lastName": "Egger",
             "middleName": "T",
@@ -915,6 +998,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1055",
                 "language": "EN",
                 "shortDescription": "Veloflash",
@@ -922,6 +1006,7 @@
                 "longDescription": null
             },
             {
+                "entityType": "ProductText",
                 "productId": "RC-1055",
                 "language": "DE",
                 "shortDescription": "Rennsemmel",
@@ -932,6 +1017,7 @@
     },
     {
         "productId": "RC-1056",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000013",
@@ -951,6 +1037,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -958,6 +1045,7 @@
             "loginName": "carrollm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -966,6 +1054,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1056",
                 "language": "EN",
                 "shortDescription": "Veloflash SE ",
@@ -973,6 +1062,7 @@
                 "longDescription": null
             },
             {
+                "entityType": "ProductText",
                 "productId": "RC-1056",
                 "language": "DE",
                 "shortDescription": "Rennsemmel 2",
@@ -983,6 +1073,7 @@
     },
     {
         "productId": "RC-1057",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "RC",
         "createdBy": "0000000012",
@@ -1002,6 +1093,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -1009,6 +1101,7 @@
             "loginName": "willardm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -1017,6 +1110,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "RC-1057",
                 "language": "EN",
                 "shortDescription": "Veloflash Ultimate",
@@ -1027,6 +1121,7 @@
     },
     {
         "productId": "DB-1081",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "DB",
         "createdBy": "0000000010",
@@ -1046,6 +1141,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -1053,6 +1149,7 @@
             "loginName": "janetf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -1061,6 +1158,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "DB-1081",
                 "language": "EN",
                 "shortDescription": "Rooty Basic",
@@ -1071,6 +1169,7 @@
     },
     {
         "productId": "DB-1082",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "DB",
         "createdBy": "0000000004",
@@ -1090,6 +1189,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -1097,6 +1197,7 @@
             "loginName": "williamm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -1105,6 +1206,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "DB-1082",
                 "language": "EN",
                 "shortDescription": "Capricorn",
@@ -1115,6 +1217,7 @@
     },
     {
         "productId": "DB-1083",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "DB",
         "createdBy": "0000000006",
@@ -1134,21 +1237,24 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "modifiedByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "DB-1083",
                 "language": "EN",
                 "shortDescription": "Capricorn II",
@@ -1159,6 +1265,7 @@
     },
     {
         "productId": "EB-1131",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000014",
@@ -1178,6 +1285,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -1185,6 +1293,7 @@
             "loginName": "kennethm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -1193,6 +1302,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1131",
                 "language": "EN",
                 "shortDescription": "Flash Drive",
@@ -1203,6 +1313,7 @@
     },
     {
         "productId": "EB-1132",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000014",
@@ -1222,6 +1333,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -1229,6 +1341,7 @@
             "loginName": "kennethm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -1237,6 +1350,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1132",
                 "language": "EN",
                 "shortDescription": "Flash Drive II",
@@ -1247,6 +1361,7 @@
     },
     {
         "productId": "EB-1133",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000005",
@@ -1266,6 +1381,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -1273,6 +1389,7 @@
             "loginName": "javasm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -1281,6 +1398,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1133",
                 "language": "EN",
                 "shortDescription": "Lazy Cat",
@@ -1291,6 +1409,7 @@
     },
     {
         "productId": "EB-1134",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000004",
@@ -1310,6 +1429,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -1317,6 +1437,7 @@
             "loginName": "williamm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -1325,6 +1446,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1134",
                 "language": "EN",
                 "shortDescription": "Lazy Cat II",
@@ -1335,6 +1457,7 @@
     },
     {
         "productId": "EB-1135",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000012",
@@ -1354,6 +1477,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -1361,6 +1485,7 @@
             "loginName": "willardm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Willard",
             "lastName": "Chatman",
             "middleName": "R",
@@ -1369,6 +1494,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1135",
                 "language": "EN",
                 "shortDescription": "Speedeon",
@@ -1379,6 +1505,7 @@
     },
     {
         "productId": "EB-1136",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000007",
@@ -1398,6 +1525,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -1405,6 +1533,7 @@
             "loginName": "robertaf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -1413,6 +1542,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1136",
                 "language": "EN",
                 "shortDescription": "Speedeon Light",
@@ -1423,6 +1553,7 @@
     },
     {
         "productId": "EB-1137",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "EB",
         "createdBy": "0000000006",
@@ -1442,21 +1573,24 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "modifiedByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "EB-1137",
                 "language": "EN",
                 "shortDescription": "Speedeon Cross",
@@ -1467,6 +1601,7 @@
     },
     {
         "productId": "CB-1161",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "CB",
         "createdBy": "0000000006",
@@ -1486,21 +1621,24 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "modifiedByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "CB-1161",
                 "language": "EN",
                 "shortDescription": "La Plage",
@@ -1511,6 +1649,7 @@
     },
     {
         "productId": "CB-1162",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "CB",
         "createdBy": "0000000009",
@@ -1530,6 +1669,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -1537,6 +1677,7 @@
             "loginName": "kirkm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kirk",
             "lastName": "Lee",
             "middleName": "J",
@@ -1545,6 +1686,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "CB-1162",
                 "language": "EN",
                 "shortDescription": "La Plage Limited",
@@ -1555,6 +1697,7 @@
     },
     {
         "productId": "CB-1163",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "CB",
         "createdBy": "0000000014",
@@ -1574,6 +1717,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -1581,6 +1725,7 @@
             "loginName": "kennethm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -1589,6 +1734,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "CB-1163",
                 "language": "EN",
                 "shortDescription": "La Plage Gold",
@@ -1599,6 +1745,7 @@
     },
     {
         "productId": "HB-1171",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "HB",
         "createdBy": "0000000001",
@@ -1618,6 +1765,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -1625,6 +1773,7 @@
             "loginName": "derrickm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -1633,6 +1782,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "HB-1171",
                 "language": "EN",
                 "shortDescription": "Star Cruise",
@@ -1643,6 +1793,7 @@
     },
     {
         "productId": "HB-1172",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "HB",
         "createdBy": "0000000001",
@@ -1662,6 +1813,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -1669,6 +1821,7 @@
             "loginName": "derrickm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -1677,6 +1830,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "HB-1172",
                 "language": "EN",
                 "shortDescription": "Star Cruise II",
@@ -1687,6 +1841,7 @@
     },
     {
         "productId": "HB-1173",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "HB",
         "createdBy": "0000000003",
@@ -1706,6 +1861,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -1713,6 +1869,7 @@
             "loginName": "ellism"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -1721,6 +1878,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "HB-1173",
                 "language": "EN",
                 "shortDescription": "Universal One",
@@ -1731,6 +1889,7 @@
     },
     {
         "productId": "HB-1174",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "HB",
         "createdBy": "0000000003",
@@ -1750,6 +1909,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -1757,6 +1917,7 @@
             "loginName": "ellism"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -1765,6 +1926,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "HB-1174",
                 "language": "EN",
                 "shortDescription": "Universal Two",
@@ -1775,6 +1937,7 @@
     },
     {
         "productId": "HB-1175",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "HB",
         "createdBy": "0000000007",
@@ -1794,6 +1957,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -1801,6 +1965,7 @@
             "loginName": "robertaf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -1809,6 +1974,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "HB-1175",
                 "language": "EN",
                 "shortDescription": "Specifica",
@@ -1819,6 +1985,7 @@
     },
     {
         "productId": "HB-1176",
+        "entityType": "Product",
         "typeCode": "PR",
         "prodCategoryId": "HB",
         "createdBy": "0000000005",
@@ -1838,6 +2005,7 @@
         "dimensionUnit": null,
         "productPicUrl": null,
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -1845,6 +2013,7 @@
             "loginName": "javasm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -1853,6 +2022,7 @@
         },
         "texts": [
             {
+                "entityType": "ProductText",
                 "productId": "HB-1176",
                 "language": "EN",
                 "shortDescription": "Specifica Gold",

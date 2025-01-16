@@ -1,6 +1,7 @@
 [
     {
         "employeeId": "0000000001",
+        "entityType": "Employee",
         "firstName": "Derrick",
         "middleName": "L",
         "lastName": "Magill",
@@ -14,6 +15,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Burr Ridge",
             "postalCode": "60527",
             "street": "Fraggle Drive",
@@ -29,6 +31,7 @@
     },
     {
         "employeeId": "0000000002",
+        "entityType": "Employee",
         "firstName": "Philipp",
         "middleName": "T",
         "lastName": "Egger",
@@ -42,6 +45,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Flo\u00df",
             "postalCode": "92683",
             "street": "Borstelmannsweg",
@@ -57,6 +61,7 @@
     },
     {
         "employeeId": "0000000003",
+        "entityType": "Employee",
         "firstName": "Ellis",
         "middleName": "K",
         "lastName": "Robertson",
@@ -70,6 +75,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "High Halden",
             "postalCode": "TN26 7GJ",
             "street": "Nenthead Road",
@@ -85,6 +91,7 @@
     },
     {
         "employeeId": "0000000004",
+        "entityType": "Employee",
         "firstName": "William",
         "middleName": "M",
         "lastName": "Mussen",
@@ -98,6 +105,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Sleepy Hollow",
             "postalCode": "2483",
             "street": "Chester Street",
@@ -113,6 +121,7 @@
     },
     {
         "employeeId": "0000000005",
+        "entityType": "Employee",
         "firstName": "Javas",
         "middleName": null,
         "lastName": "Hegde",
@@ -126,6 +135,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Mumbai",
             "postalCode": "400015",
             "street": "T.k.indui Estate",
@@ -141,7 +151,8 @@
     },
     {
         "employeeId": "0000000006",
-        "firstName": "Haseena\ufffdal",
+        "entityType": "Employee",
+        "firstName": "Haseenaal",
         "middleName": null,
         "lastName": "Yousuf",
         "initials": null,
@@ -149,11 +160,12 @@
         "language": "E",
         "phoneNumber": "2288340",
         "emailAddress": "alhaseena.yousuf@itelo.info",
-        "loginName": "haseena\ufffdalf",
+        "loginName": "haseenaalf",
         "addressId": "1000000006",
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Dubai",
             "postalCode": "89610",
             "street": "Box No. 89610",
@@ -169,6 +181,7 @@
     },
     {
         "employeeId": "0000000007",
+        "entityType": "Employee",
         "firstName": "Roberta",
         "middleName": "M",
         "lastName": "Holloway",
@@ -182,6 +195,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Annaheim",
             "postalCode": "S4P 3Y2",
             "street": "St. John Street",
@@ -197,9 +211,10 @@
     },
     {
         "employeeId": "0000000008",
-        "firstName": "P\ufffdn\ufffdlope",
+        "entityType": "Employee",
+        "firstName": "Penelope",
         "middleName": "G",
-        "lastName": "Duperr\ufffd",
+        "lastName": "Duperr",
         "initials": null,
         "sex": "F",
         "language": "E",
@@ -210,6 +225,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Strasbourg",
             "postalCode": "67100",
             "street": "rue Descartes",
@@ -225,6 +241,7 @@
     },
     {
         "employeeId": "0000000009",
+        "entityType": "Employee",
         "firstName": "Kirk",
         "middleName": "J",
         "lastName": "Lee",
@@ -238,6 +255,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "San Luis Obispo",
             "postalCode": "93401",
             "street": "Par Drive",
@@ -253,6 +271,7 @@
     },
     {
         "employeeId": "0000000010",
+        "entityType": "Employee",
         "firstName": "Janet",
         "middleName": "R",
         "lastName": "Gray",
@@ -266,6 +285,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Jersey City",
             "postalCode": "07305",
             "street": "Lakewood Drive",
@@ -281,6 +301,7 @@
     },
     {
         "employeeId": "0000000011",
+        "entityType": "Employee",
         "firstName": "Nelson",
         "middleName": "J",
         "lastName": "Wilkens",
@@ -294,6 +315,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Wingate",
             "postalCode": "79566",
             "street": "Frederick Street",
@@ -309,6 +331,7 @@
     },
     {
         "employeeId": "0000000012",
+        "entityType": "Employee",
         "firstName": "Willard",
         "middleName": "R",
         "lastName": "Chatman",
@@ -322,6 +345,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Toronto",
             "postalCode": "M2J 3T7",
             "street": "Victoria Park Ave",
@@ -337,6 +361,7 @@
     },
     {
         "employeeId": "0000000013",
+        "entityType": "Employee",
         "firstName": "Carroll",
         "middleName": "S",
         "lastName": "Pewitt",
@@ -350,6 +375,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Toronto",
             "postalCode": "M1S 1T4",
             "street": "Sheppard Ave",
@@ -365,6 +391,7 @@
     },
     {
         "employeeId": "0000000014",
+        "entityType": "Employee",
         "firstName": "Kenneth",
         "middleName": "H",
         "lastName": "Weise",
@@ -378,6 +405,7 @@
         "validFromDateTime": "20000101",
         "validToDateTime": "99991231",
         "address": {
+            "entityType": "Address",
             "city": "Toronto",
             "postalCode": "P3E 4N2",
             "street": "Paris St",

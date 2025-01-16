@@ -3,11 +3,16 @@ import simplejson as json
 
 # Read CSV files
 sales_order_items_df = pd.read_csv('../SalesOrderItems.csv', names=['salesOrderId','salesOrderItemId','productId','note','currency','grossAmount','netAmount','taxAmount','itemATPStatus','opItemPos','quantity','quantityUnit','deliveryDate'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'customerId': 'str', 'salesOrderId': 'str', 'deliveryDate': 'str'}, skiprows=1)
+sales_order_items_df.insert(1,'entityType', 'SalesOrderItem')
 employees_df = pd.read_csv('../Employees.csv', names=['employeeId','firstName','middleName','lastName','initials','sex','language','phoneNumber','emailAddress','loginName','addressId','validFromDateTime','validaToDateTime'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'employeeId': 'str', 'addressId': 'str'}, skiprows=1)
 employees_filtered_df = employees_df[['employeeId', 'firstName', 'lastName', 'middleName', 'emailAddress', 'loginName']]
+employees_filtered_df.insert(0,'entityType', 'Employee')
 products_df = pd.read_csv('../Products.csv', names=['productId','typeCode','productCategoryId','createdBy','createdDateTime','modifiedBy','modifiedDateTime','vendorId','taxTariffCode','quantityUnit','weightMeasure','weightUnit','currency','price','width','depth','height','dimensionUnit','productPicUrl'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'vendorId': 'str', 'taxTariffCode': 'str', 'width': 'str', 'height': 'str', 'depth': 'str', 'dimensionUnit': 'str', 'productPicUrl': 'str', 'createdDateTime': 'str', 'modifiedDateTime': 'str'}, skiprows=1)
+products_df.insert(0,'entityType', 'Product')
 product_texts_df = pd.read_csv('../ProductTexts.csv', names=['productId','language','shortDescription','mediumDescription','longDescription'], skiprows=1)
+product_texts_df.insert(0,'entityType', 'ProductText')
 vendors_df = pd.read_csv('../Vendors.csv', names=['vendorId','emailAddress','phoneNumber','faxNumber','webAddress','addressId','name','legalForm','createdBy','createdDateTime','modifiedBy','modifiedDateTime','currency'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'vendorId': 'str', 'addressId': 'str', 'createdDateTime': 'str', 'modifiedDateTime': 'str', 'phoneNumber': 'str', 'faxNumber': 'str'}, skiprows=1)
+vendors_df.insert(0,'entityType', 'Vendor')
 
 # Convert product texts to dictionary grouped by productId
 product_texts_grouped = product_texts_df.groupby('productId',).apply(lambda x: x.to_dict(orient='records')).to_dict()

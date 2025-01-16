@@ -1,6 +1,7 @@
 [
     {
         "vendorId": "0100000000",
+        "entityType": "Vendor",
         "emailAddress": "maria.brown@all4bikes.com",
         "phoneNumber": "622734567",
         "faxNumber": null,
@@ -14,6 +15,7 @@
         "modifiedDateTime": "20181003",
         "currency": "USD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -21,6 +23,7 @@
             "loginName": "janetf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -28,6 +31,7 @@
             "loginName": "janetf"
         },
         "address": {
+            "entityType": "Address",
             "city": "West Nyack",
             "postalCode": "10994",
             "street": "Settlers Lane",
@@ -43,6 +47,7 @@
     },
     {
         "vendorId": "0100000001",
+        "entityType": "Vendor",
         "emailAddress": "bob.buyer@amazebikes.com",
         "phoneNumber": "3088530",
         "faxNumber": null,
@@ -56,6 +61,7 @@
         "modifiedDateTime": "20181003",
         "currency": "USD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -63,6 +69,7 @@
             "loginName": "carrollm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -70,6 +77,7 @@
             "loginName": "carrollm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Fair Oaks",
             "postalCode": "95628",
             "street": "Woodland Terrace",
@@ -85,6 +93,7 @@
     },
     {
         "vendorId": "0100000002",
+        "entityType": "Vendor",
         "emailAddress": "victor.sanchez@arenasportusa.com",
         "phoneNumber": "3023352668",
         "faxNumber": null,
@@ -98,6 +107,7 @@
         "modifiedDateTime": "20181003",
         "currency": "USD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -105,6 +115,7 @@
             "loginName": "kennethm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -112,6 +123,7 @@
             "loginName": "kennethm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Dunn",
             "postalCode": "28334",
             "street": "Layman Avenue",
@@ -127,6 +139,7 @@
     },
     {
         "vendorId": "0100000003",
+        "entityType": "Vendor",
         "emailAddress": "franklin.jones@atlantausa.com",
         "phoneNumber": "511403266",
         "faxNumber": null,
@@ -140,6 +153,7 @@
         "modifiedDateTime": "20181003",
         "currency": "USD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -147,6 +161,7 @@
             "loginName": "janetf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Janet",
             "lastName": "Gray",
             "middleName": "R",
@@ -154,6 +169,7 @@
             "loginName": "janetf"
         },
         "address": {
+            "entityType": "Address",
             "city": "Chicago",
             "postalCode": "60605",
             "street": "University Drive",
@@ -169,6 +185,7 @@
     },
     {
         "vendorId": "0100000004",
+        "entityType": "Vendor",
         "emailAddress": "robert_brown@bikeworlds.com",
         "phoneNumber": "2244668800",
         "faxNumber": null,
@@ -182,6 +199,7 @@
         "modifiedDateTime": "20181003",
         "currency": "USD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -189,6 +207,7 @@
             "loginName": "williamm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -196,6 +215,7 @@
             "loginName": "williamm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Ocala",
             "postalCode": "34471",
             "street": "Bagwell Avenue",
@@ -211,6 +231,7 @@
     },
     {
         "vendorId": "0100000008",
+        "entityType": "Vendor",
         "emailAddress": "saskia.sommer@tonabikes-ag.de",
         "phoneNumber": "7257716",
         "faxNumber": null,
@@ -224,20 +245,23 @@
         "modifiedDateTime": "20181003",
         "currency": "EUR",
         "createdByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "modifiedByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "address": {
+            "entityType": "Address",
             "city": "Marne",
             "postalCode": "25705",
             "street": "An Der Urania",
@@ -253,6 +277,7 @@
     },
     {
         "vendorId": "0100000009",
+        "entityType": "Vendor",
         "emailAddress": "dagmar.schulze@meinebicyclebayern.de",
         "phoneNumber": "1133557799",
         "faxNumber": null,
@@ -266,6 +291,7 @@
         "modifiedDateTime": "20181003",
         "currency": "EUR",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -273,6 +299,7 @@
             "loginName": "carrollm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -280,6 +307,7 @@
             "loginName": "carrollm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Augsburg",
             "postalCode": "86045",
             "street": "Sonnenallee",
@@ -295,6 +323,7 @@
     },
     {
         "vendorId": "0100000011",
+        "entityType": "Vendor",
         "emailAddress": "johanna.esther@bikeon.co.uk",
         "phoneNumber": "6623612804",
         "faxNumber": null,
@@ -308,6 +337,7 @@
         "modifiedDateTime": "20181003",
         "currency": "GBP",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -315,6 +345,7 @@
             "loginName": "carrollm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Carroll",
             "lastName": "Pewitt",
             "middleName": "S",
@@ -322,6 +353,7 @@
             "loginName": "carrollm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Stanton Wick",
             "postalCode": "BS18 9DW",
             "street": "Pier Road",
@@ -337,6 +369,7 @@
     },
     {
         "vendorId": "0100000014",
+        "entityType": "Vendor",
         "emailAddress": "igor.tarassow@keepcycling-london.co.uk",
         "phoneNumber": "5850428367",
         "faxNumber": null,
@@ -350,20 +383,23 @@
         "modifiedDateTime": "20181003",
         "currency": "GBP",
         "createdByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "modifiedByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "address": {
+            "entityType": "Address",
             "city": "London",
             "postalCode": "SE14 8JW",
             "street": "Guild Street",
@@ -379,6 +415,7 @@
     },
     {
         "vendorId": "0100000015",
+        "entityType": "Vendor",
         "emailAddress": "alexis.harper@icareaussie.com.au",
         "phoneNumber": "7609448173",
         "faxNumber": null,
@@ -392,6 +429,7 @@
         "modifiedDateTime": "20181003",
         "currency": "AUD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -399,6 +437,7 @@
             "loginName": "kennethm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Kenneth",
             "lastName": "Weise",
             "middleName": "H",
@@ -406,6 +445,7 @@
             "loginName": "kennethm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Kitoba",
             "postalCode": "4605",
             "street": "Raglan Street",
@@ -421,6 +461,7 @@
     },
     {
         "vendorId": "0100000016",
+        "entityType": "Vendor",
         "emailAddress": "c.alfaro@ccsport.com.au",
         "phoneNumber": "6879342945",
         "faxNumber": null,
@@ -434,20 +475,23 @@
         "modifiedDateTime": "20181003",
         "currency": "AUD",
         "createdByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "modifiedByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "address": {
+            "entityType": "Address",
             "city": "Meadow Heights",
             "postalCode": "3048",
             "street": "Creedon Street",
@@ -463,6 +507,7 @@
     },
     {
         "vendorId": "0100000017",
+        "entityType": "Vendor",
         "emailAddress": "sven.j@digipay.com.au",
         "phoneNumber": "2208791738",
         "faxNumber": null,
@@ -476,6 +521,7 @@
         "modifiedDateTime": "20181003",
         "currency": "AUD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -483,6 +529,7 @@
             "loginName": "javasm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Javas",
             "lastName": "Hegde",
             "middleName": null,
@@ -490,6 +537,7 @@
             "loginName": "javasm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Kununurra",
             "postalCode": "6743",
             "street": "Darwinia Loop",
@@ -505,6 +553,7 @@
     },
     {
         "vendorId": "0100000019",
+        "entityType": "Vendor",
         "emailAddress": "alessio.galasso@ebike100.com",
         "phoneNumber": "6328490087",
         "faxNumber": null,
@@ -518,20 +567,23 @@
         "modifiedDateTime": "20181003",
         "currency": "AUD",
         "createdByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "modifiedByEmpl": {
-            "firstName": "Haseena\ufffdal",
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
             "lastName": "Yousuf",
             "middleName": null,
             "emailAddress": "alhaseena.yousuf@itelo.info",
-            "loginName": "haseena\ufffdalf"
+            "loginName": "haseenaalf"
         },
         "address": {
+            "entityType": "Address",
             "city": "Canberra",
             "postalCode": "2601",
             "street": "Quayside Vista",
@@ -547,6 +599,7 @@
     },
     {
         "vendorId": "0100000023",
+        "entityType": "Vendor",
         "emailAddress": "ajaz.khan@mxbyk.com",
         "phoneNumber": "3629731486",
         "faxNumber": null,
@@ -560,20 +613,23 @@
         "modifiedDateTime": "20181003",
         "currency": "INR",
         "createdByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "modifiedByEmpl": {
-            "firstName": "P\ufffdn\ufffdlope",
-            "lastName": "Duperr\ufffd",
+            "entityType": "Employee",
+            "firstName": "Penelope",
+            "lastName": "Duperr",
             "middleName": "G",
             "emailAddress": "penelope.duperre@itelo.info",
             "loginName": "penelopef"
         },
         "address": {
+            "entityType": "Address",
             "city": "Mumbai",
             "postalCode": "400012",
             "street": "Ambedkar Road",
@@ -589,6 +645,7 @@
     },
     {
         "vendorId": "0100000031",
+        "entityType": "Vendor",
         "emailAddress": "anthony.lebouef@ebike36.ca",
         "phoneNumber": "2483693027",
         "faxNumber": null,
@@ -602,6 +659,7 @@
         "modifiedDateTime": "20181003",
         "currency": "CAD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -609,6 +667,7 @@
             "loginName": "ellism"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -616,6 +675,7 @@
             "loginName": "ellism"
         },
         "address": {
+            "entityType": "Address",
             "city": "Cooksville",
             "postalCode": "L5A 1V9",
             "street": "Heatherleigh",
@@ -631,6 +691,7 @@
     },
     {
         "vendorId": "0100000032",
+        "entityType": "Vendor",
         "emailAddress": "lisa.felske@wichitasport.com",
         "phoneNumber": "2094573421",
         "faxNumber": null,
@@ -644,6 +705,7 @@
         "modifiedDateTime": "20181003",
         "currency": "CAD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -651,6 +713,7 @@
             "loginName": "derrickm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Derrick",
             "lastName": "Magill",
             "middleName": "L",
@@ -658,6 +721,7 @@
             "loginName": "derrickm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Iroquois",
             "postalCode": "K0E 1K0",
             "street": "Elgin Street",
@@ -673,6 +737,7 @@
     },
     {
         "vendorId": "0100000034",
+        "entityType": "Vendor",
         "emailAddress": "amelie.troyat@techcycletoronto.ca",
         "phoneNumber": "3540671320",
         "faxNumber": null,
@@ -686,6 +751,7 @@
         "modifiedDateTime": "20181003",
         "currency": "CAD",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -693,6 +759,7 @@
             "loginName": "williamm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -700,6 +767,7 @@
             "loginName": "williamm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Toronto",
             "postalCode": "M5H 1P6",
             "street": "Adelaide St",
@@ -715,6 +783,7 @@
     },
     {
         "vendorId": "0100000035",
+        "entityType": "Vendor",
         "emailAddress": "sophie.ribery@yourcycleshop.fr",
         "phoneNumber": "7315064077",
         "faxNumber": null,
@@ -728,6 +797,7 @@
         "modifiedDateTime": "20181003",
         "currency": "EUR",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -735,6 +805,7 @@
             "loginName": "robertaf"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Roberta",
             "lastName": "Holloway",
             "middleName": "M",
@@ -742,6 +813,7 @@
             "loginName": "robertaf"
         },
         "address": {
+            "entityType": "Address",
             "city": "Chelles",
             "postalCode": "77500",
             "street": "rue Ernest Renan",
@@ -757,6 +829,7 @@
     },
     {
         "vendorId": "0100000037",
+        "entityType": "Vendor",
         "emailAddress": "joseph_gschwandtner@ebike201.fr",
         "phoneNumber": "9703586412",
         "faxNumber": null,
@@ -770,6 +843,7 @@
         "modifiedDateTime": "20181003",
         "currency": "EUR",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -777,6 +851,7 @@
             "loginName": "williamm"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "William",
             "lastName": "Mussen",
             "middleName": "M",
@@ -784,6 +859,7 @@
             "loginName": "williamm"
         },
         "address": {
+            "entityType": "Address",
             "city": "Besanon",
             "postalCode": "25000",
             "street": " rue Jean Vilar",
@@ -799,6 +875,7 @@
     },
     {
         "vendorId": "0100000038",
+        "entityType": "Vendor",
         "emailAddress": "george_d_grant@thecyclefactor.fr",
         "phoneNumber": "6843585642",
         "faxNumber": null,
@@ -812,6 +889,7 @@
         "modifiedDateTime": "20181003",
         "currency": "EUR",
         "createdByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -819,6 +897,7 @@
             "loginName": "ellism"
         },
         "modifiedByEmpl": {
+            "entityType": "Employee",
             "firstName": "Ellis",
             "lastName": "Robertson",
             "middleName": "K",
@@ -826,6 +905,7 @@
             "loginName": "ellism"
         },
         "address": {
+            "entityType": "Address",
             "city": "Athis-Mons",
             "postalCode": "91200",
             "street": "rue de Lille",

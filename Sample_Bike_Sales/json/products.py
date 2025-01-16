@@ -3,9 +3,12 @@ import simplejson as json
 
 # Read CSV files
 products_df = pd.read_csv('../Products.csv', names=['productId','typeCode','prodCategoryId','createdBy','createdDateTime','modifiedBy','modifiedDateTime','vendorId','taxTariffCode','quantityUnit','weightMeasure','weightUnit','currency','price','width','depth','height','dimensionUnit','productPicUrl'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'vendorId': 'str', 'taxTariffCode': 'str', 'width': 'str', 'height': 'str', 'depth': 'str', 'dimensionUnit': 'str', 'productPicUrl': 'str'}, skiprows=1)
+products_df.insert(1,'entityType', 'Product')
 product_texts_df = pd.read_csv('../ProductTexts.csv', names=['productId','language','shortDescription','mediumDescription','longDescription'], skiprows=1)
-employees_df = pd.read_csv('../employees.csv', names=['employeeId','firstName','middleName','lastName','initials','sex','language','phoneNumber','emailAddress','loginName','addressId','validFromDateTime','validToDateTime'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'employeeId': 'str', 'addressId': 'str', 'validFromDateTime': 'str', 'validToDateTime': 'str'}, skiprows=1)
+product_texts_df.insert(0,'entityType', 'ProductText')
+employees_df = pd.read_csv('../Employees.csv', names=['employeeId','firstName','middleName','lastName','initials','sex','language','phoneNumber','emailAddress','loginName','addressId','validFromDateTime','validToDateTime'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'employeeId': 'str', 'addressId': 'str', 'validFromDateTime': 'str', 'validToDateTime': 'str'}, skiprows=1)
 employees_filtered_df = employees_df[['employeeId', 'firstName', 'lastName', 'middleName', 'emailAddress', 'loginName']]
+employees_filtered_df.insert(0,'entityType', 'Employee')
 
 employees_filtered_dict = employees_filtered_df.set_index('employeeId').to_dict(orient='index')
 

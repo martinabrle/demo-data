@@ -2,7 +2,8 @@ import pandas as pd
 import simplejson as json
 
 # Read CSV files
-addresses_df = pd.read_csv('../addresses.csv', names=['addressId','city','postalCode','street','building','country','region','addressType','validityStartDateTime','validityEndDateTime','latitude','longitude'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'addressId': 'str', 'building': 'str', 'validityStartDateTime': 'str', 'validityEndDateTime': 'str'}, skiprows=1)
+addresses_df = pd.read_csv('../Addresses.csv', names=['addressId','city','postalCode','street','building','country','region','addressType','validityStartDateTime','validityEndDateTime','latitude','longitude'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'addressId': 'str', 'building': 'str', 'validityStartDateTime': 'str', 'validityEndDateTime': 'str'}, skiprows=1)
+addresses_df.insert(1,'entityType', 'Address')
 
 addresses_dict = addresses_df.set_index('addressId').to_dict(orient='index')
 

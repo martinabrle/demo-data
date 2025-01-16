@@ -2,8 +2,10 @@ import pandas as pd
 import simplejson as json
 
 # Read CSV files
-product_categories_df = pd.read_csv('../productCategories.csv', names=['productCategoryId', 'createdBy', 'createdDateTime'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'createdDateTime': 'str'}, skiprows=1)
-product_category_texts_df = pd.read_csv('../productCategoryText.csv', names=['productCategoryId', 'languageId', 'shortDescription', 'mediumDescription', 'longDescription'], skiprows=1)
+product_categories_df = pd.read_csv('../ProductCategories.csv', names=['productCategoryId', 'createdBy', 'createdDateTime'], dtype={'createdBy': 'str', 'modifiedBy': 'str', 'createdDateTime': 'str'}, skiprows=1)
+product_categories_df.insert(1,'entityType', 'ProductCategory')
+product_category_texts_df = pd.read_csv('../ProductCategoryText.csv', names=['productCategoryId', 'languageId', 'shortDescription', 'mediumDescription', 'longDescription'], skiprows=1)
+product_category_texts_df.insert(0,'entityType', 'ProductCategoryText')
 
 # Convert product texts to dictionary grouped by productCategoryId
 product_category_texts_grouped = product_category_texts_df.groupby('productCategoryId').apply(lambda x: x.to_dict(orient='records')).to_dict()
