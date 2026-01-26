@@ -1,0 +1,50 @@
+Product_ID,Product_Name,Price,Description,Features
+1,Smartphone X,699.99,"A high-end smartphone with advanced features",5G Connectivity, AI Camera, OLED Display
+2,Laptop ProBook,1099.99,"Powerful laptop for productivity and gaming",15.6-inch Full HD, Intel Core i7, NVIDIA GeForce GTX 1650
+3,Smart TV UltraHD,899.99,"4K UltraHD Smart TV with streaming capabilities",55-inch Display, Dolby Vision, Smart Remote
+4,Wireless Headphones,149.99,"High-quality wireless headphones for music lovers",Bluetooth 5.0, Active Noise Cancellation, 20-hour Battery Life
+5,Tablet TabS7,549.99,"Versatile tablet for work and entertainment",11-inch Display, S Pen Support, DeX Mode
+6,Smart Speaker Mini,49.99,"Compact smart speaker with voice assistant",Voice Control, Music Streaming, Multi-Room Audio
+7,Action Camera GoPro,299.99,"Rugged action camera for capturing adventures",4K Video, Waterproof, Built-in Wi-Fi
+8,Gaming Console X,499.99,"Next-gen gaming console for immersive gameplay",4K Gaming, Ray Tracing, Fast Loading Times
+9,Smart Thermostat,199.99,"Energy-efficient thermostat for home automation",Programmable, Smartphone App Control, Energy Savings
+10,Robot Vacuum,249.99,"Smart robot vacuum for hands-free cleaning",Lidar Navigation, App Control, Multi-Surface Cleaning
+11,Smartwatch FitPro,199.99,"Fitness-focused smartwatch with health tracking",Heart Rate Monitoring, GPS, Sleep Analysis
+12,Bluetooth Speaker,79.99,"Portable Bluetooth speaker for on-the-go music",Waterproof, 12-hour Battery Life, Aux-in Port
+13,Wireless Mouse,29.99,"Ergonomic wireless mouse for comfortable use",2.4GHz Connectivity, DPI Adjustable, Silent Click
+14,External SSD,149.99,"High-speed external SSD for data storage",500GB Capacity, USB 3.1, Shock-resistant
+15,Security Camera,129.99,"Indoor/outdoor security camera for home surveillance",1080p HD, Night Vision, Motion Detection
+16,In-Ear Earbuds,79.99,"Wireless in-ear earbuds with clear sound",Noise Isolation, Touch Controls, Charging Case
+17,USB-C Hub,39.99,"Multiport USB-C hub for laptop connectivity",4 USB Ports, HDMI, SD Card Reader
+18,Portable Projector,299.99,"Compact projector for movie nights and presentations",720p HD, Keystone Correction, Built-in Speaker
+19,Electric Toothbrush,59.99,"High-tech electric toothbrush for oral hygiene",Sonic Technology, Timer, Pressure Sensor
+20,Wireless Keyboard,49.99,"Slim wireless keyboard for comfortable typing",Full-size Layout, Long Battery Life, Quiet Keys
+21,Drone Phantom,999.99,"Professional-grade drone for aerial photography",4K Camera, GPS, 30-minute Flight Time
+22,Desk Chair Ergo,199.99,"Ergonomic desk chair for improved posture",Adjustable Height, Lumbar Support, Breathable Fabric
+23,Home Theater System,499.99,"Complete home theater system for cinematic experience",5.1 Surround Sound, Blu-ray Player, Wireless Subwoofer
+24,Portable Charger,29.99,"High-capacity portable charger for mobile devices",20000mAh Capacity, Quick Charge, LED Display
+25,Wireless Router,89.99,"High-speed wireless router for fast internet",Dual-Band, Beamforming Technology, Parental Controls
+26,Car Dash Cam,79.99,"Dash cam for recording driving adventures",1080p HD, G-Sensor, Loop Recording
+27,Wi-Fi Smart Plug,19.99,"Smart plug for remote control of devices",Voice Control, Timer Function, Energy Monitoring
+28,Hybrid Bike,399.99,"Versatile hybrid bike for commuting and leisure",Aluminum Frame, 21-Speed Gears, Front Suspension
+29,External Hard Drive,129.99,"Large-capacity external hard drive for data backup",2TB Storage, USB 3.0, Automatic Backup
+30,Wireless Router Mesh,199.99,"Mesh Wi-Fi system for whole-home coverage",Tri-Band, MU-MIMO, Mobile App Setup
+31,Bluetooth Earbuds,129.99,"Wireless earbuds with noise cancellation",ANC, Transparency Mode, IPX4 Water Resistance
+32,Smart Lock,149.99,"Smart lock for enhanced home security",Keyless Entry, Smartphone Control, Auto-Locking
+33,4K Monitor,349.99,"High-resolution 4K monitor for crystal-clear visuals",27-inch Display, HDR Support, USB-C Connectivity
+34,Gaming Keyboard,79.99,"RGB gaming keyboard with customizable lighting",Mechanical Keys, Anti-Ghosting, Programmable Macros
+35,VR Headset,299.99,"Virtual reality headset for immersive gaming and experiences",OLED Display, Room-scale Tracking, Touch Controllers
+36,Wireless Access Point,69.99,"Wireless access point for expanding Wi-Fi coverage",Dual-Band, PoE Support, Easy Setup
+37,Sous Vide Cooker,129.99,"Precision sous vide cooker for gourmet cooking",WiFi Connectivity, App Control, Temperature Accuracy
+38,Portable Bluetooth Printer,79.99,"Compact Bluetooth printer for on-the-go printing",Thermal Printing, Mobile App Printing, 4x6 Prints
+39,Wireless Security System,299.99,"Wireless security system for home protection",HD Cameras, Motion Detection, Mobile Alerts
+40,Smart Mirror,399.99,"Interactive smart mirror with built-in display",Fitness Tracking, Weather Updates, Voice Assistant
+41,Bluetooth Car Kit,49.99,"Bluetooth car kit for hands-free calling and music",FM Transmitter, Dual USB Charging, Voice Assistant
+42,Wireless Charging Pad,24.99,"Wireless charging pad for Qi-compatible devices",10W Fast Charging, LED Indicator, Anti-Slip Design
+43,Electric Scooter,299.99,"Electric scooter for urban commuting",250W Motor, 15.5 MPH Max Speed, Foldable Design
+44,Home Weather Station,79.99,"Weather station for accurate weather forecasts",Indoor/Outdoor Sensors, Color Display, Wind Speed
+45,Smart Garden Kit,59.99,"Indoor smart garden kit for growing herbs and plants",LED Grow Light, Automated Watering, App Monitoring
+46,Wireless Earbuds,69.99,"Affordable wireless earbuds with great sound",Bluetooth 5.0, IPX5 Water Resistance, Touch Controls
+47,Smart Backpack,79.99,"Tech-friendly backpack with built-in charging port",USB Charging Port, Anti-Theft Design, Water-Resistant
+48,Car Jump Starter,79.99,"Portable car jump starter for emergencies",12000mAh Capacity, LED Flashlight, Safety Protection
+49,Bluetooth FM Transmitter,29.99,"Bluetooth FM transmitter for car audio streaming",Hands-Free Calling, USB Charging, EQ Modes

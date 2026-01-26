@@ -1,0 +1,54 @@
+1) Create a new Workspace
+2) Mention Licensing - and choose the Fabric Capacity
+3) Create a new Lakehouse LH_Sales
+4) Files -> Upload -> Files -> sales.csv and products.csv
+5) Right mouse click on products.csv + Load to Tables, same for Sales, separator=comma
+6) Click on Products, choose Table View and File View to demo underlying Delta lake
+   6a) Upload and Load sales_updated_timestamp.csv + show logs
+7) Upload sales_updated_timestamp.csv - show that there is no "Load to Table" option
+8) Click on sales.json
+9) Click on Get Data -> New Dataflow Gen 2 (Sales Dataflow)
+10) Click on Source -> More + search for Lakehouse
+11) Select Files -> sales.json
+12) In the familiar Power Query editor, see source connected (under Queries)
+    on the right side there are few steps selected
+13) navigate to the last step and it shows how the data looks like - NOT YET a table - remove step
+14) Click on "List tools" -> To table" - additional step is there
+15) Click on "Splitter" thing to expand columns
+16) Select all rows and "auto detect data type" icon
+17) Now select "Destination" - if not selected, explain what's happening
+18) Switch to SQL Analytics Endpoint
+19) Explain it's the same underlying data model, just more comfortable for database people
+20) right click on sales_json + SQL + SELECT TOP 1000
+21) demonstrate DELETE FROM does not work - but you can consume from all the SQL tools
+    (open in - show SQL Studio and VS code)
+22) demonstrate New SQL Query -> Visual query, add "sales + products" and left outer join
+    use fuzzy matching (?)
+    "Expand" thing?
+23) Create Semantic Model (SQL Endpoint -> New Semantic Model)
+     Semantic Models is what used to be called "Data sets" - but in Fabric, we don't duplicate the data
+     - mention "direct query VS import" - now we have "direct lake"
+24) Open Semantic model -> click on + "Open Semantic Model"
+    Multiple semantic models for multiple use cases
+25) Create relationship
+26) We can create a new Measures etc
+27) Back to Fabric overview -> SalesModel, "..." -> Create report
+28) Only 2 tables visible, test relationship (drag and drop "Product Name and Price",
+     then switch to column chart)
+29) Create Measure - virtual column with a calculation behing
+    Open Model, Add Measure, Discounted Price = SUM(sales[Total_Price])*0.9
+    And now it will be visible in Report as well
+30) Start Copilot to design the report - choose "Sales Performance Overview"
+30) Show the real report
+31) Show Notebooks - Create Notebook, add Data Items, right click and "Load Data"
+32) Data Wrangler - rename Price to ListPrice
+
+
+
+
+
+
+
+
+
+
