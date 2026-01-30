@@ -1,0 +1,32 @@
+{
+    "id": 9,
+    "name": "Care of Magical Creatures Classroom",
+    "location": "Hogwarts Grounds",
+    "floor": "Ground Level",
+    "building": "Outdoor area near Forbidden Forest",
+    "description": "An outdoor teaching area near Hagrid's Hut and the edge of the Forbidden Forest. No formal classroom structure.",
+    "capacity": 30,
+    "professor": {
+        "name": "Rubeus Hagrid",
+        "years": "1993-1998+"
+    },
+    "previousProfessors": [
+        {
+            "name": "Silvanus Kettleburn",
+            "years": "Unknown-1993"
+        },
+        {
+            "name": "Wilhelmina Grubbly-Plank",
+            "years": "Substitute various times"
+        }
+    ],
+    "subject": "Care of Magical Creatures",
+    "features": [
+        "Paddock for larger creatures",
+        "Crates for smaller creatures",
+        "Hagrid's pumpkin patch nearby",
+        "Access to Forbidden Forest edge",
+        "Hippogriff paddock"
+    ],
+    "atmosphere": "Outdoors, unpredictable, and occasionally dangerous"
+}

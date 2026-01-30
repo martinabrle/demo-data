@@ -1,0 +1,27 @@
+{
+    "id": 2,
+    "name": "Transfiguration Classroom",
+    "location": "Ground Floor Corridor",
+    "floor": "Ground Floor",
+    "building": "Hogwarts Castle",
+    "description": "A large classroom with rows of desks facing a large teacher's desk and a blackboard. Windows line one wall.",
+    "capacity": 35,
+    "professor": {
+        "name": "Minerva McGonagall",
+        "years": "1956-1998"
+    },
+    "previousProfessors": [
+        {
+            "name": "Albus Dumbledore",
+            "years": "1927-1956"
+        }
+    ],
+    "subject": "Transfiguration",
+    "features": [
+        "Cages with animals for practice",
+        "Large windows",
+        "Teacher's desk with drawers",
+        "Practice objects (matchsticks, beetles, mice)"
+    ],
+    "atmosphere": "Strict and orderly"
+}

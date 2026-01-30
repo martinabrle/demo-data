@@ -1,0 +1,25 @@
+{
+    "id": 5,
+    "name": "Herbology Greenhouses",
+    "location": "Hogwarts Grounds",
+    "floor": "Ground Level",
+    "building": "Greenhouses (separate from castle)",
+    "description": "A series of glass greenhouses containing various magical and mundane plants. Greenhouse Three contains the most dangerous plants.",
+    "capacity": 25,
+    "professor": {
+        "name": "Pomona Sprout",
+        "years": "Unknown-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Herbology",
+    "features": [
+        "Greenhouse One (safe plants)",
+        "Greenhouse Two (intermediate plants)",
+        "Greenhouse Three (dangerous plants)",
+        "Potting benches",
+        "Earmuffs",
+        "Dragon-hide gloves",
+        "Watering cans"
+    ],
+    "atmosphere": "Earthy, warm, and humid"
+}

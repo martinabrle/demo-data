@@ -1,0 +1,22 @@
+{
+    "id": 4,
+    "name": "Charms Classroom",
+    "location": "Third Floor Corridor",
+    "floor": "Third Floor",
+    "building": "Hogwarts Castle",
+    "description": "A bright classroom with large windows and desks arranged in rows. Professor Flitwick often stands on a pile of books to see over his desk.",
+    "capacity": 35,
+    "professor": {
+        "name": "Filius Flitwick",
+        "years": "Unknown-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Charms",
+    "features": [
+        "Feathers for levitation practice",
+        "Pile of books for professor",
+        "Large windows for natural light",
+        "Cushions for Summoning Charm practice"
+    ],
+    "atmosphere": "Cheerful and encouraging"
+}

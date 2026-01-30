@@ -1,0 +1,23 @@
+{
+    "id": 8,
+    "name": "Astronomy Tower Classroom",
+    "location": "Astronomy Tower",
+    "floor": "Tallest Tower",
+    "building": "Hogwarts Castle",
+    "description": "The tallest tower at Hogwarts, used for observing stars and planets. Classes are held at midnight.",
+    "capacity": 25,
+    "professor": {
+        "name": "Aurora Sinistra",
+        "years": "Unknown-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Astronomy",
+    "features": [
+        "Telescopes",
+        "Star charts",
+        "Planetary models",
+        "Open-air observation platform",
+        "Spiral staircase access"
+    ],
+    "atmosphere": "Dark, cold, and open to the night sky"
+}

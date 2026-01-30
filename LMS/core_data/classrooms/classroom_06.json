@@ -1,0 +1,30 @@
+{
+    "id": 6,
+    "name": "Divination Classroom",
+    "location": "North Tower",
+    "floor": "Top of North Tower",
+    "building": "Hogwarts Castle",
+    "description": "A cramped, stuffy room accessed by a trapdoor and silver ladder. Filled with small circular tables, armchairs, and poufs.",
+    "capacity": 20,
+    "professor": {
+        "name": "Sybill Trelawney",
+        "years": "1979-1998+"
+    },
+    "previousProfessors": [
+        {
+            "name": "Firenze",
+            "years": "1996 (co-taught)"
+        }
+    ],
+    "subject": "Divination",
+    "features": [
+        "Crystal balls",
+        "Teacups for tea leaf reading",
+        "Heavy perfume and fire",
+        "Pouffes and armchairs",
+        "Thick curtains blocking windows",
+        "Tarot cards",
+        "Dream journals"
+    ],
+    "atmosphere": "Hot, stuffy, and heavily perfumed"
+}

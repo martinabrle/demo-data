@@ -1,0 +1,22 @@
+{
+    "id": 14,
+    "name": "Firenze's Divination Classroom",
+    "location": "Ground Floor",
+    "floor": "Ground Floor",
+    "building": "Hogwarts Castle (converted classroom)",
+    "description": "A classroom enchanted to resemble a forest clearing, used by the centaur Firenze for Divination classes.",
+    "capacity": 20,
+    "professor": {
+        "name": "Firenze",
+        "years": "1996-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Divination",
+    "features": [
+        "Enchanted ceiling showing night sky",
+        "Soft mossy floor",
+        "Tree stumps for seating",
+        "Forest atmosphere illusion"
+    ],
+    "atmosphere": "Mystical, forest-like, and serene"
+}

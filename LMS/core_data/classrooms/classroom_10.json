@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "name": "Muggle Studies Classroom",
+    "location": "First Floor",
+    "floor": "First Floor",
+    "building": "Hogwarts Castle",
+    "description": "A classroom dedicated to teaching wizards about Muggle life and artifacts.",
+    "capacity": 25,
+    "professor": {
+        "name": "Charity Burbage",
+        "years": "Unknown-1997"
+    },
+    "previousProfessors": [
+        {
+            "name": "Alecto Carrow",
+            "years": "1997-1998 (taught anti-Muggle propaganda)"
+        }
+    ],
+    "subject": "Muggle Studies",
+    "features": [
+        "Muggle artifacts display",
+        "Muggle photographs",
+        "Diagrams of Muggle technology",
+        "Rubber ducks and other Muggle items"
+    ],
+    "atmosphere": "Curious and informative"
+}

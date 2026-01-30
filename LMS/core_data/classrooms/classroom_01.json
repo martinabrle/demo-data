@@ -1,0 +1,29 @@
+{
+    "id": 1,
+    "name": "Potions Classroom",
+    "location": "Dungeons",
+    "floor": "Below Ground",
+    "building": "Hogwarts Castle",
+    "description": "A dark, cold dungeon classroom with pickled animals in glass jars lining the walls and a blackboard at the front.",
+    "capacity": 30,
+    "professor": {
+        "name": "Severus Snape",
+        "years": "1991-1996"
+    },
+    "previousProfessors": [
+        {
+            "name": "Horace Slughorn",
+            "years": "1996-1998"
+        }
+    ],
+    "subject": "Potions",
+    "features": [
+        "Cauldrons",
+        "Ingredient storage cupboard",
+        "Stone basins",
+        "Fireplace for brewing",
+        "Scales",
+        "Mortar and pestles"
+    ],
+    "atmosphere": "Cold, damp, and dimly lit"
+}

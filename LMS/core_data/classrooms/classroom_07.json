@@ -1,0 +1,22 @@
+{
+    "id": 7,
+    "name": "History of Magic Classroom",
+    "location": "First Floor",
+    "floor": "First Floor",
+    "building": "Hogwarts Castle",
+    "description": "A standard classroom that becomes extraordinarily boring due to Professor Binns' monotonous teaching style.",
+    "capacity": 35,
+    "professor": {
+        "name": "Cuthbert Binns",
+        "years": "Unknown (ghost)"
+    },
+    "previousProfessors": [],
+    "subject": "History of Magic",
+    "features": [
+        "Standard desks and chairs",
+        "Blackboard",
+        "Windows",
+        "Notably no magical teaching aids"
+    ],
+    "atmosphere": "Dull and sleep-inducing"
+}

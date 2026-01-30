@@ -1,0 +1,22 @@
+{
+    "id": 12,
+    "name": "Arithmancy Classroom",
+    "location": "Seventh Floor",
+    "floor": "Seventh Floor",
+    "building": "Hogwarts Castle",
+    "description": "A classroom for the study of magical properties of numbers and their use in spellwork.",
+    "capacity": 20,
+    "professor": {
+        "name": "Septima Vector",
+        "years": "Unknown-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Arithmancy",
+    "features": [
+        "Number charts",
+        "Complex calculation boards",
+        "Reference books",
+        "Numerology tables"
+    ],
+    "atmosphere": "Academic and mathematically focused"
+}

@@ -1,0 +1,22 @@
+{
+    "id": 11,
+    "name": "Ancient Runes Classroom",
+    "location": "Sixth Floor",
+    "floor": "Sixth Floor",
+    "building": "Hogwarts Castle",
+    "description": "A classroom dedicated to the study of ancient magical languages and runic alphabets.",
+    "capacity": 20,
+    "professor": {
+        "name": "Bathsheda Babbling",
+        "years": "Unknown-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Study of Ancient Runes",
+    "features": [
+        "Rune dictionaries",
+        "Ancient texts",
+        "Runic translation charts",
+        "Stone tablets with runic inscriptions"
+    ],
+    "atmosphere": "Scholarly and quiet"
+}

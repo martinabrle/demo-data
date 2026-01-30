@@ -1,0 +1,22 @@
+{
+    "id": 13,
+    "name": "Flying Training Grounds",
+    "location": "Hogwarts Grounds",
+    "floor": "Ground Level",
+    "building": "Open lawn near castle",
+    "description": "A flat, open area of lawn used for first-year flying lessons.",
+    "capacity": 40,
+    "professor": {
+        "name": "Rolanda Hooch",
+        "years": "Unknown-1998+"
+    },
+    "previousProfessors": [],
+    "subject": "Flying",
+    "features": [
+        "School broomsticks",
+        "Flat lawn area",
+        "Equipment shed",
+        "First aid supplies"
+    ],
+    "atmosphere": "Open-air, exciting, and occasionally chaotic"
+}
