@@ -1,0 +1,10 @@
+Staff_ID,First_Name,Last_Name,Email,Department,Hire_Date
+T01,Albus,Dumbledore,albus.dumbledore@hogwarts.edu,Headmaster,1956-09-01
+T02,Minerva,McGonagall,minerva.mcgonagall@hogwarts.edu,Transfiguration,1965-08-15
+T03,Severus,Snape,severus.snape@hogwarts.edu,Potions,1970-09-01
+T04,Pomona,Sprout,pomona.sprout@hogwarts.edu,Herbology,1960-09-01
+T05,Filius,Flitwick,filius.flitwick@hogwarts.edu,Charms,1962-09-01
+T06,Rubeus,Hagrid,rubeus.hagrid@hogwarts.edu,Care of Magical Creatures,1958-09-01
+T07,Sybill,Trelawney,sybill.trelawney@hogwarts.edu,Divination,1973-09-01
+T08,Rolanda,Hooch,rolanda.hooch@hogwarts.edu,Flying,1961-09-01
+T09,Poppy,Pomfrey,poppy.pomfrey@hogwarts.edu,Matron,1955-09-01
