@@ -6,7 +6,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "RO",
                 "languageId": "EN",
                 "shortDescription": "Road Bike",
@@ -22,7 +22,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "BX",
                 "languageId": "EN",
                 "shortDescription": "BMX",
@@ -38,7 +38,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "CC",
                 "languageId": "EN",
                 "shortDescription": "Cyclo-cross Bike",
@@ -54,7 +54,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "MB",
                 "languageId": "EN",
                 "shortDescription": "Mountain Bike",
@@ -70,7 +70,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "RC",
                 "languageId": "EN",
                 "shortDescription": "Racing Bike",
@@ -86,7 +86,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "DB",
                 "languageId": "EN",
                 "shortDescription": "Downhill Bike",
@@ -102,7 +102,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "EB",
                 "languageId": "EN",
                 "shortDescription": "eBike",
@@ -118,7 +118,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "CB",
                 "languageId": "EN",
                 "shortDescription": "Cruiser",
@@ -134,7 +134,7 @@
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryText",
+                "entityType": "productCategoryTexts",
                 "productCategoryId": "HB",
                 "languageId": "EN",
                 "shortDescription": "Hybrid Bike",

@@ -41,7 +41,7 @@ IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'ProductCategories')
     DROP EXTERNAL TABLE BikeSalesStaging.ProductCategories
 GO
 
-IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'ProductCategoryText')
+IF EXISTS (SELECT * FROM sys.external_tables WHERE [name] = 'ProductCategoryTexts')
     DROP EXTERNAL TABLE BikeSalesStaging.ProductCategoryText
 GO
 
@@ -160,7 +160,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategories (
 	)
 GO
 
-CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategoryText (
+CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategoryTexts (
 	[PRODCATEGORYID] nvarchar(2),
 	[LANGUAGE] nvarchar(5),
 	[SHORT_DESCR] nvarchar(256),
@@ -168,7 +168,7 @@ CREATE EXTERNAL TABLE BikeSalesStaging.ProductCategoryText (
 	[LONG_DESCR] nvarchar(4000)
 	)
 	WITH (
-	LOCATION = 'Sample_Bike_Sales/ProductCategoryText.csv',
+	LOCATION = 'Sample_Bike_Sales/ProductCategoryTexts.csv',
 	DATA_SOURCE = [samples_data_lake],
 	FILE_FORMAT = [SynapseDelimitedTextFormatSkipHeader]
 	)
@@ -274,7 +274,7 @@ SELECT TOP 5 * FROM BikeSalesStaging.Employees;
 GO
 SELECT TOP 5 * FROM BikeSalesStaging.ProductCategories;
 GO
-SELECT TOP 5 * FROM BikeSalesStaging.ProductCategoryText;
+SELECT TOP 5 * FROM BikeSalesStaging.ProductCategoryTexts;
 GO
 SELECT TOP 5 * FROM BikeSalesStaging.Products;
 GO
