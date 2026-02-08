@@ -1,10 +1,10 @@
 PRODCATEGORYID,LANGUAGE,SHORT_DESCR,MEDIUM_DESCR,LONG_DESCR
-RO,EN,Road Bike,,
-BX,EN,BMX,,
-CC,EN,Cyclo-cross Bike,,
-MB,EN,Mountain Bike,,
-RC,EN,Racing Bike,,
-DB,EN,Downhill Bike,,
-EB,EN,eBike,,
-CB,EN,Cruiser,,
-HB,EN,Hybrid Bike,,
+RO,EN,Road Bike,Road bikes designed for broad audience,Road bikes designed for broad audience, suitable for city and leisure riding.
+BX,EN,BMX,BMX bikes designed for stunts and racing,BMX bikes designed for stunts and racing, with sturdy frames and small wheels for agility.
+CC,EN,Cyclo-cross Bike,Cyclo-cross bikes designed for mixed terrain racing,Cyclo-cross bikes designed for mixed terrain racing, featuring knobby tires and lightweight frames.
+MB,EN,Mountain Bike,Mountain bikes designed for off-road trails,Mountain bikes designed for off-road trails, with sturdy frames and wide tires for better traction.
+RC,EN,Racing Bike,Racing bikes designed for competitive cycling,Racing bikes designed for competitive cycling, with lightweight frames and aerodynamic features.
+DB,EN,Downhill Bike,Downhill bikes designed for steep descents and rough terrain,Downhill bikes designed for steep descents and rough terrain, with heavy-duty frames and suspension systems.
+EB,EN,eBike,eBikes designed for electric-assisted cycling,eBikes designed for electric-assisted cycling, providing pedal assistance for easier riding.
+CB,EN,Cruiser,Cruiser bikes designed for comfortable and stylish riding,Cruiser bikes designed for comfortable and stylish riding, perfect for leisurely rides around town.
+HB,EN,Hybrid Bike,Hybrid bikes designed for versatile riding,Hybrid bikes designed for versatile riding, combining features of road and mountain bikes for a comfortable and efficient ride on various terrains.
