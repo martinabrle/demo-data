@@ -1,45 +1,43 @@
 PRODUCTID,LANGUAGE,SHORT_DESCR,MEDIUM_DESCR,LONG_DESCR
-RO-1001,EN,Roady 1001,,
-RO-1002,EN,Roady 1002,,
-RO-1003,EN,Roady 1003,,
-BX-1011,EN,BMX Vintage 1011,,
-BX-1012,EN,BMX Jump 1012,,
-BX-1013,EN,BMX Jump Lux I,BWM Jump Luxury I,
-BX-1014,EN,BMX Jump Lux II,BWM Jump Luxury II,
-BX-1015,EN,BMX Optima,BMX Optima,
-BX-1016,EN,BMX Optima II,BMX Optima II,
-CC-1021,EN,Cyclone Basic,,
-CC-1022,EN,Cyclone Speed,,
-CC-1023,EN,Cyclone III,,
-MB-1031,EN,Mt Discovery B, Mountain Discovery Basic,
-MB-1032,EN,Mt Discovery Drive, Mountain Discovery Drive,
-MB-1033,EN,Mt Discovery Rush, Mountain Discovery Rush,
-MB-1034,EN,Mt Discovery Ulti,Mt Discovery Ultimate,
-RC-1051,EN,Tornado I,Tornado I,
-RC-1052,EN,Tornado II,Tornado II,
-RC-1053,EN,Stream I,Stream I,
-RC-1054,EN,Stream II,Stream II,
-RC-1055,EN,Veloflash,Veloflash,
-RC-1055,DE,Rennsemmel,Rennsemmel,
-RC-1056,EN,Veloflash SE ,Veloflash Second Edition,
-RC-1056,DE,Rennsemmel 2,Rennsemmel 2,
-RC-1057,EN,Veloflash Ultimate,Veloflash Ultimate,
-DB-1081,EN,Rooty Basic,Rooty Basic,
-DB-1082,EN,Capricorn,Capricorn,
-DB-1083,EN,Capricorn II,Capricorn II,
-EB-1131,EN,Flash Drive,Flash Drive,
-EB-1132,EN,Flash Drive II,Flash Drive II,
-EB-1133,EN,Lazy Cat,Lazy Cat,
-EB-1134,EN,Lazy Cat II,Lazy Cat II,
-EB-1135,EN,Speedeon,Speedeon,
-EB-1136,EN,Speedeon Light,Speedeon Light,
-EB-1137,EN,Speedeon Cross,Speedeon Cross,
-CB-1161,EN,La Plage,La Plage,
-CB-1162,EN,La Plage Limited,La Plage Limited,
-CB-1163,EN,La Plage Gold,La Plage Gold,
-HB-1171,EN,Star Cruise,Star Cruise,
-HB-1172,EN,Star Cruise II,Star Cruise II,
-HB-1173,EN,Universal One,Universal One,
-HB-1174,EN,Universal Two,Universal Two,
-HB-1175,EN,Specifica,Specifica,
-HB-1176,EN,Specifica Gold,Specifica Gold,
+RO-1001,EN,Roady 1001,Roady 1001 road bike built for everyday city riding and weekend tours,"The Roady 1001 is a versatile road bike designed for urban commuters and leisure cyclists. Featuring a lightweight aluminum frame, smooth-rolling tires, and a comfortable geometry, it delivers efficiency and comfort for daily rides and longer weekend trips."
+RO-1002,EN,Roady 1002,Roady 1002 road bike offering balanced performance for city and fitness cycling,"The Roady 1002 combines speed and comfort in a well-balanced road bike for a broad audience. With improved drivetrain components and responsive handling, it is ideal for commuting, fitness rides, and relaxed long-distance touring."
+RO-1003,EN,Roady 1003,Roady 1003 premium road bike for sporty city and leisure use,"The Roady 1003 delivers enhanced performance for ambitious leisure riders. Its lightweight frame, precision shifting system, and aerodynamic riding position make it suitable for longer rides while maintaining everyday usability."
+BX-1011,EN,BMX Vintage 1011,BMX Vintage 1011 stunt bike with classic styling and durable frame,"The BMX Vintage 1011 is designed for freestyle tricks and urban riding. With a reinforced steel frame, compact geometry, and high-impact wheels, it ensures durability and agility for park sessions and street stunts."
+BX-1012,EN,BMX Jump 1012,BMX Jump 1012 agile stunt bike for park and race tracks,"Built for action, the BMX Jump 1012 features a lightweight yet sturdy frame, responsive brakes, and compact wheels for maximum control. It is ideal for jumps, tricks, and entry-level BMX racing."
+BX-1013,EN,BMX Jump Lux I,BMX Jump Lux I upgraded freestyle BMX with enhanced components,"The BMX Jump Lux I enhances freestyle performance with premium tires, reinforced cranksets, and improved balance. Designed for ambitious riders, it delivers stability during jumps and precise handling in technical tricks."
+BX-1014,EN,BMX Jump Lux II,BMX Jump Lux II high-performance freestyle BMX bike,"The BMX Jump Lux II offers advanced durability and control for demanding riders. With upgraded bearings, a reinforced frame, and optimized weight distribution, it supports advanced tricks and competitive park riding."
+BX-1015,EN,BMX Optima,BMX Optima versatile stunt bike for beginners and enthusiasts,"The BMX Optima is a reliable all-round freestyle bike designed for both newcomers and experienced riders. Its solid frame construction and responsive steering make it suitable for street riding and skatepark sessions."
+BX-1016,EN,BMX Optima II,BMX Optima II improved freestyle model with reinforced components,"The BMX Optima II builds on the proven Optima platform with enhanced durability and smoother ride dynamics. Designed for frequent practice and performance progression, it ensures stability and agility in every trick."
+CC-1021,EN,Cyclone Basic,Cyclone Basic cyclo-cross bike for mixed terrain racing,"The Cyclone Basic is a cyclo-cross bike engineered for gravel paths and race circuits. Featuring knobby tires, a lightweight frame, and responsive braking, it offers versatility across dirt, grass, and pavement."
+CC-1022,EN,Cyclone Speed,Cyclone Speed performance cyclo-cross bike for competitive riders,"The Cyclone Speed enhances cross-terrain performance with improved gearing and lightweight components. Built for race conditions, it ensures control and speed on unpredictable surfaces."
+CC-1023,EN,Cyclone III,Cyclone III advanced cyclo-cross bike with race-ready setup,"The Cyclone III is optimized for demanding cyclo-cross competitions. Its refined geometry, durable drivetrain, and high-grip tires provide excellent handling across mud, gravel, and technical courses."
+MB-1031,EN,Mt Discovery B,Mt Discovery B mountain bike for entry-level trail riding,"The Mt Discovery B is a reliable mountain bike designed for off-road adventures. Equipped with wide tires, front suspension, and a sturdy frame, it delivers traction and comfort on forest trails and uneven terrain."
+MB-1032,EN,Mt Discovery Drive,Mt Discovery Drive trail mountain bike with enhanced suspension,"The Mt Discovery Drive provides improved trail control with upgraded suspension and durable components. Perfect for recreational off-road riders seeking stability and performance."
+MB-1033,EN,Mt Discovery Rush,Mt Discovery Rush sporty mountain bike for dynamic trail rides,"The Mt Discovery Rush offers responsive handling and robust construction for technical trails. Its lightweight frame and enhanced braking system ensure confidence on climbs and descents."
+MB-1034,EN,Mt Discovery Ulti,Mt Discovery Ulti premium mountain bike for advanced riders,"The Mt Discovery Ulti is engineered for ambitious trail enthusiasts. Featuring high-quality suspension, durable gearing, and superior grip tires, it delivers outstanding performance on demanding off-road routes."
+RC-1051,EN,Tornado I,Tornado I racing bike designed for competitive road performance,"The Tornado I is a lightweight racing bike engineered for speed and precision. With an aerodynamic frame design, responsive gearing system, and race-oriented geometry, it delivers strong acceleration and efficient power transfer for competitive cycling and ambitious training sessions."
+RC-1052,EN,Tornado II,Tornado II upgraded racing bike with enhanced aerodynamics,"The Tornado II builds upon its predecessor with improved aerodynamics and refined components. Designed for performance-focused riders, it offers excellent stiffness, precise shifting, and superior handling at high speeds."
+RC-1053,EN,Stream I,Stream I performance road racing bike for speed enthusiasts,"The Stream I combines lightweight construction with aerodynamic tube shaping to reduce drag and maximize efficiency. Ideal for amateur racers and fast group rides, it ensures smooth handling and consistent performance."
+RC-1054,EN,Stream II,Stream II advanced racing bike optimized for endurance events,"The Stream II enhances long-distance racing performance with improved comfort geometry and high-precision components. Its balanced frame stiffness and aerodynamic profile make it suitable for endurance competitions and long road challenges."
+RC-1055,EN,Veloflash,Veloflash high-speed racing bike with aerodynamic design,"The Veloflash is built for riders seeking maximum velocity and control. Featuring a race-tuned carbon frame, aerodynamic fork, and competition-grade drivetrain, it delivers explosive acceleration and sharp responsiveness."
+RC-1056,EN,Veloflash SE,Veloflash SE special edition racing bike with premium components,"The Veloflash SE enhances performance with upgraded shifting technology and refined aerodynamics. Designed for competitive cyclists, it provides optimal stiffness and improved power efficiency during high-speed rides."
+RC-1057,EN,Veloflash Ultimate,Veloflash Ultimate top-tier racing bike for elite performance,"The Veloflash Ultimate represents the pinnacle of the racing series, combining ultra-light materials, advanced aerodynamics, and elite-level components. Designed for serious competitors, it maximizes speed, efficiency, and control."
+DB-1081,EN,Rooty Basic,Rooty Basic downhill bike for entry-level gravity riding,"The Rooty Basic is designed for steep descents and rough terrain. With a reinforced frame, heavy-duty suspension system, and wide high-grip tires, it ensures durability and stability on demanding downhill trails."
+DB-1082,EN,Capricorn,Capricorn downhill bike built for aggressive terrain control,"The Capricorn offers enhanced suspension travel and robust construction for technical downhill tracks. Engineered for stability and shock absorption, it delivers confidence on rocky descents and high-speed runs."
+DB-1083,EN,Capricorn II,Capricorn II advanced downhill bike with upgraded suspension,"The Capricorn II improves downhill performance with premium suspension components and reinforced frame geometry. Designed for experienced riders, it ensures maximum control on extreme slopes and rugged trails."
+EB-1131,EN,Flash Drive,Flash Drive electric bike with smooth pedal assistance,"The Flash Drive eBike combines electric pedal support with comfortable geometry for effortless riding. Its integrated motor system and long-lasting battery make commuting and leisure trips easier and more enjoyable."
+EB-1132,EN,Flash Drive II,Flash Drive II enhanced eBike with extended battery range,"The Flash Drive II improves efficiency with an upgraded motor and extended battery capacity. Designed for daily commuters, it delivers reliable pedal assistance and smooth acceleration."
+EB-1133,EN,Lazy Cat,Lazy Cat comfort-focused electric bike for relaxed riding,"The Lazy Cat prioritizes comfort and ease of use with upright seating, intuitive controls, and smooth electric support. Ideal for urban mobility and relaxed weekend rides."
+EB-1134,EN,Lazy Cat II,Lazy Cat II improved comfort eBike with refined motor system,"The Lazy Cat II enhances rider comfort with optimized battery integration and smoother assistance delivery. Perfect for city cruising and effortless transportation."
+EB-1135,EN,Speedeon,Speedeon dynamic electric bike for fast urban commuting,"The Speedeon offers responsive motor assistance and agile handling for city riders. With efficient battery management and modern styling, it supports quick and comfortable daily travel."
+EB-1136,EN,Speedeon Light,Speedeon Light lightweight eBike for agile city mobility,"The Speedeon Light reduces overall weight while maintaining powerful pedal assistance. Designed for flexibility and easy maneuvering in urban environments."
+EB-1137,EN,Speedeon Cross,Speedeon Cross electric bike for mixed terrain exploration,"The Speedeon Cross combines electric support with versatile tires and reinforced frame geometry. Suitable for both paved roads and light off-road paths."
+CB-1161,EN,La Plage,La Plage stylish cruiser bike for relaxed city rides,"The La Plage cruiser blends comfort and elegance with wide handlebars, smooth tires, and a relaxed seating position. Perfect for leisurely rides along the waterfront or through the city."
+CB-1162,EN,La Plage Limited,La Plage Limited premium cruiser with refined design details,"The La Plage Limited enhances comfort with upgraded saddle materials and exclusive styling accents. Designed for riders who value both aesthetics and relaxed performance."
+CB-1163,EN,La Plage Gold,La Plage Gold luxury cruiser bike with elegant finish,"The La Plage Gold features premium components and distinctive design elements. Built for comfortable and stylish cruising, it ensures a smooth and enjoyable ride."
+HB-1171,EN,Star Cruise,Star Cruise hybrid bike for versatile everyday riding,"The Star Cruise combines road efficiency with mountain bike stability. Its balanced frame design and adaptable tires make it ideal for commuting and recreational rides."
+HB-1172,EN,Star Cruise II,Star Cruise II upgraded hybrid bike with enhanced comfort,"The Star Cruise II offers improved suspension and ergonomic features for versatile performance. Suitable for mixed terrain and daily commuting."
+HB-1173,EN,Universal One,UUniversal One all-purpose hybrid bike for varied terrain,"The Universal One integrates road and trail capabilities into a practical design. With durable components and comfortable geometry, it supports flexible riding styles."
+HB-1174,EN,Universal Two,Universal Two performance hybrid bike with balanced handling,"The Universal Two enhances ride stability and efficiency across paved and gravel surfaces. Designed for riders seeking adaptability and reliability."
+HB-1175,EN,Specifica,Specifica versatile hybrid bike for efficient mobility,"The Specifica delivers dependable performance for daily commuting and recreational use. Its combination of lightweight structure and stable handling ensures comfort and speed."
+HB-1176,EN,Specifica Gold,SSpecifica Gold premium hybrid bike with refined components,"The Specifica Gold upgrades the hybrid concept with enhanced drivetrain precision and comfort features. Built for riders who demand versatility and elevated ride quality."

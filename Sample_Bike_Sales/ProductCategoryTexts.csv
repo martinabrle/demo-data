@@ -1,10 +1,28 @@
 PRODCATEGORYID,LANGUAGE,SHORT_DESCR,MEDIUM_DESCR,LONG_DESCR
-RO,EN,Road Bike,Road bikes designed for broad audience,Road bikes designed for broad audience, suitable for city and leisure riding.
-BX,EN,BMX,BMX bikes designed for stunts and racing,BMX bikes designed for stunts and racing, with sturdy frames and small wheels for agility.
-CC,EN,Cyclo-cross Bike,Cyclo-cross bikes designed for mixed terrain racing,Cyclo-cross bikes designed for mixed terrain racing, featuring knobby tires and lightweight frames.
-MB,EN,Mountain Bike,Mountain bikes designed for off-road trails,Mountain bikes designed for off-road trails, with sturdy frames and wide tires for better traction.
-RC,EN,Racing Bike,Racing bikes designed for competitive cycling,Racing bikes designed for competitive cycling, with lightweight frames and aerodynamic features.
-DB,EN,Downhill Bike,Downhill bikes designed for steep descents and rough terrain,Downhill bikes designed for steep descents and rough terrain, with heavy-duty frames and suspension systems.
-EB,EN,eBike,eBikes designed for electric-assisted cycling,eBikes designed for electric-assisted cycling, providing pedal assistance for easier riding.
-CB,EN,Cruiser,Cruiser bikes designed for comfortable and stylish riding,Cruiser bikes designed for comfortable and stylish riding, perfect for leisurely rides around town.
-HB,EN,Hybrid Bike,Hybrid bikes designed for versatile riding,Hybrid bikes designed for versatile riding, combining features of road and mountain bikes for a comfortable and efficient ride on various terrains.
+RO,EN,Road Bike,Road bikes designed for broad audience,"Road bikes designed for broad audience, suitable for city and leisure riding."
+RO,FR,Vélo de route,Vélos de route conçus pour un large public,"Vélos de route conçus pour un large public, adaptés aux déplacements urbains et aux loisirs."
+RO,DE,Rennrad,Rennräder für ein breites Publikum konzipiert,"Rennräder für ein breites Publikum konzipiert, geeignet für Stadt- und Freizeitfahrten."
+BX,EN,BMX,BMX bikes designed for stunts and racing,"BMX bikes designed for stunts and racing, with sturdy frames and small wheels for agility."
+BX,FR,BMX,Vélos BMX conçus pour les figures et les courses,"Vélos BMX conçus pour les figures et les courses, avec des cadres robustes et de petites roues pour une grande maniabilité."
+BX,DE,BMX,BMX-Räder für Stunts und Rennen konzipiert,"BMX-Räder für Stunts und Rennen konzipiert, mit robusten Rahmen und kleinen Rädern für hohe Wendigkeit."
+CC,EN,Cyclo-cross Bike,Cyclo-cross bikes designed for mixed terrain racing,"Cyclo-cross bikes designed for mixed terrain racing, featuring knobby tires and lightweight frames."
+CC,FR,Vélo de cyclo-cross,Vélos de cyclo-cross conçus pour les courses sur terrains mixtes,"Vélos de cyclo-cross conçus pour les courses sur terrains mixtes, dotés de pneus à crampons et de cadres légers."
+CC,DE,Cyclocross-Rad,Cyclocross-Räder für Rennen auf gemischtem Terrain konzipiert,"Cyclocross-Räder für Rennen auf gemischtem Terrain konzipiert, mit profilierten Reifen und leichten Rahmen."
+MB,EN,Mountain Bike,Mountain bikes designed for off-road trails,"Mountain bikes designed for off-road trails, with sturdy frames and wide tires for better traction."
+MB,FR,VTT,VTT conçus pour les sentiers tout-terrain,"VTT conçus pour les sentiers tout-terrain, avec des cadres robustes et des pneus larges pour une meilleure adhérence."
+MB,DE,Mountainbike,Mountainbikes für Offroad-Strecken konzipiert,"Mountainbikes für Offroad-Strecken konzipiert, mit stabilen Rahmen und breiten Reifen für bessere Traktion."
+RC,EN,Racing Bike,Racing bikes designed for competitive cycling,"Racing bikes designed for competitive cycling, with lightweight frames and aerodynamic features."
+RC,FR,Vélo de course,Vélos de course conçus pour le cyclisme de compétition,"Vélos de course conçus pour le cyclisme de compétition, avec des cadres légers et des caractéristiques aérodynamiques."
+RC,DE,Rennmaschine,Rennräder für den Wettkampfsport konzipiert,"Rennräder für den Wettkampfsport konzipiert, mit leichten Rahmen und aerodynamischen Eigenschaften."
+DB,EN,Downhill Bike,Downhill bikes designed for steep descents and rough terrain,"Downhill bikes designed for steep descents and rough terrain, with heavy-duty frames and suspension systems."
+DB,FR,Vélo de descente,Vélos de descente conçus pour les pentes raides et les terrains accidentés,"Vélos de descente conçus pour les pentes raides et les terrains accidentés, avec des cadres renforcés et des systèmes de suspension."
+DB,DE,Downhill-Bike,Downhill-Bikes für steile Abfahrten und unwegsames Gelände konzipiert,"Downhill-Bikes für steile Abfahrten und unwegsames Gelände konzipiert, mit besonders stabilen Rahmen und Federungssystemen."
+EB,EN,eBike,eBikes designed for electric-assisted cycling,"eBikes designed for electric-assisted cycling, providing pedal assistance for easier riding."
+EB,FR,Vélo électrique,Vélos électriques conçus pour le cyclisme à assistance électrique,"Vélos électriques conçus pour le cyclisme à assistance électrique, offrant une assistance au pédalage pour faciliter la conduite."
+EB,DE,E-Bike,E-Bikes für elektrisch unterstütztes Fahren konzipiert,"E-Bikes für elektrisch unterstütztes Fahren konzipiert, mit Tretunterstützung für ein leichteres Fahrerlebnis."
+CB,EN,Cruiser,Cruiser bikes designed for comfortable and stylish riding,"Cruiser bikes designed for comfortable and stylish riding, perfect for leisurely rides around town."
+CB,FR,Cruiser,Vélos cruiser conçus pour une conduite confortable et élégante,"Vélos cruiser conçus pour une conduite confortable et élégante, parfaits pour des balades tranquilles en ville."
+CB,DE,Cruiser,Cruiser-Bikes für komfortables und stilvolles Fahren konzipiert,"Cruiser-Bikes für komfortables und stilvolles Fahren konzipiert, ideal für entspannte Fahrten in der Stadt."
+HB,EN,Hybrid Bike,Hybrid bikes designed for versatile riding,"Hybrid bikes designed for versatile riding, combining features of road and mountain bikes for a comfortable and efficient ride on various terrains."
+HB,FR,Vélo hybride,Vélos hybrides conçus pour une utilisation polyvalente,"Vélos hybrides conçus pour une utilisation polyvalente, combinant les caractéristiques des vélos de route et des VTT pour une conduite confortable et efficace sur divers terrains."
+HB,DE,Hybridrad,Hybridräder für vielseitiges Fahren konzipiert,"Hybridräder für vielseitiges Fahren konzipiert, die Eigenschaften von Renn- und Mountainbikes kombinieren und so komfortables und effizientes Fahren auf unterschiedlichen Untergründen ermöglichen."
