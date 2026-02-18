@@ -42,8 +42,32 @@
                 "productId": "RO-1001",
                 "language": "EN",
                 "shortDescription": "Roady 1001",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Roady 1001 road bike built for everyday city riding and weekend tours",
+                "longDescription": "The Roady 1001 is a versatile road bike designed for urban commuters and leisure cyclists. Featuring a lightweight aluminum frame, smooth-rolling tires, and a comfortable geometry, it delivers efficiency and comfort for daily rides and longer weekend trips."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1001",
+                "language": "DE",
+                "shortDescription": "Roady 1001 Rennrad",
+                "mediumDescription": "Roady 1001 Rennrad f\u00fcr Stadt und Fitness",
+                "longDescription": "Das Roady 1001 Rennrad ist ein vielseitiges Stra\u00dfenrad f\u00fcr t\u00e4gliche Pendelstrecken und sportliche Ausfahrten. Der leichte Aluminiumrahmen, die zuverl\u00e4ssige Schaltung und die ausgewogene Geometrie sorgen f\u00fcr effiziente Kraft\u00fcbertragung und angenehmen Fahrkomfort auf l\u00e4ngeren Strecken."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1001",
+                "language": "FR",
+                "shortDescription": "V\u00e9lo de route Roady 1001",
+                "mediumDescription": "Roady 1001 v\u00e9lo de route pour ville et fitness",
+                "longDescription": "Le Roady 1001 est un v\u00e9lo de route polyvalent con\u00e7u pour les trajets urbains et les sorties sportives. Son cadre l\u00e9ger en aluminium, sa transmission fiable et sa g\u00e9om\u00e9trie \u00e9quilibr\u00e9e assurent confort et efficacit\u00e9 sur courtes et longues distances."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1001",
+                "language": "ES",
+                "shortDescription": "Bicicleta de carretera Roady 1001",
+                "mediumDescription": "Roady 1001 bicicleta de carretera para ciudad y fitness",
+                "longDescription": "La Roady 1001 es una bicicleta de carretera vers\u00e1til dise\u00f1ada para desplazamientos urbanos y salidas deportivas. Su cuadro ligero de aluminio, transmisi\u00f3n fiable y geometr\u00eda equilibrada ofrecen comodidad y eficiencia tanto en trayectos cortos como en recorridos largos."
             }
         ]
     },
@@ -90,8 +114,32 @@
                 "productId": "RO-1002",
                 "language": "EN",
                 "shortDescription": "Roady 1002",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Roady 1002 road bike offering balanced performance for city and fitness cycling",
+                "longDescription": "The Roady 1002 combines speed and comfort in a well-balanced road bike for a broad audience. With improved drivetrain components and responsive handling, it is ideal for commuting, fitness rides, and relaxed long-distance touring."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1002",
+                "language": "FR",
+                "shortDescription": "V\u00e9lo de route Roady 1002",
+                "mediumDescription": "Roady 1002 v\u00e9lo de route performance pour cyclistes ambitieux",
+                "longDescription": "Le Roady 1002 combine vitesse et stabilit\u00e9 gr\u00e2ce \u00e0 une conception optimis\u00e9e du cadre et un syst\u00e8me de changement de vitesse pr\u00e9cis. Id\u00e9al pour l\u2019entra\u00eenement r\u00e9gulier et les longues sorties sur route."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1002",
+                "language": "DE",
+                "shortDescription": "Roady 1002 Rennrad",
+                "mediumDescription": "Roady 1002 Performance-Rennrad f\u00fcr ambitionierte Fahrer",
+                "longDescription": "Das Roady 1002 bietet eine ausgewogene Kombination aus Geschwindigkeit und Stabilit\u00e4t. Mit optimierter Rahmenkonstruktion, pr\u00e4zisem Schaltsystem und sportlicher Sitzposition eignet es sich ideal f\u00fcr Fitnessfahrten, Trainingsrunden und l\u00e4ngere Wochenendtouren."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1002",
+                "language": "ES",
+                "shortDescription": "Bicicleta de carretera Roady 1002",
+                "mediumDescription": "Roady 1002 bicicleta de carretera de alto rendimiento",
+                "longDescription": "La Roady 1002 combina velocidad y estabilidad gracias a un dise\u00f1o de cuadro optimizado y un sistema de cambios preciso. Ideal para entrenamientos regulares y recorridos prolongados en carretera."
             }
         ]
     },
@@ -138,8 +186,32 @@
                 "productId": "RO-1003",
                 "language": "EN",
                 "shortDescription": "Roady 1003",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Roady 1003 premium road bike for sporty city and leisure use",
+                "longDescription": "The Roady 1003 delivers enhanced performance for ambitious leisure riders. Its lightweight frame, precision shifting system, and aerodynamic riding position make it suitable for longer rides while maintaining everyday usability."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1003",
+                "language": "DE",
+                "shortDescription": "Roady 1003 Rennrad",
+                "mediumDescription": "Roady 1003 Premium-Rennrad mit sportlicher Geometrie",
+                "longDescription": "Das Roady 1003 ist f\u00fcr Fahrer konzipiert, die Wert auf Leistung und Komfort legen. Hochwertige Komponenten, ein aerodynamisch optimierter Rahmen und direkte Kraft\u00fcbertragung machen es zum idealen Begleiter f\u00fcr anspruchsvolle Stra\u00dfenkilometer."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1003",
+                "language": "FR",
+                "shortDescription": "V\u00e9lo de route Roady 1003",
+                "mediumDescription": "Roady 1003 v\u00e9lo de route premium \u00e0 g\u00e9om\u00e9trie sportive",
+                "longDescription": "Le Roady 1003 est con\u00e7u pour les cyclistes exigeants recherchant performance et confort. Son design a\u00e9rodynamique et ses composants de qualit\u00e9 garantissent une excellente transmission de puissance."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RO-1003",
+                "language": "ES",
+                "shortDescription": "Bicicleta de carretera Roady 1003",
+                "mediumDescription": "Roady 1003 bicicleta de carretera premium deportiva",
+                "longDescription": "La Roady 1003 est\u00e1 pensada para ciclistas exigentes que buscan rendimiento y confort. Su dise\u00f1o aerodin\u00e1mico y componentes de calidad garantizan una excelente transmisi\u00f3n de potencia."
             }
         ]
     },
@@ -186,8 +258,32 @@
                 "productId": "BX-1011",
                 "language": "EN",
                 "shortDescription": "BMX Vintage 1011",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "BMX Vintage 1011 stunt bike with classic styling and durable frame",
+                "longDescription": "The BMX Vintage 1011 is designed for freestyle tricks and urban riding. With a reinforced steel frame, compact geometry, and high-impact wheels, it ensures durability and agility for park sessions and street stunts."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1011",
+                "language": "DE",
+                "shortDescription": "BMX Vintage 1011",
+                "mediumDescription": "BMX Vintage 1011 Freestyle-Bike im Retro-Design",
+                "longDescription": "Das BMX Vintage 1011 kombiniert klassisches Design mit robuster Bauweise. Der stabile Stahlrahmen und die kompakte Geometrie erm\u00f6glichen pr\u00e4zise Tricks und hohe Kontrolle im Skatepark oder auf urbanem Terrain."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1011",
+                "language": "FR",
+                "shortDescription": "BMX Vintage 1011",
+                "mediumDescription": "BMX Vintage 1011 v\u00e9lo freestyle au design r\u00e9tro",
+                "longDescription": "Le BMX Vintage 1011 associe style classique et construction robuste. Son cadre renforc\u00e9 et sa g\u00e9om\u00e9trie compacte permettent un contr\u00f4le optimal pour les figures en skatepark ou en environnement urbain."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1011",
+                "language": "ES",
+                "shortDescription": "BMX Vintage 1011",
+                "mediumDescription": "BMX Vintage 1011 bicicleta freestyle estilo retro",
+                "longDescription": "La BMX Vintage 1011 combina dise\u00f1o cl\u00e1sico y construcci\u00f3n robusta. Su cuadro reforzado y geometr\u00eda compacta permiten un control preciso para trucos en skatepark o en entorno urbano."
             }
         ]
     },
@@ -234,8 +330,32 @@
                 "productId": "BX-1012",
                 "language": "EN",
                 "shortDescription": "BMX Jump 1012",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "BMX Jump 1012 agile stunt bike for park and race tracks",
+                "longDescription": "Built for action, the BMX Jump 1012 features a lightweight yet sturdy frame, responsive brakes, and compact wheels for maximum control. It is ideal for jumps, tricks, and entry-level BMX racing."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1012",
+                "language": "DE",
+                "shortDescription": "BMX Jump 1012",
+                "mediumDescription": "BMX Jump 1012 Stunt-Bike f\u00fcr Park und Street",
+                "longDescription": "Das BMX Jump 1012 ist auf Wendigkeit und Belastbarkeit ausgelegt. Verst\u00e4rkte Komponenten, reaktionsschnelle Bremsen und optimale Balance unterst\u00fctzen Spr\u00fcnge und Tricks auf jedem Untergrund."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1012",
+                "language": "FR",
+                "shortDescription": "BMX Jump 1012",
+                "mediumDescription": "BMX Jump 1012 v\u00e9lo stunt pour park et street",
+                "longDescription": "Le BMX Jump 1012 est con\u00e7u pour la maniabilit\u00e9 et la r\u00e9sistance. Ses composants renforc\u00e9s offrent stabilit\u00e9 et s\u00e9curit\u00e9 lors des sauts et des tricks."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1012",
+                "language": "ES",
+                "shortDescription": "BMX Jump 1012",
+                "mediumDescription": "BMX Jump 1012 bicicleta stunt para park y street",
+                "longDescription": "La BMX Jump 1012 est\u00e1 dise\u00f1ada para maniobrabilidad y resistencia. Sus componentes reforzados proporcionan estabilidad y seguridad en saltos y trucos."
             }
         ]
     },
@@ -282,8 +402,32 @@
                 "productId": "BX-1013",
                 "language": "EN",
                 "shortDescription": "BMX Jump Lux I",
-                "mediumDescription": "BWM Jump Luxury I",
-                "longDescription": null
+                "mediumDescription": "BMX Jump Lux I upgraded freestyle BMX with enhanced components",
+                "longDescription": "The BMX Jump Lux I enhances freestyle performance with premium tires, reinforced cranksets, and improved balance. Designed for ambitious riders, it delivers stability during jumps and precise handling in technical tricks."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1013",
+                "language": "FR",
+                "shortDescription": "BMX Jump Lux I",
+                "mediumDescription": "BMX Jump Lux I mod\u00e8le freestyle performance",
+                "longDescription": "Le BMX Jump Lux I propose des composants am\u00e9lior\u00e9s et un meilleur \u00e9quilibre pour les riders ambitieux pratiquant le freestyle."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1013",
+                "language": "DE",
+                "shortDescription": "BMX Jump Lux I",
+                "mediumDescription": "BMX Jump Lux I Performance-Freestyle-Bike",
+                "longDescription": "Das BMX Jump Lux I bietet verbesserte Stabilit\u00e4t und hochwertige Bauteile f\u00fcr ambitionierte Fahrer. Ideal f\u00fcr anspruchsvolle Sprungserien und kreative Street-Man\u00f6ver."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1013",
+                "language": "ES",
+                "shortDescription": "BMX Jump Lux I",
+                "mediumDescription": "BMX Jump Lux I modelo freestyle rendimiento",
+                "longDescription": "La BMX Jump Lux I ofrece componentes mejorados y mayor equilibrio para riders que buscan un nivel superior en freestyle."
             }
         ]
     },
@@ -330,8 +474,32 @@
                 "productId": "BX-1014",
                 "language": "EN",
                 "shortDescription": "BMX Jump Lux II",
-                "mediumDescription": "BWM Jump Luxury II",
-                "longDescription": null
+                "mediumDescription": "BMX Jump Lux II high-performance freestyle BMX bike",
+                "longDescription": "The BMX Jump Lux II offers advanced durability and control for demanding riders. With upgraded bearings, a reinforced frame, and optimized weight distribution, it supports advanced tricks and competitive park riding."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1014",
+                "language": "DE",
+                "shortDescription": "BMX Jump Lux II",
+                "mediumDescription": "BMX Jump Lux II Premium-Freestyle-Modell",
+                "longDescription": "Das BMX Jump Lux II erweitert die Performance-Serie um verst\u00e4rkte Lager, leichtere Komponenten und optimierte Gewichtsverteilung."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1014",
+                "language": "FR",
+                "shortDescription": "BMX Jump Lux II",
+                "mediumDescription": "BMX Jump Lux II mod\u00e8le freestyle premium",
+                "longDescription": "Le BMX Jump Lux II am\u00e9liore la s\u00e9rie avec des roulements renforc\u00e9s et une meilleure r\u00e9partition du poids pour un contr\u00f4le avanc\u00e9."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1014",
+                "language": "ES",
+                "shortDescription": "BMX Jump Lux II",
+                "mediumDescription": "BMX Jump Lux II modelo freestyle premium",
+                "longDescription": "La BMX Jump Lux II mejora la serie con rodamientos reforzados y mejor distribuci\u00f3n del peso para mayor control."
             }
         ]
     },
@@ -378,8 +546,32 @@
                 "productId": "BX-1015",
                 "language": "EN",
                 "shortDescription": "BMX Optima",
-                "mediumDescription": "BMX Optima",
-                "longDescription": null
+                "mediumDescription": "BMX Optima versatile stunt bike for beginners and enthusiasts",
+                "longDescription": "The BMX Optima is a reliable all-round freestyle bike designed for both newcomers and experienced riders. Its solid frame construction and responsive steering make it suitable for street riding and skatepark sessions."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1015",
+                "language": "DE",
+                "shortDescription": "BMX Optima",
+                "mediumDescription": "BMX Optima vielseitiges Einsteiger-BMX",
+                "longDescription": "Das BMX Optima ist ein zuverl\u00e4ssiges Allround-Modell f\u00fcr Anf\u00e4nger und Fortgeschrittene mit stabiler Rahmenkonstruktion."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1015",
+                "language": "ES",
+                "shortDescription": "BMX Optima",
+                "mediumDescription": "BMX Optima modelo vers\u00e1til para principiantes",
+                "longDescription": "La BMX Optima es una opci\u00f3n fiable para ciclistas principiantes e intermedios que buscan estabilidad y durabilidad."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1015",
+                "language": "FR",
+                "shortDescription": "BMX Optima",
+                "mediumDescription": "BMX Optima mod\u00e8le polyvalent pour d\u00e9butants",
+                "longDescription": "Le BMX Optima est un mod\u00e8le fiable adapt\u00e9 aux d\u00e9butants et aux riders interm\u00e9diaires recherchant stabilit\u00e9 et durabilit\u00e9."
             }
         ]
     },
@@ -426,8 +618,32 @@
                 "productId": "BX-1016",
                 "language": "EN",
                 "shortDescription": "BMX Optima II",
-                "mediumDescription": "BMX Optima II",
-                "longDescription": null
+                "mediumDescription": "BMX Optima II improved freestyle model with reinforced components",
+                "longDescription": "The BMX Optima II builds on the proven Optima platform with enhanced durability and smoother ride dynamics. Designed for frequent practice and performance progression, it ensures stability and agility in every trick."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1016",
+                "language": "DE",
+                "shortDescription": "BMX Optima II",
+                "mediumDescription": "BMX Optima II verbessertes Freestyle-Bike",
+                "longDescription": "Das BMX Optima II bietet erh\u00f6hte Haltbarkeit und geschmeidiges Handling f\u00fcr regelm\u00e4\u00dfiges Training."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1016",
+                "language": "FR",
+                "shortDescription": "BMX Optima II",
+                "mediumDescription": "BMX Optima II version am\u00e9lior\u00e9e freestyle",
+                "longDescription": "Le BMX Optima II offre une durabilit\u00e9 accrue et une conduite plus fluide pour un entra\u00eenement r\u00e9gulier."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "BX-1016",
+                "language": "ES",
+                "shortDescription": "BMX Optima II",
+                "mediumDescription": "BMX Optima II versi\u00f3n mejorada freestyle",
+                "longDescription": "La BMX Optima II ofrece mayor resistencia y una conducci\u00f3n m\u00e1s fluida para entrenamientos frecuentes."
             }
         ]
     },
@@ -474,8 +690,32 @@
                 "productId": "CC-1021",
                 "language": "EN",
                 "shortDescription": "Cyclone Basic",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Cyclone Basic cyclo-cross bike for mixed terrain racing",
+                "longDescription": "The Cyclone Basic is a cyclo-cross bike engineered for gravel paths and race circuits. Featuring knobby tires, a lightweight frame, and responsive braking, it offers versatility across dirt, grass, and pavement."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1021",
+                "language": "FR",
+                "shortDescription": "Cyclone Basic",
+                "mediumDescription": "Cyclone Basic v\u00e9lo cyclocross pour terrain mixte",
+                "longDescription": "Le Cyclone Basic est con\u00e7u pour routes, graviers et sentiers l\u00e9gers. Son cadre robuste et ses pneus adh\u00e9rents assurent polyvalence et contr\u00f4le."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1021",
+                "language": "DE",
+                "shortDescription": "Cyclone Basic",
+                "mediumDescription": "Cyclone Basic Cyclocross-Rad f\u00fcr gemischtes Terrain",
+                "longDescription": "Das Cyclone Basic ist f\u00fcr Schotter, Asphalt und leichte Trails konzipiert. Robuster Rahmen und griffige Reifen sorgen f\u00fcr Vielseitigkeit."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1021",
+                "language": "ES",
+                "shortDescription": "Cyclone Basic",
+                "mediumDescription": "Cyclone Basic bicicleta de ciclocross terreno mixto",
+                "longDescription": "La Cyclone Basic est\u00e1 dise\u00f1ada para asfalto, grava y senderos ligeros. Su cuadro robusto y neum\u00e1ticos con agarre aseguran versatilidad y control."
             }
         ]
     },
@@ -522,8 +762,32 @@
                 "productId": "CC-1022",
                 "language": "EN",
                 "shortDescription": "Cyclone Speed",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Cyclone Speed performance cyclo-cross bike for competitive riders",
+                "longDescription": "The Cyclone Speed enhances cross-terrain performance with improved gearing and lightweight components. Built for race conditions, it ensures control and speed on unpredictable surfaces."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1022",
+                "language": "DE",
+                "shortDescription": "Cyclone Speed",
+                "mediumDescription": "Cyclone Speed leistungsstarkes Cyclocross-Rad",
+                "longDescription": "Das Cyclone Speed verbessert Beschleunigung und Kontrolle auf wechselnden Untergr\u00fcnden."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1022",
+                "language": "FR",
+                "shortDescription": "Cyclone Speed",
+                "mediumDescription": "Cyclone Speed v\u00e9lo cyclocross performance",
+                "longDescription": "Le Cyclone Speed am\u00e9liore acc\u00e9l\u00e9ration et pr\u00e9cision pour les comp\u00e9titions sur terrain vari\u00e9."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1022",
+                "language": "ES",
+                "shortDescription": "Cyclone Speed",
+                "mediumDescription": "Cyclone Speed bicicleta de ciclocross rendimiento",
+                "longDescription": "La Cyclone Speed mejora aceleraci\u00f3n y precisi\u00f3n para competiciones en terrenos variados."
             }
         ]
     },
@@ -570,8 +834,32 @@
                 "productId": "CC-1023",
                 "language": "EN",
                 "shortDescription": "Cyclone III",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Cyclone III advanced cyclo-cross bike with race-ready setup",
+                "longDescription": "The Cyclone III is optimized for demanding cyclo-cross competitions. Its refined geometry, durable drivetrain, and high-grip tires provide excellent handling across mud, gravel, and technical courses."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1023",
+                "language": "DE",
+                "shortDescription": "Cyclone III",
+                "mediumDescription": "Cyclone III Wettkampf-Cyclocross-Rad",
+                "longDescription": "Das Cyclone III richtet sich an ambitionierte Fahrer mit optimierter Geometrie und langlebigen Antriebskomponenten."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1023",
+                "language": "FR",
+                "shortDescription": "Cyclone III",
+                "mediumDescription": "Cyclone III v\u00e9lo cyclocross comp\u00e9tition",
+                "longDescription": "Le Cyclone III s\u2019adresse aux cyclistes ambitieux recherchant une g\u00e9om\u00e9trie optimis\u00e9e et une transmission durable."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CC-1023",
+                "language": "ES",
+                "shortDescription": "Cyclone III",
+                "mediumDescription": "Cyclone III bicicleta de ciclocross competici\u00f3n",
+                "longDescription": "La Cyclone III est\u00e1 dirigida a ciclistas ambiciosos que buscan geometr\u00eda optimizada y transmisi\u00f3n duradera."
             }
         ]
     },
@@ -618,8 +906,32 @@
                 "productId": "MB-1031",
                 "language": "EN",
                 "shortDescription": "Mt Discovery B",
-                "mediumDescription": " Mountain Discovery Basic",
-                "longDescription": null
+                "mediumDescription": "Mt Discovery B mountain bike for entry-level trail riding",
+                "longDescription": "The Mt Discovery B is a reliable mountain bike designed for off-road adventures. Equipped with wide tires, front suspension, and a sturdy frame, it delivers traction and comfort on forest trails and uneven terrain."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1031",
+                "language": "DE",
+                "shortDescription": "Mt Discovery B",
+                "mediumDescription": "Mt Discovery B Mountainbike f\u00fcr Einsteiger",
+                "longDescription": "Das Mt Discovery B bietet stabile Federung und breite Reifen f\u00fcr sichere Offroad-Erlebnisse."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1031",
+                "language": "FR",
+                "shortDescription": "Mt Discovery B",
+                "mediumDescription": "Mt Discovery B VTT pour d\u00e9butants",
+                "longDescription": "Le Mt Discovery B offre suspension fiable et pneus larges pour des aventures tout-terrain en toute s\u00e9curit\u00e9."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1031",
+                "language": "ES",
+                "shortDescription": "Mt Discovery B",
+                "mediumDescription": "Mt Discovery B bicicleta de monta\u00f1a para principiantes",
+                "longDescription": "La Mt Discovery B ofrece suspensi\u00f3n fiable y neum\u00e1ticos anchos para aventuras todoterreno seguras."
             }
         ]
     },
@@ -666,8 +978,32 @@
                 "productId": "MB-1032",
                 "language": "EN",
                 "shortDescription": "Mt Discovery Drive",
-                "mediumDescription": " Mountain Discovery Drive",
-                "longDescription": null
+                "mediumDescription": "Mt Discovery Drive trail mountain bike with enhanced suspension",
+                "longDescription": "The Mt Discovery Drive provides improved trail control with upgraded suspension and durable components. Perfect for recreational off-road riders seeking stability and performance."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1032",
+                "language": "DE",
+                "shortDescription": "Mt Discovery Drive",
+                "mediumDescription": "Mt Discovery Drive Trail-Mountainbike",
+                "longDescription": "Das Mt Discovery Drive kombiniert Komfort und Kontrolle f\u00fcr Freizeit-Trailfahrer."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1032",
+                "language": "FR",
+                "shortDescription": "Mt Discovery Drive",
+                "mediumDescription": "Mt Discovery Drive VTT trail polyvalent",
+                "longDescription": "Le Mt Discovery Drive combine confort et contr\u00f4le pour les sorties sur sentiers."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1032",
+                "language": "ES",
+                "shortDescription": "Mt Discovery Drive",
+                "mediumDescription": "Mt Discovery Drive bicicleta de monta\u00f1a trail",
+                "longDescription": "La Mt Discovery Drive combina comodidad y control para rutas por senderos."
             }
         ]
     },
@@ -714,8 +1050,32 @@
                 "productId": "MB-1033",
                 "language": "EN",
                 "shortDescription": "Mt Discovery Rush",
-                "mediumDescription": " Mountain Discovery Rush",
-                "longDescription": null
+                "mediumDescription": "Mt Discovery Rush sporty mountain bike for dynamic trail rides",
+                "longDescription": "The Mt Discovery Rush offers responsive handling and robust construction for technical trails. Its lightweight frame and enhanced braking system ensure confidence on climbs and descents."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1033",
+                "language": "DE",
+                "shortDescription": "Mt Discovery Rush",
+                "mediumDescription": "Mt Discovery Rush sportliches Mountainbike",
+                "longDescription": "Das Mt Discovery Rush \u00fcberzeugt durch agiles Handling auf anspruchsvollen Trails."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1033",
+                "language": "FR",
+                "shortDescription": "Mt Discovery Rush",
+                "mediumDescription": "Mt Discovery Rush VTT sportif",
+                "longDescription": "Le Mt Discovery Rush assure maniabilit\u00e9 et robustesse sur terrains techniques."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1033",
+                "language": "ES",
+                "shortDescription": "Mt Discovery Rush",
+                "mediumDescription": "Mt Discovery Rush bicicleta de monta\u00f1a deportiva",
+                "longDescription": "La Mt Discovery Rush proporciona maniobrabilidad \u00e1gil y resistencia en terrenos t\u00e9cnicos."
             }
         ]
     },
@@ -762,8 +1122,32 @@
                 "productId": "MB-1034",
                 "language": "EN",
                 "shortDescription": "Mt Discovery Ulti",
-                "mediumDescription": "Mt Discovery Ultimate",
-                "longDescription": null
+                "mediumDescription": "Mt Discovery Ulti premium mountain bike for advanced riders",
+                "longDescription": "The Mt Discovery Ulti is engineered for ambitious trail enthusiasts. Featuring high-quality suspension, durable gearing, and superior grip tires, it delivers outstanding performance on demanding off-road routes."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1034",
+                "language": "DE",
+                "shortDescription": "Mt Discovery Ulti",
+                "mediumDescription": "Mt Discovery Ulti Premium-Trailbike",
+                "longDescription": "Das Mt Discovery Ulti bietet hochwertige Federung und robuste Komponenten f\u00fcr erfahrene Fahrer."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1034",
+                "language": "FR",
+                "shortDescription": "Mt Discovery Ulti",
+                "mediumDescription": "Mt Discovery Ulti VTT premium",
+                "longDescription": "Le Mt Discovery Ulti propose suspension haut de gamme et composants durables pour cyclistes exp\u00e9riment\u00e9s."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "MB-1034",
+                "language": "ES",
+                "shortDescription": "Mt Discovery Ulti",
+                "mediumDescription": "Mt Discovery Ulti bicicleta de monta\u00f1a premium",
+                "longDescription": "La Mt Discovery Ulti ofrece suspensi\u00f3n de alta calidad y componentes duraderos para ciclistas experimentados."
             }
         ]
     },
@@ -810,8 +1194,32 @@
                 "productId": "RC-1051",
                 "language": "EN",
                 "shortDescription": "Tornado I",
-                "mediumDescription": "Tornado I",
-                "longDescription": null
+                "mediumDescription": "Tornado I racing bike designed for competitive road performance",
+                "longDescription": "The Tornado I is a lightweight racing bike engineered for speed and precision. With an aerodynamic frame design, responsive gearing system, and race-oriented geometry, it delivers strong acceleration and efficient power transfer for competitive cycling and ambitious training sessions."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1051",
+                "language": "DE",
+                "shortDescription": "Tornado I Rennrad",
+                "mediumDescription": "Tornado I Rennrad f\u00fcr leistungsorientiertes Training",
+                "longDescription": "Das Tornado I ist ein sportliches Rennrad mit aerodynamischem Rahmen f\u00fcr schnelle Trainingsfahrten."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1051",
+                "language": "FR",
+                "shortDescription": "Tornado I v\u00e9lo de course",
+                "mediumDescription": "Tornado I v\u00e9lo de course pour entra\u00eenement intensif",
+                "longDescription": "Le Tornado I est un v\u00e9lo de course a\u00e9rodynamique destin\u00e9 aux entra\u00eenements rapides et comp\u00e9titions amateurs."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1051",
+                "language": "ES",
+                "shortDescription": "Tornado I bicicleta de carrera",
+                "mediumDescription": "Tornado I bicicleta de carrera para entrenamiento intensivo",
+                "longDescription": "La Tornado I es una bicicleta aerodin\u00e1mica dise\u00f1ada para entrenamientos r\u00e1pidos y competiciones amateur."
             }
         ]
     },
@@ -858,8 +1266,32 @@
                 "productId": "RC-1052",
                 "language": "EN",
                 "shortDescription": "Tornado II",
-                "mediumDescription": "Tornado II",
-                "longDescription": null
+                "mediumDescription": "Tornado II upgraded racing bike with enhanced aerodynamics",
+                "longDescription": "The Tornado II builds upon its predecessor with improved aerodynamics and refined components. Designed for performance-focused riders, it offers excellent stiffness, precise shifting, and superior handling at high speeds."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1052",
+                "language": "DE",
+                "shortDescription": "Tornado II Rennrad",
+                "mediumDescription": "Tornado II Aero-Rennrad f\u00fcr Wettk\u00e4mpfe",
+                "longDescription": "Das Tornado II steigert Aerodynamik und Steifigkeit f\u00fcr ambitionierte Stra\u00dfenfahrer."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1052",
+                "language": "FR",
+                "shortDescription": "Tornado II v\u00e9lo de course",
+                "mediumDescription": "Tornado II v\u00e9lo a\u00e9rodynamique haute performance",
+                "longDescription": "Le Tornado II am\u00e9liore rigidit\u00e9 et efficacit\u00e9 pour les cyclistes orient\u00e9s comp\u00e9tition."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1052",
+                "language": "ES",
+                "shortDescription": "Tornado II bicicleta de carrera",
+                "mediumDescription": "Tornado II bicicleta aerodin\u00e1mica alto rendimiento",
+                "longDescription": "La Tornado II mejora rigidez y eficiencia para ciclistas orientados a la competici\u00f3n."
             }
         ]
     },
@@ -906,8 +1338,32 @@
                 "productId": "RC-1053",
                 "language": "EN",
                 "shortDescription": "Stream I",
-                "mediumDescription": "Stream I",
-                "longDescription": null
+                "mediumDescription": "Stream I performance road racing bike for speed enthusiasts",
+                "longDescription": "The Stream I combines lightweight construction with aerodynamic tube shaping to reduce drag and maximize efficiency. Ideal for amateur racers and fast group rides, it ensures smooth handling and consistent performance."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1053",
+                "language": "DE",
+                "shortDescription": "Stream I Rennrad",
+                "mediumDescription": "Stream I Performance-Rennrad f\u00fcr Ausdauer",
+                "longDescription": "Das Stream I kombiniert Leichtbauweise und Stabilit\u00e4t f\u00fcr lange Distanzen."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1053",
+                "language": "FR",
+                "shortDescription": "Stream I v\u00e9lo de course",
+                "mediumDescription": "Stream I v\u00e9lo endurance performance",
+                "longDescription": "Le Stream I associe l\u00e9g\u00e8ret\u00e9 et stabilit\u00e9 pour longues distances."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1053",
+                "language": "ES",
+                "shortDescription": "Stream I bicicleta de carrera",
+                "mediumDescription": "Stream I bicicleta endurance rendimiento",
+                "longDescription": "La Stream I combina ligereza y estabilidad para largas distancias."
             }
         ]
     },
@@ -954,8 +1410,32 @@
                 "productId": "RC-1054",
                 "language": "EN",
                 "shortDescription": "Stream II",
-                "mediumDescription": "Stream II",
-                "longDescription": null
+                "mediumDescription": "Stream II advanced racing bike optimized for endurance events",
+                "longDescription": "The Stream II enhances long-distance racing performance with improved comfort geometry and high-precision components. Its balanced frame stiffness and aerodynamic profile make it suitable for endurance competitions and long road challenges."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1054",
+                "language": "DE",
+                "shortDescription": "Stream II Rennrad",
+                "mediumDescription": "Stream II Ausdauer-Rennrad mit Komfortfokus",
+                "longDescription": "Das Stream II bietet verbesserte Geometrie f\u00fcr Langstreckenrennen."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1054",
+                "language": "FR",
+                "shortDescription": "Stream II v\u00e9lo de course",
+                "mediumDescription": "Stream II v\u00e9lo endurance confort optimis\u00e9",
+                "longDescription": "Le Stream II propose une g\u00e9om\u00e9trie adapt\u00e9e aux courses longue distance."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1054",
+                "language": "ES",
+                "shortDescription": "Stream II bicicleta de carrera",
+                "mediumDescription": "Stream II bicicleta endurance confort optimizado",
+                "longDescription": "La Stream II presenta una geometr\u00eda adaptada a competiciones de larga distancia."
             }
         ]
     },
@@ -1002,16 +1482,32 @@
                 "productId": "RC-1055",
                 "language": "EN",
                 "shortDescription": "Veloflash",
-                "mediumDescription": "Veloflash",
-                "longDescription": null
+                "mediumDescription": "Veloflash high-speed racing bike with aerodynamic design",
+                "longDescription": "The Veloflash is built for riders seeking maximum velocity and control. Featuring a race-tuned carbon frame, aerodynamic fork, and competition-grade drivetrain, it delivers explosive acceleration and sharp responsiveness."
             },
             {
                 "entityType": "ProductText",
                 "productId": "RC-1055",
                 "language": "DE",
-                "shortDescription": "Rennsemmel",
-                "mediumDescription": "Rennsemmel",
-                "longDescription": null
+                "shortDescription": "Veloflash Rennrad",
+                "mediumDescription": "Veloflash Hochgeschwindigkeits-Rennrad",
+                "longDescription": "Das Veloflash setzt auf maximale Geschwindigkeit mit aerodynamischem Carbonrahmen."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1055",
+                "language": "FR",
+                "shortDescription": "Veloflash v\u00e9lo de course",
+                "mediumDescription": "Veloflash v\u00e9lo haute vitesse a\u00e9rodynamique",
+                "longDescription": "Le Veloflash est con\u00e7u pour la vitesse maximale avec cadre carbone optimis\u00e9."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1055",
+                "language": "ES",
+                "shortDescription": "Veloflash bicicleta de carrera",
+                "mediumDescription": "Veloflash bicicleta alta velocidad aerodin\u00e1mica",
+                "longDescription": "La Veloflash est\u00e1 dise\u00f1ada para m\u00e1xima velocidad con cuadro de carbono optimizado."
             }
         ]
     },
@@ -1057,17 +1553,33 @@
                 "entityType": "ProductText",
                 "productId": "RC-1056",
                 "language": "EN",
-                "shortDescription": "Veloflash SE ",
-                "mediumDescription": "Veloflash Second Edition",
-                "longDescription": null
+                "shortDescription": "Veloflash SE",
+                "mediumDescription": "Veloflash SE special edition racing bike with premium components",
+                "longDescription": "The Veloflash SE enhances performance with upgraded shifting technology and refined aerodynamics. Designed for competitive cyclists, it provides optimal stiffness and improved power efficiency during high-speed rides."
             },
             {
                 "entityType": "ProductText",
                 "productId": "RC-1056",
                 "language": "DE",
-                "shortDescription": "Rennsemmel 2",
-                "mediumDescription": "Rennsemmel 2",
-                "longDescription": null
+                "shortDescription": "Veloflash SE Rennrad",
+                "mediumDescription": "Veloflash SE Sonderedition Rennrad",
+                "longDescription": "Das Veloflash SE erg\u00e4nzt die Serie mit Premium-Komponenten und optimierter Schaltperformance."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1056",
+                "language": "FR",
+                "shortDescription": "Veloflash SE v\u00e9lo de course",
+                "mediumDescription": "Veloflash SE \u00e9dition sp\u00e9ciale performance",
+                "longDescription": "Le Veloflash SE offre composants premium et transmission am\u00e9lior\u00e9e."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1056",
+                "language": "ES",
+                "shortDescription": "Veloflash SE bicicleta de carrera",
+                "mediumDescription": "Veloflash SE edici\u00f3n especial rendimiento",
+                "longDescription": "La Veloflash SE incorpora componentes premium y transmisi\u00f3n mejorada."
             }
         ]
     },
@@ -1114,8 +1626,32 @@
                 "productId": "RC-1057",
                 "language": "EN",
                 "shortDescription": "Veloflash Ultimate",
-                "mediumDescription": "Veloflash Ultimate",
-                "longDescription": null
+                "mediumDescription": "Veloflash Ultimate top-tier racing bike for elite performance",
+                "longDescription": "The Veloflash Ultimate represents the pinnacle of the racing series, combining ultra-light materials, advanced aerodynamics, and elite-level components. Designed for serious competitors, it maximizes speed, efficiency, and control."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1057",
+                "language": "DE",
+                "shortDescription": "Veloflash Ultimate Rennrad",
+                "mediumDescription": "Veloflash Ultimate High-End-Rennrad",
+                "longDescription": "Das Veloflash Ultimate vereint ultraleichte Materialien und modernste Renntechnologie."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1057",
+                "language": "FR",
+                "shortDescription": "Veloflash Ultimate v\u00e9lo de course",
+                "mediumDescription": "Veloflash Ultimate mod\u00e8le haut de gamme comp\u00e9tition",
+                "longDescription": "Le Veloflash Ultimate combine mat\u00e9riaux ultral\u00e9gers et technologie de pointe pour performance professionnelle."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "RC-1057",
+                "language": "ES",
+                "shortDescription": "Veloflash Ultimate bicicleta de carrera",
+                "mediumDescription": "Veloflash Ultimate modelo competici\u00f3n alta gama",
+                "longDescription": "La Veloflash Ultimate combina materiales ultraligeros y tecnolog\u00eda avanzada para rendimiento profesional."
             }
         ]
     },
@@ -1162,8 +1698,32 @@
                 "productId": "DB-1081",
                 "language": "EN",
                 "shortDescription": "Rooty Basic",
-                "mediumDescription": "Rooty Basic",
-                "longDescription": null
+                "mediumDescription": "Rooty Basic downhill bike for entry-level gravity riding",
+                "longDescription": "The Rooty Basic is designed for steep descents and rough terrain. With a reinforced frame, heavy-duty suspension system, and wide high-grip tires, it ensures durability and stability on demanding downhill trails."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1081",
+                "language": "DE",
+                "shortDescription": "Rooty Basic Downhill-Bike",
+                "mediumDescription": "Rooty Basic Downhill-Bike f\u00fcr Einsteiger",
+                "longDescription": "Das Rooty Basic ist f\u00fcr steile Abfahrten ausgelegt und bietet robuste Federung."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1081",
+                "language": "FR",
+                "shortDescription": "Rooty Basic v\u00e9lo downhill",
+                "mediumDescription": "Rooty Basic v\u00e9lo downhill pour d\u00e9butants",
+                "longDescription": "Le Rooty Basic est con\u00e7u pour descentes raides avec suspension robuste."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1081",
+                "language": "ES",
+                "shortDescription": "Rooty Basic bicicleta downhill",
+                "mediumDescription": "Rooty Basic bicicleta downhill para principiantes",
+                "longDescription": "La Rooty Basic est\u00e1 dise\u00f1ada para descensos pronunciados con suspensi\u00f3n robusta."
             }
         ]
     },
@@ -1210,8 +1770,32 @@
                 "productId": "DB-1082",
                 "language": "EN",
                 "shortDescription": "Capricorn",
-                "mediumDescription": "Capricorn",
-                "longDescription": null
+                "mediumDescription": "Capricorn downhill bike built for aggressive terrain control",
+                "longDescription": "The Capricorn offers enhanced suspension travel and robust construction for technical downhill tracks. Engineered for stability and shock absorption, it delivers confidence on rocky descents and high-speed runs."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1082",
+                "language": "DE",
+                "shortDescription": "Capricorn Downhill-Bike",
+                "mediumDescription": "Capricorn Downhill-Bike f\u00fcr aggressive Trails",
+                "longDescription": "Das Capricorn \u00fcberzeugt durch lange Federwege und stabile Bauweise."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1082",
+                "language": "FR",
+                "shortDescription": "Capricorn v\u00e9lo downhill",
+                "mediumDescription": "Capricorn v\u00e9lo downhill pour terrains agressifs",
+                "longDescription": "Le Capricorn propose d\u00e9battement long et stabilit\u00e9 maximale."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1082",
+                "language": "ES",
+                "shortDescription": "Capricorn bicicleta downhill",
+                "mediumDescription": "Capricorn bicicleta downhill para terrenos exigentes",
+                "longDescription": "La Capricorn ofrece amplio recorrido de suspensi\u00f3n y m\u00e1xima estabilidad."
             }
         ]
     },
@@ -1258,8 +1842,32 @@
                 "productId": "DB-1083",
                 "language": "EN",
                 "shortDescription": "Capricorn II",
-                "mediumDescription": "Capricorn II",
-                "longDescription": null
+                "mediumDescription": "Capricorn II advanced downhill bike with upgraded suspension",
+                "longDescription": "The Capricorn II improves downhill performance with premium suspension components and reinforced frame geometry. Designed for experienced riders, it ensures maximum control on extreme slopes and rugged trails."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1083",
+                "language": "DE",
+                "shortDescription": "Capricorn II Downhill-Bike",
+                "mediumDescription": "Capricorn II Premium-Downhill-Modell",
+                "longDescription": "Das Capricorn II erweitert die Serie um verbesserte D\u00e4mpfung und Kontrolle."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1083",
+                "language": "FR",
+                "shortDescription": "Capricorn II v\u00e9lo downhill",
+                "mediumDescription": "Capricorn II mod\u00e8le premium downhill",
+                "longDescription": "Le Capricorn II am\u00e9liore amortissement et contr\u00f4le en descente."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "DB-1083",
+                "language": "ES",
+                "shortDescription": "Capricorn II bicicleta downhill",
+                "mediumDescription": "Capricorn II modelo downhill premium",
+                "longDescription": "La Capricorn II mejora amortiguaci\u00f3n y control en descensos t\u00e9cnicos."
             }
         ]
     },
@@ -1306,8 +1914,32 @@
                 "productId": "EB-1131",
                 "language": "EN",
                 "shortDescription": "Flash Drive",
-                "mediumDescription": "Flash Drive",
-                "longDescription": null
+                "mediumDescription": "Flash Drive electric bike with smooth pedal assistance",
+                "longDescription": "The Flash Drive eBike combines electric pedal support with comfortable geometry for effortless riding. Its integrated motor system and long-lasting battery make commuting and leisure trips easier and more enjoyable."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1131",
+                "language": "DE",
+                "shortDescription": "Flash Drive E-Bike",
+                "mediumDescription": "Flash Drive E-Bike f\u00fcr komfortable Stadtmobilit\u00e4t",
+                "longDescription": "Das Flash Drive E-Bike unterst\u00fctzt mit einem leistungsstarken Elektromotor und integriertem Akku. Die ergonomische Sitzposition und sanfte Motorunterst\u00fctzung machen t\u00e4gliche Wege effizient und angenehm."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1131",
+                "language": "FR",
+                "shortDescription": "Flash Drive v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Flash Drive v\u00e9lo \u00e9lectrique pour mobilit\u00e9 urbaine",
+                "longDescription": "Le Flash Drive combine assistance \u00e9lectrique fluide et position confortable pour trajets quotidiens."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1131",
+                "language": "ES",
+                "shortDescription": "Flash Drive bicicleta el\u00e9ctrica",
+                "mediumDescription": "Flash Drive bicicleta el\u00e9ctrica para movilidad urbana",
+                "longDescription": "La Flash Drive combina asistencia el\u00e9ctrica suave y posici\u00f3n c\u00f3moda para desplazamientos diarios."
             }
         ]
     },
@@ -1354,8 +1986,32 @@
                 "productId": "EB-1132",
                 "language": "EN",
                 "shortDescription": "Flash Drive II",
-                "mediumDescription": "Flash Drive II",
-                "longDescription": null
+                "mediumDescription": "Flash Drive II enhanced eBike with extended battery range",
+                "longDescription": "The Flash Drive II improves efficiency with an upgraded motor and extended battery capacity. Designed for daily commuters, it delivers reliable pedal assistance and smooth acceleration."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1132",
+                "language": "DE",
+                "shortDescription": "Flash Drive II E-Bike",
+                "mediumDescription": "Flash Drive II E-Bike mit erweiterter Reichweite",
+                "longDescription": "Das Flash Drive II bietet verbesserte Akkukapazit\u00e4t und optimierte Motorsteuerung. Ideal f\u00fcr l\u00e4ngere Pendelstrecken und komfortable Touren mit elektrischer Unterst\u00fctzung."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1132",
+                "language": "FR",
+                "shortDescription": "Flash Drive II v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Flash Drive II v\u00e9lo \u00e9lectrique autonomie \u00e9tendue",
+                "longDescription": "Le Flash Drive II offre batterie optimis\u00e9e et assistance moteur renforc\u00e9e."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1132",
+                "language": "ES",
+                "shortDescription": "Flash Drive II bicicleta el\u00e9ctrica",
+                "mediumDescription": "Flash Drive II bicicleta el\u00e9ctrica autonom\u00eda ampliada",
+                "longDescription": "La Flash Drive II ofrece bater\u00eda optimizada y asistencia mejorada para trayectos m\u00e1s largos."
             }
         ]
     },
@@ -1402,8 +2058,32 @@
                 "productId": "EB-1133",
                 "language": "EN",
                 "shortDescription": "Lazy Cat",
-                "mediumDescription": "Lazy Cat",
-                "longDescription": null
+                "mediumDescription": "Lazy Cat comfort-focused electric bike for relaxed riding",
+                "longDescription": "The Lazy Cat prioritizes comfort and ease of use with upright seating, intuitive controls, and smooth electric support. Ideal for urban mobility and relaxed weekend rides."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1133",
+                "language": "DE",
+                "shortDescription": "Lazy Cat E-Bike",
+                "mediumDescription": "Lazy Cat komfortables City-E-Bike",
+                "longDescription": "Das Lazy Cat setzt auf aufrechte Sitzposition und sanfte Motorunterst\u00fctzung."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1133",
+                "language": "FR",
+                "shortDescription": "Lazy Cat v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Lazy Cat v\u00e9lo \u00e9lectrique urbain confortable",
+                "longDescription": "Le Lazy Cat privil\u00e9gie confort et posture droite avec assistance douce."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1133",
+                "language": "ES",
+                "shortDescription": "Lazy Cat bicicleta el\u00e9ctrica",
+                "mediumDescription": "Lazy Cat bicicleta el\u00e9ctrica urbana confortable",
+                "longDescription": "La Lazy Cat prioriza comodidad y postura erguida con asistencia suave."
             }
         ]
     },
@@ -1450,8 +2130,32 @@
                 "productId": "EB-1134",
                 "language": "EN",
                 "shortDescription": "Lazy Cat II",
-                "mediumDescription": "Lazy Cat II",
-                "longDescription": null
+                "mediumDescription": "Lazy Cat II improved comfort eBike with refined motor system",
+                "longDescription": "The Lazy Cat II enhances rider comfort with optimized battery integration and smoother assistance delivery. Perfect for city cruising and effortless transportation."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1134",
+                "language": "DE",
+                "shortDescription": "Lazy Cat II E-Bike",
+                "mediumDescription": "Lazy Cat II verbessertes Komfort-E-Bike",
+                "longDescription": "Das Lazy Cat II optimiert Integration und Fahrkomfort."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1134",
+                "language": "FR",
+                "shortDescription": "Lazy Cat II v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Lazy Cat II version am\u00e9lior\u00e9e confort",
+                "longDescription": "Le Lazy Cat II optimise int\u00e9gration batterie et fluidit\u00e9 de conduite."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1134",
+                "language": "ES",
+                "shortDescription": "Lazy Cat II bicicleta el\u00e9ctrica",
+                "mediumDescription": "Lazy Cat II versi\u00f3n mejorada confort",
+                "longDescription": "La Lazy Cat II optimiza integraci\u00f3n de bater\u00eda y fluidez de conducci\u00f3n."
             }
         ]
     },
@@ -1498,8 +2202,32 @@
                 "productId": "EB-1135",
                 "language": "EN",
                 "shortDescription": "Speedeon",
-                "mediumDescription": "Speedeon",
-                "longDescription": null
+                "mediumDescription": "Speedeon dynamic electric bike for fast urban commuting",
+                "longDescription": "The Speedeon offers responsive motor assistance and agile handling for city riders. With efficient battery management and modern styling, it supports quick and comfortable daily travel."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1135",
+                "language": "DE",
+                "shortDescription": "Speedeon E-Bike",
+                "mediumDescription": "Speedeon sportliches E-Bike f\u00fcr Stadtfahrten",
+                "longDescription": "Das Speedeon kombiniert dynamisches Design mit reaktionsschneller Unterst\u00fctzung."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1135",
+                "language": "FR",
+                "shortDescription": "Speedeon v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Speedeon v\u00e9lo \u00e9lectrique dynamique urbain",
+                "longDescription": "Le Speedeon associe design moderne et assistance r\u00e9active."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1135",
+                "language": "ES",
+                "shortDescription": "Speedeon bicicleta el\u00e9ctrica",
+                "mediumDescription": "Speedeon bicicleta el\u00e9ctrica urbana din\u00e1mica",
+                "longDescription": "La Speedeon combina dise\u00f1o moderno y asistencia reactiva."
             }
         ]
     },
@@ -1546,8 +2274,32 @@
                 "productId": "EB-1136",
                 "language": "EN",
                 "shortDescription": "Speedeon Light",
-                "mediumDescription": "Speedeon Light",
-                "longDescription": null
+                "mediumDescription": "Speedeon Light lightweight eBike for agile city mobility",
+                "longDescription": "The Speedeon Light reduces overall weight while maintaining powerful pedal assistance. Designed for flexibility and easy maneuvering in urban environments."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1136",
+                "language": "DE",
+                "shortDescription": "Speedeon Light E-Bike",
+                "mediumDescription": "Speedeon Light leichtes E-Bike",
+                "longDescription": "Das Speedeon Light reduziert Gewicht bei hoher Effizienz."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1136",
+                "language": "FR",
+                "shortDescription": "Speedeon Light v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Speedeon Light v\u00e9lo \u00e9lectrique l\u00e9ger",
+                "longDescription": "Le Speedeon Light r\u00e9duit le poids tout en maintenant efficacit\u00e9."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1136",
+                "language": "ES",
+                "shortDescription": "Speedeon Light bicicleta el\u00e9ctrica",
+                "mediumDescription": "Speedeon Light bicicleta el\u00e9ctrica ligera",
+                "longDescription": "La Speedeon Light reduce peso manteniendo eficiencia."
             }
         ]
     },
@@ -1594,8 +2346,32 @@
                 "productId": "EB-1137",
                 "language": "EN",
                 "shortDescription": "Speedeon Cross",
-                "mediumDescription": "Speedeon Cross",
-                "longDescription": null
+                "mediumDescription": "Speedeon Cross electric bike for mixed terrain exploration",
+                "longDescription": "The Speedeon Cross combines electric support with versatile tires and reinforced frame geometry. Suitable for both paved roads and light off-road paths."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1137",
+                "language": "DE",
+                "shortDescription": "Speedeon Cross E-Bike",
+                "mediumDescription": "Speedeon Cross E-Bike f\u00fcr gemischtes Terrain",
+                "longDescription": "Das Speedeon Cross eignet sich f\u00fcr Stra\u00dfe und leichte Offroad-Strecken."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1137",
+                "language": "FR",
+                "shortDescription": "Speedeon Cross v\u00e9lo \u00e9lectrique",
+                "mediumDescription": "Speedeon Cross v\u00e9lo \u00e9lectrique terrain mixte",
+                "longDescription": "Le Speedeon Cross convient route et chemins gr\u00e2ce \u00e0 pneus polyvalents."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "EB-1137",
+                "language": "ES",
+                "shortDescription": "Speedeon Cross bicicleta el\u00e9ctrica",
+                "mediumDescription": "Speedeon Cross bicicleta el\u00e9ctrica terreno mixto",
+                "longDescription": "La Speedeon Cross es adecuada para carretera y caminos gracias a neum\u00e1ticos vers\u00e1tiles."
             }
         ]
     },
@@ -1642,8 +2418,32 @@
                 "productId": "CB-1161",
                 "language": "EN",
                 "shortDescription": "La Plage",
-                "mediumDescription": "La Plage",
-                "longDescription": null
+                "mediumDescription": "La Plage stylish cruiser bike for relaxed city rides",
+                "longDescription": "The La Plage cruiser blends comfort and elegance with wide handlebars, smooth tires, and a relaxed seating position. Perfect for leisurely rides along the waterfront or through the city."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1161",
+                "language": "DE",
+                "shortDescription": "La Plage Cruiser",
+                "mediumDescription": "La Plage stilvolles Cruiser-Bike",
+                "longDescription": "Das La Plage steht f\u00fcr entspanntes Fahren mit breitem Lenker und komfortabler Sitzposition."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1161",
+                "language": "FR",
+                "shortDescription": "La Plage cruiser",
+                "mediumDescription": "La Plage v\u00e9lo cruiser \u00e9l\u00e9gant",
+                "longDescription": "Le La Plage offre conduite d\u00e9tendue avec guidon large et selle confortable."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1161",
+                "language": "ES",
+                "shortDescription": "La Plage cruiser",
+                "mediumDescription": "La Plage bicicleta cruiser elegante",
+                "longDescription": "La La Plage ofrece conducci\u00f3n relajada con manillar ancho y sill\u00edn c\u00f3modo."
             }
         ]
     },
@@ -1690,8 +2490,32 @@
                 "productId": "CB-1162",
                 "language": "EN",
                 "shortDescription": "La Plage Limited",
-                "mediumDescription": "La Plage Limited",
-                "longDescription": null
+                "mediumDescription": "La Plage Limited premium cruiser with refined design details",
+                "longDescription": "The La Plage Limited enhances comfort with upgraded saddle materials and exclusive styling accents. Designed for riders who value both aesthetics and relaxed performance."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1162",
+                "language": "DE",
+                "shortDescription": "La Plage Limited Cruiser",
+                "mediumDescription": "La Plage Limited Premium-Cruiser",
+                "longDescription": "Das La Plage Limited bietet exklusive Details und hochwertige Materialien."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1162",
+                "language": "FR",
+                "shortDescription": "La Plage Limited cruiser",
+                "mediumDescription": "La Plage Limited cruiser premium",
+                "longDescription": "Le La Plage Limited propose finitions exclusives et mat\u00e9riaux de qualit\u00e9."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1162",
+                "language": "ES",
+                "shortDescription": "La Plage Limited cruiser",
+                "mediumDescription": "La Plage Limited cruiser premium",
+                "longDescription": "La La Plage Limited presenta acabados exclusivos y materiales de alta calidad."
             }
         ]
     },
@@ -1738,8 +2562,32 @@
                 "productId": "CB-1163",
                 "language": "EN",
                 "shortDescription": "La Plage Gold",
-                "mediumDescription": "La Plage Gold",
-                "longDescription": null
+                "mediumDescription": "La Plage Gold luxury cruiser bike with elegant finish",
+                "longDescription": "The La Plage Gold features premium components and distinctive design elements. Built for comfortable and stylish cruising, it ensures a smooth and enjoyable ride."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1163",
+                "language": "DE",
+                "shortDescription": "La Plage Gold Cruiser",
+                "mediumDescription": "La Plage Gold Luxus-Cruiser",
+                "longDescription": "Das La Plage Gold kombiniert elegantes Design mit erstklassigen Komponenten."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1163",
+                "language": "FR",
+                "shortDescription": "La Plage Gold cruiser",
+                "mediumDescription": "La Plage Gold cruiser luxe",
+                "longDescription": "Le La Plage Gold associe design raffin\u00e9 et composants haut de gamme."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "CB-1163",
+                "language": "ES",
+                "shortDescription": "La Plage Gold cruiser",
+                "mediumDescription": "La Plage Gold cruiser lujo",
+                "longDescription": "La La Plage Gold combina dise\u00f1o refinado y componentes de alta gama."
             }
         ]
     },
@@ -1786,8 +2634,32 @@
                 "productId": "HB-1171",
                 "language": "EN",
                 "shortDescription": "Star Cruise",
-                "mediumDescription": "Star Cruise",
-                "longDescription": null
+                "mediumDescription": "Star Cruise hybrid bike for versatile everyday riding",
+                "longDescription": "The Star Cruise combines road efficiency with mountain bike stability. Its balanced frame design and adaptable tires make it ideal for commuting and recreational rides."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1171",
+                "language": "DE",
+                "shortDescription": "Star Cruise Hybridrad",
+                "mediumDescription": "Star Cruise vielseitiges Hybridrad",
+                "longDescription": "Das Star Cruise verbindet Stra\u00dfeneffizienz mit Mountainbike-Stabilit\u00e4t."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1171",
+                "language": "FR",
+                "shortDescription": "Star Cruise v\u00e9lo hybride",
+                "mediumDescription": "Star Cruise v\u00e9lo hybride polyvalent",
+                "longDescription": "Le Star Cruise combine efficacit\u00e9 route et stabilit\u00e9 VTT."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1171",
+                "language": "ES",
+                "shortDescription": "Star Cruise bicicleta h\u00edbrida",
+                "mediumDescription": "Star Cruise bicicleta h\u00edbrida vers\u00e1til",
+                "longDescription": "La Star Cruise combina eficiencia en carretera y estabilidad tipo monta\u00f1a."
             }
         ]
     },
@@ -1834,8 +2706,32 @@
                 "productId": "HB-1172",
                 "language": "EN",
                 "shortDescription": "Star Cruise II",
-                "mediumDescription": "Star Cruise II",
-                "longDescription": null
+                "mediumDescription": "Star Cruise II upgraded hybrid bike with enhanced comfort",
+                "longDescription": "The Star Cruise II offers improved suspension and ergonomic features for versatile performance. Suitable for mixed terrain and daily commuting."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1172",
+                "language": "DE",
+                "shortDescription": "Star Cruise II Hybridrad",
+                "mediumDescription": "Star Cruise II Komfort-Hybridrad",
+                "longDescription": "Das Star Cruise II verbessert Ergonomie und Federung."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1172",
+                "language": "FR",
+                "shortDescription": "Star Cruise II v\u00e9lo hybride",
+                "mediumDescription": "Star Cruise II hybride confort am\u00e9lior\u00e9",
+                "longDescription": "Le Star Cruise II optimise ergonomie et suspension."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1172",
+                "language": "ES",
+                "shortDescription": "Star Cruise II bicicleta h\u00edbrida",
+                "mediumDescription": "Star Cruise II h\u00edbrida confort mejorado",
+                "longDescription": "La Star Cruise II mejora ergonom\u00eda y suspensi\u00f3n."
             }
         ]
     },
@@ -1882,8 +2778,32 @@
                 "productId": "HB-1173",
                 "language": "EN",
                 "shortDescription": "Universal One",
-                "mediumDescription": "Universal One",
-                "longDescription": null
+                "mediumDescription": "UUniversal One all-purpose hybrid bike for varied terrain",
+                "longDescription": "The Universal One integrates road and trail capabilities into a practical design. With durable components and comfortable geometry, it supports flexible riding styles."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1173",
+                "language": "DE",
+                "shortDescription": "Universal One Hybridrad",
+                "mediumDescription": "Universal One Allround-Hybrid",
+                "longDescription": "Das Universal One eignet sich f\u00fcr unterschiedliche Untergr\u00fcnde."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1173",
+                "language": "FR",
+                "shortDescription": "Universal One v\u00e9lo hybride",
+                "mediumDescription": "Universal One hybride tout-terrain",
+                "longDescription": "Le Universal One s\u2019adapte \u00e0 diff\u00e9rents types de surfaces."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1173",
+                "language": "ES",
+                "shortDescription": "Universal One bicicleta h\u00edbrida",
+                "mediumDescription": "Universal One h\u00edbrida todoterreno",
+                "longDescription": "La Universal One se adapta a diferentes tipos de superficies."
             }
         ]
     },
@@ -1930,8 +2850,32 @@
                 "productId": "HB-1174",
                 "language": "EN",
                 "shortDescription": "Universal Two",
-                "mediumDescription": "Universal Two",
-                "longDescription": null
+                "mediumDescription": "Universal Two performance hybrid bike with balanced handling",
+                "longDescription": "The Universal Two enhances ride stability and efficiency across paved and gravel surfaces. Designed for riders seeking adaptability and reliability."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1174",
+                "language": "DE",
+                "shortDescription": "Universal Two Hybridrad",
+                "mediumDescription": "Universal Two Performance-Hybrid",
+                "longDescription": "Das Universal Two bietet ausgewogene Geometrie f\u00fcr Alltag und Freizeit."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1174",
+                "language": "FR",
+                "shortDescription": "Universal Two v\u00e9lo hybride",
+                "mediumDescription": "Universal Two hybride performance \u00e9quilibr\u00e9e",
+                "longDescription": "Le Universal Two assure stabilit\u00e9 et efficacit\u00e9 au quotidien."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1174",
+                "language": "ES",
+                "shortDescription": "Universal Two bicicleta h\u00edbrida",
+                "mediumDescription": "Universal Two h\u00edbrida rendimiento equilibrado",
+                "longDescription": "La Universal Two ofrece estabilidad y eficiencia para uso diario."
             }
         ]
     },
@@ -1978,8 +2922,32 @@
                 "productId": "HB-1175",
                 "language": "EN",
                 "shortDescription": "Specifica",
-                "mediumDescription": "Specifica",
-                "longDescription": null
+                "mediumDescription": "Specifica versatile hybrid bike for efficient mobility",
+                "longDescription": "The Specifica delivers dependable performance for daily commuting and recreational use. Its combination of lightweight structure and stable handling ensures comfort and speed."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1175",
+                "language": "DE",
+                "shortDescription": "Specifica Hybridrad",
+                "mediumDescription": "Specifica vielseitiges Hybridmodell",
+                "longDescription": "Das Specifica kombiniert Effizienz und Stabilit\u00e4t."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1175",
+                "language": "FR",
+                "shortDescription": "Specifica v\u00e9lo hybride",
+                "mediumDescription": "Specifica mod\u00e8le hybride polyvalent",
+                "longDescription": "Le Specifica associe efficacit\u00e9 et robustesse pour usage mixte."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1175",
+                "language": "ES",
+                "shortDescription": "Specifica bicicleta h\u00edbrida",
+                "mediumDescription": "Specifica modelo h\u00edbrido vers\u00e1til",
+                "longDescription": "La Specifica combina eficiencia y robustez para uso mixto."
             }
         ]
     },
@@ -2026,8 +2994,32 @@
                 "productId": "HB-1176",
                 "language": "EN",
                 "shortDescription": "Specifica Gold",
-                "mediumDescription": "Specifica Gold",
-                "longDescription": null
+                "mediumDescription": "SSpecifica Gold premium hybrid bike with refined components",
+                "longDescription": "The Specifica Gold upgrades the hybrid concept with enhanced drivetrain precision and comfort features. Built for riders who demand versatility and elevated ride quality."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1176",
+                "language": "DE",
+                "shortDescription": "Specifica Gold Hybridrad",
+                "mediumDescription": "Specifica Gold Premium-Hybrid",
+                "longDescription": "Das Specifica Gold erweitert das Konzept um hochwertige Antriebskomponenten."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1176",
+                "language": "FR",
+                "shortDescription": "Specifica Gold v\u00e9lo hybride",
+                "mediumDescription": "Specifica Gold hybride premium",
+                "longDescription": "Le Specifica Gold compl\u00e8te la gamme avec composants haut de gamme."
+            },
+            {
+                "entityType": "ProductText",
+                "productId": "HB-1176",
+                "language": "ES",
+                "shortDescription": "Specifica Gold bicicleta h\u00edbrida",
+                "mediumDescription": "Specifica Gold h\u00edbrida premium",
+                "longDescription": "La Specifica Gold completa la gama con componentes de alta calidad."
             }
         ]
     }

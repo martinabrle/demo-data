@@ -230,6 +230,52 @@
         }
     },
     {
+        "vendorId": "0100000005",
+        "entityType": "Vendor",
+        "emailAddress": "bart.koenig@alphabikes.de",
+        "phoneNumber": "2511415",
+        "faxNumber": null,
+        "webAddress": "http://www.alphabikes.de",
+        "addressId": "1000000039",
+        "name": "Alpha AG",
+        "legalForm": "AG",
+        "createdBy": "0000000006",
+        "createdDateTime": "20181003",
+        "modifiedBy": "0000000006",
+        "modifiedDateTime": "20181003",
+        "currency": "EUR",
+        "createdByEmpl": {
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseenaalf"
+        },
+        "modifiedByEmpl": {
+            "entityType": "Employee",
+            "firstName": "Haseenaal",
+            "lastName": "Yousuf",
+            "middleName": null,
+            "emailAddress": "alhaseena.yousuf@itelo.info",
+            "loginName": "haseenaalf"
+        },
+        "address": {
+            "entityType": "Address",
+            "city": "Callenberg",
+            "postalCode": "02681",
+            "street": "Kantstra\u00dfe",
+            "building": "56",
+            "country": "DE",
+            "region": "EMEA",
+            "addressType": 2,
+            "validityStartDateTime": "20000101",
+            "validityEndDateTime": "99991231",
+            "latitude": 51.096588,
+            "longitude": 14.433772
+        }
+    },
+    {
         "vendorId": "0100000008",
         "entityType": "Vendor",
         "emailAddress": "saskia.sommer@tonabikes-ag.de",
@@ -733,6 +779,52 @@
             "validityEndDateTime": "99991231",
             "latitude": 44.845124,
             "longitude": -75.31828
+        }
+    },
+    {
+        "vendorId": "0100000033",
+        "entityType": "Vendor",
+        "emailAddress": "jonathan.d.mason@movebybike.ca",
+        "phoneNumber": "4136278910",
+        "faxNumber": null,
+        "webAddress": "http://www.movebybike.ca",
+        "addressId": "1000000067",
+        "name": "Move by Bike",
+        "legalForm": "Ltd.",
+        "createdBy": "0000000001",
+        "createdDateTime": "20181003",
+        "modifiedBy": "0000000001",
+        "modifiedDateTime": "20181003",
+        "currency": "CAD",
+        "createdByEmpl": {
+            "entityType": "Employee",
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
+        "modifiedByEmpl": {
+            "entityType": "Employee",
+            "firstName": "Derrick",
+            "lastName": "Magill",
+            "middleName": "L",
+            "emailAddress": "derrick.magill@itelo.info",
+            "loginName": "derrickm"
+        },
+        "address": {
+            "entityType": "Address",
+            "city": "Schefferville",
+            "postalCode": "J0C 1G0",
+            "street": "rue des \u00c9glises Est",
+            "building": "2273",
+            "country": "CA",
+            "region": "AMER",
+            "addressType": 2,
+            "validityStartDateTime": "20000101",
+            "validityEndDateTime": "99991231",
+            "latitude": 54.809261,
+            "longitude": -66.815519
         }
     },
     {

@@ -1,5 +1,20 @@
 [
     {
+        "addressId": "20000101",
+        "entityType": "Address",
+        "city": "Seattle",
+        "postalCode": "98101",
+        "street": "Paris St",
+        "building": "400",
+        "country": "US",
+        "region": "AMER",
+        "addressType": 1,
+        "validityStartDateTime": "20000101",
+        "validityEndDateTime": "99991231",
+        "latitude": 47.6120055,
+        "longitude": -122.3408792
+    },
+    {
         "addressId": "1000000034",
         "entityType": "Address",
         "city": "West Nyack",

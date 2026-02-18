@@ -1,145 +1,361 @@
 [
     {
         "productCategoryId": "RO",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000012",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "RO",
                 "languageId": "EN",
                 "shortDescription": "Road Bike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Road bikes designed for broad audience",
+                "longDescription": "Road bikes designed for broad audience, suitable for city and leisure riding."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "RO",
+                "languageId": "FR",
+                "shortDescription": "V\u00e9lo de route",
+                "mediumDescription": "V\u00e9los de route con\u00e7us pour un large public",
+                "longDescription": "V\u00e9los de route con\u00e7us pour un large public, adapt\u00e9s aux d\u00e9placements urbains et aux loisirs."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "RO",
+                "languageId": "DE",
+                "shortDescription": "Rennrad",
+                "mediumDescription": "Rennr\u00e4der f\u00fcr ein breites Publikum konzipiert",
+                "longDescription": "Rennr\u00e4der f\u00fcr ein breites Publikum konzipiert, geeignet f\u00fcr Stadt- und Freizeitfahrten."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "RO",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta de carretera",
+                "mediumDescription": "Bicicletas de carretera dise\u00f1adas para un p\u00fablico amplio",
+                "longDescription": "Bicicletas de carretera dise\u00f1adas para un p\u00fablico amplio, adecuadas para desplazamientos urbanos y paseos de ocio."
             }
         ]
     },
     {
         "productCategoryId": "BX",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000004",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "BX",
                 "languageId": "EN",
                 "shortDescription": "BMX",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "BMX bikes designed for stunts and racing",
+                "longDescription": "BMX bikes designed for stunts and racing, with sturdy frames and small wheels for agility."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "BX",
+                "languageId": "FR",
+                "shortDescription": "BMX",
+                "mediumDescription": "V\u00e9los BMX con\u00e7us pour les figures et les courses",
+                "longDescription": "V\u00e9los BMX con\u00e7us pour les figures et les courses, avec des cadres robustes et de petites roues pour une grande maniabilit\u00e9."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "BX",
+                "languageId": "DE",
+                "shortDescription": "BMX",
+                "mediumDescription": "BMX-R\u00e4der f\u00fcr Stunts und Rennen konzipiert",
+                "longDescription": "BMX-R\u00e4der f\u00fcr Stunts und Rennen konzipiert, mit robusten Rahmen und kleinen R\u00e4dern f\u00fcr hohe Wendigkeit."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "BX",
+                "languageId": "ES",
+                "shortDescription": "BMX",
+                "mediumDescription": "Bicicletas BMX dise\u00f1adas para acrobacias y carreras",
+                "longDescription": "Bicicletas BMX dise\u00f1adas para acrobacias y carreras, con cuadros resistentes y ruedas peque\u00f1as para mayor agilidad."
             }
         ]
     },
     {
         "productCategoryId": "CC",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000007",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "CC",
                 "languageId": "EN",
                 "shortDescription": "Cyclo-cross Bike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Cyclo-cross bikes designed for mixed terrain racing",
+                "longDescription": "Cyclo-cross bikes designed for mixed terrain racing, featuring knobby tires and lightweight frames."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "CC",
+                "languageId": "FR",
+                "shortDescription": "V\u00e9lo de cyclo-cross",
+                "mediumDescription": "V\u00e9los de cyclo-cross con\u00e7us pour les courses sur terrains mixtes",
+                "longDescription": "V\u00e9los de cyclo-cross con\u00e7us pour les courses sur terrains mixtes, dot\u00e9s de pneus \u00e0 crampons et de cadres l\u00e9gers."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "CC",
+                "languageId": "DE",
+                "shortDescription": "Cyclocross-Rad",
+                "mediumDescription": "Cyclocross-R\u00e4der f\u00fcr Rennen auf gemischtem Terrain konzipiert",
+                "longDescription": "Cyclocross-R\u00e4der f\u00fcr Rennen auf gemischtem Terrain konzipiert, mit profilierten Reifen und leichten Rahmen."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "CC",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta de ciclocross",
+                "mediumDescription": "Bicicletas de ciclocross dise\u00f1adas para carreras en terrenos mixtos",
+                "longDescription": "Bicicletas de ciclocross dise\u00f1adas para carreras en terrenos mixtos, con neum\u00e1ticos con tacos y cuadros ligeros."
             }
         ]
     },
     {
         "productCategoryId": "MB",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000011",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "MB",
                 "languageId": "EN",
                 "shortDescription": "Mountain Bike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Mountain bikes designed for off-road trails",
+                "longDescription": "Mountain bikes designed for off-road trails, with sturdy frames and wide tires for better traction."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "MB",
+                "languageId": "FR",
+                "shortDescription": "VTT",
+                "mediumDescription": "VTT con\u00e7us pour les sentiers tout-terrain",
+                "longDescription": "VTT con\u00e7us pour les sentiers tout-terrain, avec des cadres robustes et des pneus larges pour une meilleure adh\u00e9rence."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "MB",
+                "languageId": "DE",
+                "shortDescription": "Mountainbike",
+                "mediumDescription": "Mountainbikes f\u00fcr Offroad-Strecken konzipiert",
+                "longDescription": "Mountainbikes f\u00fcr Offroad-Strecken konzipiert, mit stabilen Rahmen und breiten Reifen f\u00fcr bessere Traktion."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "MB",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta de monta\u00f1a",
+                "mediumDescription": "Bicicletas de monta\u00f1a dise\u00f1adas para senderos todoterreno",
+                "longDescription": "Bicicletas de monta\u00f1a dise\u00f1adas para senderos todoterreno, con cuadros resistentes y neum\u00e1ticos anchos para mejor tracci\u00f3n."
             }
         ]
     },
     {
         "productCategoryId": "RC",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000009",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "RC",
                 "languageId": "EN",
                 "shortDescription": "Racing Bike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Racing bikes designed for competitive cycling",
+                "longDescription": "Racing bikes designed for competitive cycling, with lightweight frames and aerodynamic features."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "RC",
+                "languageId": "FR",
+                "shortDescription": "V\u00e9lo de course",
+                "mediumDescription": "V\u00e9los de course con\u00e7us pour le cyclisme de comp\u00e9tition",
+                "longDescription": "V\u00e9los de course con\u00e7us pour le cyclisme de comp\u00e9tition, avec des cadres l\u00e9gers et des caract\u00e9ristiques a\u00e9rodynamiques."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "RC",
+                "languageId": "DE",
+                "shortDescription": "Rennmaschine",
+                "mediumDescription": "Rennr\u00e4der f\u00fcr den Wettkampfsport konzipiert",
+                "longDescription": "Rennr\u00e4der f\u00fcr den Wettkampfsport konzipiert, mit leichten Rahmen und aerodynamischen Eigenschaften."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "RC",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta de competici\u00f3n",
+                "mediumDescription": "Bicicletas de competici\u00f3n dise\u00f1adas para ciclismo competitivo",
+                "longDescription": "Bicicletas de competici\u00f3n dise\u00f1adas para ciclismo competitivo, con cuadros ligeros y caracter\u00edsticas aerodin\u00e1micas."
             }
         ]
     },
     {
         "productCategoryId": "DB",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000008",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "DB",
                 "languageId": "EN",
                 "shortDescription": "Downhill Bike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Downhill bikes designed for steep descents and rough terrain",
+                "longDescription": "Downhill bikes designed for steep descents and rough terrain, with heavy-duty frames and suspension systems."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "DB",
+                "languageId": "FR",
+                "shortDescription": "V\u00e9lo de descente",
+                "mediumDescription": "V\u00e9los de descente con\u00e7us pour les pentes raides et les terrains accident\u00e9s",
+                "longDescription": "V\u00e9los de descente con\u00e7us pour les pentes raides et les terrains accident\u00e9s, avec des cadres renforc\u00e9s et des syst\u00e8mes de suspension."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "DB",
+                "languageId": "DE",
+                "shortDescription": "Downhill-Bike",
+                "mediumDescription": "Downhill-Bikes f\u00fcr steile Abfahrten und unwegsames Gel\u00e4nde konzipiert",
+                "longDescription": "Downhill-Bikes f\u00fcr steile Abfahrten und unwegsames Gel\u00e4nde konzipiert, mit besonders stabilen Rahmen und Federungssystemen."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "DB",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta de descenso",
+                "mediumDescription": "Bicicletas de descenso dise\u00f1adas para pendientes pronunciadas y terrenos dif\u00edciles",
+                "longDescription": "Bicicletas de descenso dise\u00f1adas para pendientes pronunciadas y terrenos dif\u00edciles, con cuadros reforzados y sistemas de suspensi\u00f3n."
             }
         ]
     },
     {
         "productCategoryId": "EB",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000011",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "EB",
                 "languageId": "EN",
                 "shortDescription": "eBike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "eBikes designed for electric-assisted cycling",
+                "longDescription": "eBikes designed for electric-assisted cycling, providing pedal assistance for easier riding."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "EB",
+                "languageId": "FR",
+                "shortDescription": "V\u00e9lo \u00e9lectrique",
+                "mediumDescription": "V\u00e9los \u00e9lectriques con\u00e7us pour le cyclisme \u00e0 assistance \u00e9lectrique",
+                "longDescription": "V\u00e9los \u00e9lectriques con\u00e7us pour le cyclisme \u00e0 assistance \u00e9lectrique, offrant une assistance au p\u00e9dalage pour faciliter la conduite."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "EB",
+                "languageId": "DE",
+                "shortDescription": "E-Bike",
+                "mediumDescription": "E-Bikes f\u00fcr elektrisch unterst\u00fctztes Fahren konzipiert",
+                "longDescription": "E-Bikes f\u00fcr elektrisch unterst\u00fctztes Fahren konzipiert, mit Tretunterst\u00fctzung f\u00fcr ein leichteres Fahrerlebnis."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "EB",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta el\u00e9ctrica",
+                "mediumDescription": "Bicicletas el\u00e9ctricas dise\u00f1adas para ciclismo con asistencia el\u00e9ctrica",
+                "longDescription": "Bicicletas el\u00e9ctricas dise\u00f1adas para ciclismo con asistencia el\u00e9ctrica, proporcionando asistencia al pedaleo para facilitar la conducci\u00f3n."
             }
         ]
     },
     {
         "productCategoryId": "CB",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000010",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "CB",
                 "languageId": "EN",
                 "shortDescription": "Cruiser",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Cruiser bikes designed for comfortable and stylish riding",
+                "longDescription": "Cruiser bikes designed for comfortable and stylish riding, perfect for leisurely rides around town."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "CB",
+                "languageId": "FR",
+                "shortDescription": "Cruiser",
+                "mediumDescription": "V\u00e9los cruiser con\u00e7us pour une conduite confortable et \u00e9l\u00e9gante",
+                "longDescription": "V\u00e9los cruiser con\u00e7us pour une conduite confortable et \u00e9l\u00e9gante, parfaits pour des balades tranquilles en ville."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "CB",
+                "languageId": "DE",
+                "shortDescription": "Cruiser",
+                "mediumDescription": "Cruiser-Bikes f\u00fcr komfortables und stilvolles Fahren konzipiert",
+                "longDescription": "Cruiser-Bikes f\u00fcr komfortables und stilvolles Fahren konzipiert, ideal f\u00fcr entspannte Fahrten in der Stadt."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "CB",
+                "languageId": "ES",
+                "shortDescription": "Cruiser",
+                "mediumDescription": "Bicicletas cruiser dise\u00f1adas para una conducci\u00f3n c\u00f3moda y con estilo",
+                "longDescription": "Bicicletas cruiser dise\u00f1adas para una conducci\u00f3n c\u00f3moda y con estilo, perfectas para paseos tranquilos por la ciudad."
             }
         ]
     },
     {
         "productCategoryId": "HB",
-        "entityType": "productCategory",
+        "entityType": "ProductCategory",
         "createdBy": "0000000006",
         "createdDateTime": "20181003",
         "texts": [
             {
-                "entityType": "productCategoryTexts",
+                "entityType": "ProductCategoryTexts",
                 "productCategoryId": "HB",
                 "languageId": "EN",
                 "shortDescription": "Hybrid Bike",
-                "mediumDescription": null,
-                "longDescription": null
+                "mediumDescription": "Hybrid bikes designed for versatile riding",
+                "longDescription": "Hybrid bikes designed for versatile riding, combining features of road and mountain bikes for a comfortable and efficient ride on various terrains."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "HB",
+                "languageId": "FR",
+                "shortDescription": "V\u00e9lo hybride",
+                "mediumDescription": "V\u00e9los hybrides con\u00e7us pour une utilisation polyvalente",
+                "longDescription": "V\u00e9los hybrides con\u00e7us pour une utilisation polyvalente, combinant les caract\u00e9ristiques des v\u00e9los de route et des VTT pour une conduite confortable et efficace sur divers terrains."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "HB",
+                "languageId": "DE",
+                "shortDescription": "Hybridrad",
+                "mediumDescription": "Hybridr\u00e4der f\u00fcr vielseitiges Fahren konzipiert",
+                "longDescription": "Hybridr\u00e4der f\u00fcr vielseitiges Fahren konzipiert, die Eigenschaften von Renn- und Mountainbikes kombinieren und so komfortables und effizientes Fahren auf unterschiedlichen Untergr\u00fcnden erm\u00f6glichen."
+            },
+            {
+                "entityType": "ProductCategoryTexts",
+                "productCategoryId": "HB",
+                "languageId": "ES",
+                "shortDescription": "Bicicleta h\u00edbrida",
+                "mediumDescription": "Bicicletas h\u00edbridas dise\u00f1adas para un uso vers\u00e1til",
+                "longDescription": "Bicicletas h\u00edbridas dise\u00f1adas para un uso vers\u00e1til, combinando caracter\u00edsticas de bicicletas de carretera y de monta\u00f1a para una conducci\u00f3n c\u00f3moda y eficiente en diversos terrenos."
             }
         ]
     }
