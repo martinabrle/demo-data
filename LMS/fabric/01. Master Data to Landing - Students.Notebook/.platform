@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "01. Master Data to Landing - Students"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "eab84d49-836b-8423-4531-f7c3c00c1bba"
+  }
+}
