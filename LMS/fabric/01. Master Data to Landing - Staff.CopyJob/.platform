@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "CopyJob",
+    "displayName": "01. Master Data to Landing - Staff"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0c6cc7c0-3ec9-83b8-4077-fa4b9e72636e"
+  }
+}
