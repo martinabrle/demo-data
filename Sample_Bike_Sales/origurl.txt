@@ -1,1 +1,1 @@
-https://github.com/SAP-samples/data-warehouse-cloud-content
+https://github.com/SAP-samples/data-warehouse-cloud-content - originally data from here, ammended and extended with GitHub Copilot
