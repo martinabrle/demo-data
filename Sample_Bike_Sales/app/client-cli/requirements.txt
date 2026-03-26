@@ -1,0 +1,8 @@
+# Microsoft Authentication Library for Python
+msal==1.16.0
+
+# Requests
+requests==2.27.1
+
+# Load local .env files for development
+python-dotenv>=1.0,<2
