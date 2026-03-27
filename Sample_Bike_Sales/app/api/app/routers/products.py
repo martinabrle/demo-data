@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException, Query
-from typing import List, Optional
+from fastapi import APIRouter, Body, Depends, HTTPException, Query
+from typing import Dict, List, Optional
 
 from app.auth import validate_token
 from app import datastore as ds
@@ -30,6 +30,29 @@ def get_product(product_id: str, _claims: dict = Depends(validate_token)):
     if not product:
         raise HTTPException(status_code=404, detail="Product not found")
     return product
+
+
+@router.patch("/{product_id}", summary="Update product")
+def update_product(
+    product_id: str,
+    changes: Dict[str, object] = Body(...),
+    _claims: dict = Depends(validate_token),
+):
+    if "PRODUCTID" in changes and str(changes["PRODUCTID"]) != product_id:
+        raise HTTPException(status_code=400, detail="PRODUCTID in body must match path")
+
+    product = ds.update_product(product_id, changes)
+    if not product:
+        raise HTTPException(status_code=404, detail="Product not found")
+    return product
+
+
+@router.delete("/{product_id}", summary="Delete product")
+def delete_product(product_id: str, _claims: dict = Depends(validate_token)):
+    product = ds.delete_product(product_id)
+    if not product:
+        raise HTTPException(status_code=404, detail="Product not found")
+    return {"deleted": True, "product": product}
 
 
 @router.get("/{product_id}/page", summary="Get product page")

@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Body, Depends, HTTPException, Query
+from typing import Dict
 
 from app.auth import validate_token
 from app import datastore as ds
@@ -25,6 +26,29 @@ def get_customer(customer_id: str, _claims: dict = Depends(validate_token)):
     if not customer:
         raise HTTPException(status_code=404, detail="Customer not found")
     return customer
+
+
+@router.patch("/{customer_id}", summary="Update customer")
+def update_customer(
+    customer_id: str,
+    changes: Dict[str, object] = Body(...),
+    _claims: dict = Depends(validate_token),
+):
+    if "CUSTOMERID" in changes and str(changes["CUSTOMERID"]) != customer_id:
+        raise HTTPException(status_code=400, detail="CUSTOMERID in body must match path")
+
+    customer = ds.update_customer(customer_id, changes)
+    if not customer:
+        raise HTTPException(status_code=404, detail="Customer not found")
+    return customer
+
+
+@router.delete("/{customer_id}", summary="Delete customer")
+def delete_customer(customer_id: str, _claims: dict = Depends(validate_token)):
+    customer = ds.delete_customer(customer_id)
+    if not customer:
+        raise HTTPException(status_code=404, detail="Customer not found")
+    return {"deleted": True, "customer": customer}
 
 
 @router.get("/{customer_id}/orders", summary="List orders for a customer")

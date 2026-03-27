@@ -39,26 +39,46 @@ Open <http://localhost:8000/docs> for the interactive Swagger UI.
 | `GET` | `/health` | Health check |
 | `GET` | `/products` | List products (filterable by `category`) |
 | `GET` | `/products/{id}` | Get product by ID |
+| `PATCH` | `/products/{id}` | Update product fields in memory |
+| `DELETE` | `/products/{id}` | Delete product in memory |
 | `GET` | `/products/{id}/page` | Get product page markdown |
 | `GET` | `/products/{id}/texts` | Get product descriptions |
 | `GET` | `/product-categories` | List product categories |
 | `GET` | `/product-categories/{id}` | Get category by ID |
+| `PATCH` | `/product-categories/{id}` | Update category fields in memory |
+| `DELETE` | `/product-categories/{id}` | Delete category in memory |
 | `GET` | `/product-categories/{id}/texts` | Category description texts |
+| `PATCH` | `/product-categories/{id}/texts?language=EN` | Update category text fields in memory |
+| `DELETE` | `/product-categories/{id}/texts?language=EN` | Delete category text in memory |
 | `GET` | `/product-categories/{id}/products` | Products in a category |
 | `GET` | `/customers` | List customers |
 | `GET` | `/customers/{id}` | Get customer by ID |
+| `PATCH` | `/customers/{id}` | Update customer fields in memory |
+| `DELETE` | `/customers/{id}` | Delete customer in memory |
 | `GET` | `/customers/{id}/orders` | Orders placed by a customer |
 | `GET` | `/addresses` | List addresses (filterable by `country`) |
 | `GET` | `/addresses/{id}` | Get address by ID |
+| `PATCH` | `/addresses/{id}` | Update address fields in memory |
+| `DELETE` | `/addresses/{id}` | Delete address in memory |
 | `GET` | `/employees` | List employees |
 | `GET` | `/employees/{id}` | Get employee by ID |
+| `PATCH` | `/employees/{id}` | Update employee fields in memory |
+| `DELETE` | `/employees/{id}` | Delete employee in memory |
 | `GET` | `/vendors` | List vendors |
 | `GET` | `/vendors/{id}` | Get vendor by ID |
+| `PATCH` | `/vendors/{id}` | Update vendor fields in memory |
+| `DELETE` | `/vendors/{id}` | Delete vendor in memory |
 | `GET` | `/sales-orders` | List sales orders |
 | `GET` | `/sales-orders/{id}` | Get sales order by ID |
+| `PATCH` | `/sales-orders/{id}` | Update sales order fields in memory |
+| `DELETE` | `/sales-orders/{id}` | Delete sales order in memory |
 | `GET` | `/sales-orders/{id}/items` | Line items for an order |
+| `PATCH` | `/sales-orders/{id}/items/{itemId}` | Update sales order item fields in memory |
+| `DELETE` | `/sales-orders/{id}/items/{itemId}` | Delete sales order item in memory |
 
 All list endpoints support `skip` and `limit` query parameters for pagination.
+
+Product and sales order write operations in this demo API are in-memory only and are reset when the app restarts.
 
 ---
 

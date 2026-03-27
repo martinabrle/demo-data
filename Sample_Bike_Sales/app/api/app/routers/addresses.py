@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException, Query
-from typing import Optional
+from fastapi import APIRouter, Body, Depends, HTTPException, Query
+from typing import Dict, Optional
 
 from app.auth import validate_token
 from app import datastore as ds
@@ -30,3 +30,26 @@ def get_address(address_id: str, _claims: dict = Depends(validate_token)):
     if not addr:
         raise HTTPException(status_code=404, detail="Address not found")
     return addr
+
+
+@router.patch("/{address_id}", summary="Update address")
+def update_address(
+    address_id: str,
+    changes: Dict[str, object] = Body(...),
+    _claims: dict = Depends(validate_token),
+):
+    if "ADDRESSID" in changes and str(changes["ADDRESSID"]) != address_id:
+        raise HTTPException(status_code=400, detail="ADDRESSID in body must match path")
+
+    addr = ds.update_address(address_id, changes)
+    if not addr:
+        raise HTTPException(status_code=404, detail="Address not found")
+    return addr
+
+
+@router.delete("/{address_id}", summary="Delete address")
+def delete_address(address_id: str, _claims: dict = Depends(validate_token)):
+    addr = ds.delete_address(address_id)
+    if not addr:
+        raise HTTPException(status_code=404, detail="Address not found")
+    return {"deleted": True, "address": addr}
