@@ -27,6 +27,17 @@ def _load_csv(filename: str) -> List[Dict[str, str]]:
         return [row for row in reader]
 
 
+def _load_text_files(directory: str, suffix: str) -> Dict[str, str]:
+    """Read text files in *directory* and return a dict keyed by stem."""
+    path = _CSV_DIR / directory
+    if not path.exists():
+        return {}
+    return {
+        item.stem: item.read_text(encoding="utf-8")
+        for item in path.glob(f"*{suffix}")
+        if item.is_file()
+    }
+
 def _index_by(rows: List[Dict], key: str) -> Dict[str, Dict]:
     """Return a dict keyed by *key* for O(1) lookups."""
     return {row[key]: row for row in rows}
@@ -43,6 +54,7 @@ employees: List[Dict] = _load_csv("Employees.csv")
 vendors: List[Dict] = _load_csv("Vendors.csv")
 sales_orders: List[Dict] = _load_csv("SalesOrders.csv")
 sales_order_items: List[Dict] = _load_csv("SalesOrderItems.csv")
+product_pages_by_id: Dict[str, str] = _load_text_files("product_pages", ".md")
 
 # ── indexed look-ups ────────────────────────────────────────────────────────
 products_by_id: Dict[str, Dict] = _index_by(products, "PRODUCTID")

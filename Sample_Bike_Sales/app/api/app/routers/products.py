@@ -32,6 +32,18 @@ def get_product(product_id: str, _claims: dict = Depends(validate_token)):
     return product
 
 
+@router.get("/{product_id}/page", summary="Get product page")
+def get_product_page(product_id: str, _claims: dict = Depends(validate_token)):
+    if product_id not in ds.products_by_id:
+        raise HTTPException(status_code=404, detail="Product not found")
+
+    page = ds.product_pages_by_id.get(product_id)
+    if not page:
+        raise HTTPException(status_code=404, detail="Product page not found")
+
+    return {"PRODUCTID": product_id, "content": page}
+
+
 @router.get("/{product_id}/texts", summary="Get product texts / descriptions")
 def get_product_texts(
     product_id: str,

@@ -39,6 +39,7 @@ Open <http://localhost:8000/docs> for the interactive Swagger UI.
 | `GET` | `/health` | Health check |
 | `GET` | `/products` | List products (filterable by `category`) |
 | `GET` | `/products/{id}` | Get product by ID |
+| `GET` | `/products/{id}/page` | Get product page markdown |
 | `GET` | `/products/{id}/texts` | Get product descriptions |
 | `GET` | `/product-categories` | List product categories |
 | `GET` | `/product-categories/{id}` | Get category by ID |
