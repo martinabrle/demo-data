@@ -1,0 +1,102 @@
+table sales
+	lineageTag: 1b33b152-a51d-439d-8768-03815b864142
+	sourceLineageTag: [dbo].[sales]
+
+	measure 'Discounted Price' = SUM(sales[Total_Price])*0.9
+		lineageTag: 5a9668ba-6f3f-46c6-a181-360c2b8985a2
+
+		changedProperty = Name
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Transaction_ID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: f7bc46b0-925b-4929-bcad-75c1ead22629
+		sourceLineageTag: Transaction_ID
+		summarizeBy: count
+		sourceColumn: Transaction_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Customer_ID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: b5b3c86d-b9d4-4ec3-96d3-a63dfebc2788
+		sourceLineageTag: Customer_ID
+		summarizeBy: none
+		sourceColumn: Customer_ID
+
+		changedProperty = SummarizeBy
+
+		annotation SummarizationSetBy = User
+
+	column Product_ID
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 1b4f3be7-fee6-482f-a8f7-9ee1bfca75a6
+		sourceLineageTag: Product_ID
+		summarizeBy: none
+		sourceColumn: Product_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity_Sold
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 7c2429d7-ee1d-4caf-a805-32eb9d925049
+		sourceLineageTag: Quantity_Sold
+		summarizeBy: sum
+		sourceColumn: Quantity_Sold
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unit_Price
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 53f839bd-f05e-4179-b554-9cd6909fded6
+		sourceLineageTag: Unit_Price
+		summarizeBy: sum
+		sourceColumn: Unit_Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Total_Price
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 95df7a45-0cf3-47d2-98a5-4b909172ab3f
+		sourceLineageTag: Total_Price
+		summarizeBy: sum
+		sourceColumn: Total_Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Timestamp
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 318d14d9-d212-47d6-b9ed-2e93375513c6
+		sourceLineageTag: Timestamp
+		summarizeBy: none
+		sourceColumn: Timestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	partition sales = entity
+		mode: directLake
+		source
+			entityName: sales
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,4 @@
+relationship cf014544-7cb2-7bb7-1917-2fc2102900df
+	fromColumn: sales.Product_ID
+	toColumn: products.Product_ID
+
