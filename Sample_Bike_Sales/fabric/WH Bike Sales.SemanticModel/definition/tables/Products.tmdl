@@ -1,0 +1,224 @@
+table Products
+	lineageTag: f2d97a1a-eab0-4926-b662-aec936f3ba2c
+	sourceLineageTag: [dbo].[Products]
+
+	column PRODUCTID
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 3c4cf3c8-9519-4826-81f5-90e57e8ee983
+		sourceLineageTag: PRODUCTID
+		summarizeBy: none
+		sourceColumn: PRODUCTID
+
+		annotation SummarizationSetBy = Automatic
+
+	column TYPECODE
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 18a67e84-d6f8-4e84-a974-49c0e3de1e1c
+		sourceLineageTag: TYPECODE
+		summarizeBy: none
+		sourceColumn: TYPECODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODCATEGORYID
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 6961f855-555c-4ddf-aac7-657ccb3b0351
+		sourceLineageTag: PRODCATEGORYID
+		summarizeBy: none
+		sourceColumn: PRODCATEGORYID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: dbebd4f4-f5d0-40eb-b8a4-a47092d317a3
+		sourceLineageTag: CREATEDBY
+		summarizeBy: sum
+		sourceColumn: CREATEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: ac69703a-d575-4fdd-b801-c840708fae2f
+		sourceLineageTag: CREATEDAT
+		summarizeBy: none
+		sourceColumn: CREATEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 7331448e-ee21-40d4-9056-1b2cc590ba4b
+		sourceLineageTag: CHANGEDBY
+		summarizeBy: sum
+		sourceColumn: CHANGEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: f6df843f-1947-4700-a32e-f1a8728c3ea6
+		sourceLineageTag: CHANGEDAT
+		summarizeBy: none
+		sourceColumn: CHANGEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENDORID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 9fa498c1-4f11-470b-a96d-8107aae6aca2
+		sourceLineageTag: VENDORID
+		summarizeBy: count
+		sourceColumn: VENDORID
+
+		annotation SummarizationSetBy = Automatic
+
+	column TAXTARIFFCODE
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 93d129d8-d6b0-436a-830d-48e5501b5212
+		sourceLineageTag: TAXTARIFFCODE
+		summarizeBy: sum
+		sourceColumn: TAXTARIFFCODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column QUANTITYUNIT
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 65de1ae1-3b8e-46b2-8f8f-04b3a54abdcb
+		sourceLineageTag: QUANTITYUNIT
+		summarizeBy: none
+		sourceColumn: QUANTITYUNIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column WEIGHTMEASURE
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: f6037655-ef6e-4a5d-8911-c2d62d699694
+		sourceLineageTag: WEIGHTMEASURE
+		summarizeBy: sum
+		sourceColumn: WEIGHTMEASURE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column WEIGHTUNIT
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 972544b7-c45a-4ee0-8dd1-f50de656c197
+		sourceLineageTag: WEIGHTUNIT
+		summarizeBy: none
+		sourceColumn: WEIGHTUNIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENCY
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: 431b8af0-e0f1-4710-8379-9a4969f84135
+		sourceLineageTag: CURRENCY
+		summarizeBy: none
+		sourceColumn: CURRENCY
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRICE
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 2)
+		lineageTag: 5fe85c4d-d136-4b3f-8e8d-a2a27af84186
+		sourceLineageTag: PRICE
+		summarizeBy: sum
+		sourceColumn: PRICE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column WIDTH
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: c4b35a14-b15e-462e-a136-8684b1b1b6f9
+		sourceLineageTag: WIDTH
+		summarizeBy: sum
+		sourceColumn: WIDTH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column DEPTH
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 0665bd86-0367-4bc7-8094-bd7acca278bc
+		sourceLineageTag: DEPTH
+		summarizeBy: sum
+		sourceColumn: DEPTH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column HEIGHT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 3f2b64f1-aad5-4334-8fbf-a0d3d08d66bb
+		sourceLineageTag: HEIGHT
+		summarizeBy: sum
+		sourceColumn: HEIGHT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column DIMENSIONUNIT
+		dataType: string
+		sourceProviderType: varchar(80)
+		lineageTag: 3a61bdc7-72c6-4366-ae84-5ed21a623fe8
+		sourceLineageTag: DIMENSIONUNIT
+		summarizeBy: none
+		sourceColumn: DIMENSIONUNIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCTPICURL
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: a44c6109-137a-4595-a2b3-71171db1f720
+		sourceLineageTag: PRODUCTPICURL
+		summarizeBy: none
+		sourceColumn: PRODUCTPICURL
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Products = entity
+		mode: directLake
+		source
+			entityName: Products
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,142 @@
+/// Localized product category descriptions
+table 'Product Category Descriptions'
+	lineageTag: bd8644cc-e17f-41bc-9103-b851977465cc
+	sourceLineageTag: [dbo].[product_category_descriptions]
+
+	/// Unique identifier of the product category
+	column 'Product Category ID'
+		dataType: string
+		isNullable: false
+		lineageTag: cbad384f-9e20-45ec-86c1-2a530e4ec467
+		sourceLineageTag: product_category_id
+		summarizeBy: none
+		sourceColumn: product_category_id
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product category in English
+	column 'Product Category Medium Description (English)'
+		dataType: string
+		lineageTag: f6214c4c-3136-490b-a06c-3f20a329c238
+		sourceLineageTag: product_category_medium_description_en
+		summarizeBy: none
+		sourceColumn: product_category_medium_description_en
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product category in French
+	column 'Product Category Medium Description (French)'
+		dataType: string
+		lineageTag: b8a97565-503b-4390-bd9f-340ca8fbec5c
+		sourceLineageTag: product_category_medium_description_fr
+		summarizeBy: none
+		sourceColumn: product_category_medium_description_fr
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product category in German
+	column 'Product Category Medium Description (German)'
+		dataType: string
+		lineageTag: 3ea6eaf4-1727-41e0-97a5-4d8600bd9198
+		sourceLineageTag: product_category_medium_description_de
+		summarizeBy: none
+		sourceColumn: product_category_medium_description_de
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product category in Spanish
+	column 'Product Category Medium Description (Spanish)'
+		dataType: string
+		lineageTag: a3d9ba46-8245-4064-9e96-257c7f2b2f80
+		sourceLineageTag: product_category_medium_description_es
+		summarizeBy: none
+		sourceColumn: product_category_medium_description_es
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product category in English
+	column 'Product Category Long Description (English)'
+		dataType: string
+		lineageTag: c5cc1f0a-696a-4070-b412-5e5bf41906b0
+		sourceLineageTag: product_category_long_description_en
+		summarizeBy: none
+		sourceColumn: product_category_long_description_en
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product category in French
+	column 'Product Category Long Description (French)'
+		dataType: string
+		lineageTag: 6b40aebd-e474-4448-8908-d9ed2114c98a
+		sourceLineageTag: product_category_long_description_fr
+		summarizeBy: none
+		sourceColumn: product_category_long_description_fr
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product category in German
+	column 'Product Category Long Description (German)'
+		dataType: string
+		lineageTag: a51d839b-4bda-4f61-9df0-cf111a1909f8
+		sourceLineageTag: product_category_long_description_de
+		summarizeBy: none
+		sourceColumn: product_category_long_description_de
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product category in Spanish
+	column 'Product Category Long Description (Spanish)'
+		dataType: string
+		lineageTag: 0ffff6a0-74d4-4574-82bf-5689ee8890e8
+		sourceLineageTag: product_category_long_description_es
+		summarizeBy: none
+		sourceColumn: product_category_long_description_es
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Product Category Descriptions' = entity
+		mode: directLake
+		source
+			entityName: product_category_descriptions
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

@@ -1,0 +1,142 @@
+/// Localized product descriptions
+table 'Product Descriptions'
+	lineageTag: 3fb090da-8d9b-4901-adb3-bd8058db807e
+	sourceLineageTag: [dbo].[product_descriptions]
+
+	/// Unique identifier of the product
+	column 'Product ID'
+		dataType: string
+		isNullable: false
+		lineageTag: 4fedd668-d842-4abe-b75d-06379b5632a9
+		sourceLineageTag: product_id
+		summarizeBy: none
+		sourceColumn: product_id
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product in English
+	column 'Product Medium Description (English)'
+		dataType: string
+		lineageTag: 205fbae1-932e-4551-827e-82bed378fc32
+		sourceLineageTag: product_medium_description_en
+		summarizeBy: none
+		sourceColumn: product_medium_description_en
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product in French
+	column 'Product Medium Description (French)'
+		dataType: string
+		lineageTag: ebd30456-8f63-4d92-9640-9e813d128d74
+		sourceLineageTag: product_medium_description_fr
+		summarizeBy: none
+		sourceColumn: product_medium_description_fr
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product in German
+	column 'Product Medium Description (German)'
+		dataType: string
+		lineageTag: 3f28c8b8-c758-4be0-a4b8-439e02ef1486
+		sourceLineageTag: product_medium_description_de
+		summarizeBy: none
+		sourceColumn: product_medium_description_de
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Medium description of the product in Spanish
+	column 'Product Medium Description (Spanish)'
+		dataType: string
+		lineageTag: 547f08bd-1bc4-43c9-8283-7f86009ffe4e
+		sourceLineageTag: product_medium_description_es
+		summarizeBy: none
+		sourceColumn: product_medium_description_es
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product in English
+	column 'Product Long Description (English)'
+		dataType: string
+		lineageTag: 937b328d-ed39-4ae8-a9ea-002dfbccc312
+		sourceLineageTag: product_long_description_en
+		summarizeBy: none
+		sourceColumn: product_long_description_en
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product in French
+	column 'Product Long Description (French)'
+		dataType: string
+		lineageTag: 9183105b-731c-4690-a47b-83e66f5da02e
+		sourceLineageTag: product_long_description_fr
+		summarizeBy: none
+		sourceColumn: product_long_description_fr
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product in German
+	column 'Product Long Description (German)'
+		dataType: string
+		lineageTag: a0085897-54cc-4888-bba6-8832997f4e37
+		sourceLineageTag: product_long_description_de
+		summarizeBy: none
+		sourceColumn: product_long_description_de
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Long description of the product in Spanish
+	column 'Product Long Description (Spanish)'
+		dataType: string
+		lineageTag: 96fe4a23-277a-4eb1-ae04-fecb013b71ef
+		sourceLineageTag: product_long_description_es
+		summarizeBy: none
+		sourceColumn: product_long_description_es
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Product Descriptions' = entity
+		mode: directLake
+		source
+			entityName: product_descriptions
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

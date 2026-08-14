@@ -1,0 +1,142 @@
+table VendorAddresses
+	lineageTag: 03627c8c-180c-426e-a3f5-bcd2dbb35ba1
+	sourceLineageTag: [dbo].[VendorAddresses]
+
+	column ADDRESSID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4ef830c7-9141-47cd-bc5e-f4243491ebe1
+		sourceLineageTag: ADDRESSID
+		summarizeBy: count
+		sourceColumn: ADDRESSID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CITY
+		dataType: string
+		sourceProviderType: varchar(80)
+		lineageTag: 08d9a0bf-1100-48b5-92fb-7185876d5c97
+		sourceLineageTag: CITY
+		summarizeBy: none
+		sourceColumn: CITY
+
+		annotation SummarizationSetBy = Automatic
+
+	column POSTALCODE
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: c78f59ee-8fc1-4e74-a52f-821911efe360
+		sourceLineageTag: POSTALCODE
+		summarizeBy: none
+		sourceColumn: POSTALCODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column STREET
+		dataType: string
+		sourceProviderType: varchar(80)
+		lineageTag: 94623d8e-1f58-46a9-9952-b53deac4c23e
+		sourceLineageTag: STREET
+		summarizeBy: none
+		sourceColumn: STREET
+
+		annotation SummarizationSetBy = Automatic
+
+	column BUILDING
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4d6c6716-c69b-4ffb-995a-330c67a6bf82
+		sourceLineageTag: BUILDING
+		summarizeBy: sum
+		sourceColumn: BUILDING
+
+		annotation SummarizationSetBy = Automatic
+
+	column COUNTRY
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 6124c598-c8c6-41e8-a8bf-5e5095c93056
+		sourceLineageTag: COUNTRY
+		summarizeBy: none
+		sourceColumn: COUNTRY
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGION
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 3e0c8a4a-d98e-4654-9e77-5bbaf95dd14e
+		sourceLineageTag: REGION
+		summarizeBy: none
+		sourceColumn: REGION
+
+		annotation SummarizationSetBy = Automatic
+
+	column ADDRESSTYPE
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 70513b44-faa5-429e-99fd-40584d90019b
+		sourceLineageTag: ADDRESSTYPE
+		summarizeBy: sum
+		sourceColumn: ADDRESSTYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALIDITY_STARTDATE
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 1afd7cef-a395-40c4-bc1b-c8a094aa39ba
+		sourceLineageTag: VALIDITY_STARTDATE
+		summarizeBy: none
+		sourceColumn: VALIDITY_STARTDATE
+
+		annotation SummarizationSetBy = Automatic
+
+	column VALIDITY_ENDDATE
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: d7e96602-b876-4616-abab-c87a696404b8
+		sourceLineageTag: VALIDITY_ENDDATE
+		summarizeBy: none
+		sourceColumn: VALIDITY_ENDDATE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LATITUDE
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 29cb5a0c-3e37-46cd-8a14-9739a9ee90d7
+		sourceLineageTag: LATITUDE
+		summarizeBy: sum
+		sourceColumn: LATITUDE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column LONGITUDE
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 452f7283-bf32-48a7-b62a-1593b9184418
+		sourceLineageTag: LONGITUDE
+		summarizeBy: sum
+		sourceColumn: LONGITUDE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition VendorAddresses = entity
+		mode: directLake
+		source
+			entityName: VendorAddresses
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

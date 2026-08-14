@@ -1,0 +1,86 @@
+/// Localized product category names
+table 'Product Category Names'
+	lineageTag: 6c2f2fcf-c332-49c7-90a2-6c078c1d2124
+	sourceLineageTag: [dbo].[product_category_names]
+
+	/// Unique identifier of the product category
+	column 'Product Category ID'
+		dataType: string
+		isNullable: false
+		lineageTag: 62bf3a3e-59e0-47f1-a4cd-b5a594977163
+		sourceLineageTag: product_category_id
+		summarizeBy: none
+		sourceColumn: product_category_id
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Name of the product category in English
+	column 'Product Category (English)'
+		dataType: string
+		lineageTag: 334f4255-da14-44d5-83d0-93e56563d87f
+		sourceLineageTag: product_category_name_en
+		summarizeBy: none
+		sourceColumn: product_category_name_en
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Name of the product category in French
+	column 'Product Category (French)'
+		dataType: string
+		lineageTag: 707f4846-579e-49b4-9ddd-198e1e59d72d
+		sourceLineageTag: product_category_name_fr
+		summarizeBy: none
+		sourceColumn: product_category_name_fr
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Name of the product category in German
+	column 'Product Category (German)'
+		dataType: string
+		lineageTag: 0e49cc65-864c-42da-8527-7fc0ba8864d1
+		sourceLineageTag: product_category_name_de
+		summarizeBy: none
+		sourceColumn: product_category_name_de
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Name of the product category in Spanish
+	column 'Product Category (Spanish)'
+		dataType: string
+		lineageTag: 066f56a7-184a-49a2-8b6b-8a30cb57c803
+		sourceLineageTag: product_category_name_es
+		summarizeBy: none
+		sourceColumn: product_category_name_es
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Product Category Names' = entity
+		mode: directLake
+		source
+			entityName: product_category_names
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

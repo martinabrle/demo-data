@@ -1,0 +1,113 @@
+table ProductDescriptions
+	lineageTag: f5c6a41a-cb64-4724-9b92-8746d4e6dc16
+	sourceLineageTag: [dbo].[ProductDescriptions]
+
+	column PRODUCTID
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 7a1960e3-ba88-43c3-892e-3cf402c5f99d
+		sourceLineageTag: PRODUCTID
+		summarizeBy: none
+		sourceColumn: PRODUCTID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LANGUAGE
+		dataType: string
+		sourceProviderType: varchar(5)
+		lineageTag: 571a6545-c987-4f9d-8165-525d4909cacc
+		sourceLineageTag: LANGUAGE
+		summarizeBy: none
+		sourceColumn: LANGUAGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_MEDIUM_DESCRIPTION_EN
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 01811778-1a8f-4bd9-bf21-ab235baaa0bf
+		sourceLineageTag: PRODUCT_MEDIUM_DESCRIPTION_EN
+		summarizeBy: none
+		sourceColumn: PRODUCT_MEDIUM_DESCRIPTION_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_MEDIUM_DESCRIPTION_DE
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 675f8223-d17b-4d6a-9351-57cf403b5992
+		sourceLineageTag: PRODUCT_MEDIUM_DESCRIPTION_DE
+		summarizeBy: none
+		sourceColumn: PRODUCT_MEDIUM_DESCRIPTION_DE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_MEDIUM_DESCRIPTION_FR
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 22cb8e19-73ad-4b3c-8625-8c896592d298
+		sourceLineageTag: PRODUCT_MEDIUM_DESCRIPTION_FR
+		summarizeBy: none
+		sourceColumn: PRODUCT_MEDIUM_DESCRIPTION_FR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_MEDIUM_DESCRIPTION_ES
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: caa7a250-179f-4724-b34f-a4597b9f95dd
+		sourceLineageTag: PRODUCT_MEDIUM_DESCRIPTION_ES
+		summarizeBy: none
+		sourceColumn: PRODUCT_MEDIUM_DESCRIPTION_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_LONG_DESCRIPTION_EN
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: 21655205-0825-4d19-b9eb-3b23852af57e
+		sourceLineageTag: PRODUCT_LONG_DESCRIPTION_EN
+		summarizeBy: none
+		sourceColumn: PRODUCT_LONG_DESCRIPTION_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_LONG_DESCRIPTION_DE
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: 6d663a99-b296-4520-8032-79edd6f094f3
+		sourceLineageTag: PRODUCT_LONG_DESCRIPTION_DE
+		summarizeBy: none
+		sourceColumn: PRODUCT_LONG_DESCRIPTION_DE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_LONG_DESCRIPTION_FR
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: 2e252599-c6c3-49fa-aca2-b2b5ac829327
+		sourceLineageTag: PRODUCT_LONG_DESCRIPTION_FR
+		summarizeBy: none
+		sourceColumn: PRODUCT_LONG_DESCRIPTION_FR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_LONG_DESCRIPTION_ES
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: 602458dc-36dc-4290-8eb7-3a8931cfda4f
+		sourceLineageTag: PRODUCT_LONG_DESCRIPTION_ES
+		summarizeBy: none
+		sourceColumn: PRODUCT_LONG_DESCRIPTION_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ProductDescriptions = entity
+		mode: directLake
+		source
+			entityName: ProductDescriptions
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

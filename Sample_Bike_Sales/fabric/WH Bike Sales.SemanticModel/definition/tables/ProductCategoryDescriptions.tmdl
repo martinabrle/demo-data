@@ -1,0 +1,103 @@
+table ProductCategoryDescriptions
+	lineageTag: a7127c2d-45cf-467e-87f1-f8a3e0d43377
+	sourceLineageTag: [dbo].[ProductCategoryDescriptions]
+
+	column PRODCATEGORYID
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 1fe95351-1253-4fc9-91c1-b7a0160b09d1
+		sourceLineageTag: PRODCATEGORYID
+		summarizeBy: none
+		sourceColumn: PRODCATEGORYID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_EN
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: e40d1e52-1fa5-43b7-a192-af337899779e
+		sourceLineageTag: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_EN
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_DE
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: e08915be-36c4-4829-ab44-e30781272675
+		sourceLineageTag: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_DE
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_DE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_FR
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 94ed491e-6169-4625-84c0-0657dd4cad11
+		sourceLineageTag: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_FR
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_FR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_ES
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: e5fbdad2-abfc-4349-84b4-af1901db79ef
+		sourceLineageTag: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_ES
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_MEDIUM_DESCRIPTION_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_LONG_DESCRIPTION_EN
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: a4f075f6-6751-400a-b1ff-cb3aa8976064
+		sourceLineageTag: PRODUCT_CATEGORY_LONG_DESCRIPTION_EN
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_LONG_DESCRIPTION_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_LONG_DESCRIPTION_DE
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: 8e74c349-4715-4fda-891c-7217ac58c52b
+		sourceLineageTag: PRODUCT_CATEGORY_LONG_DESCRIPTION_DE
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_LONG_DESCRIPTION_DE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_LONG_DESCRIPTION_FR
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: 408e5542-aba9-437a-8d89-937ffc7110cd
+		sourceLineageTag: PRODUCT_CATEGORY_LONG_DESCRIPTION_FR
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_LONG_DESCRIPTION_FR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_LONG_DESCRIPTION_ES
+		dataType: string
+		sourceProviderType: varchar(4000)
+		lineageTag: efdb7ef3-c402-4816-aae8-2cc33b4fe698
+		sourceLineageTag: PRODUCT_CATEGORY_LONG_DESCRIPTION_ES
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_LONG_DESCRIPTION_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ProductCategoryDescriptions = entity
+		mode: directLake
+		source
+			entityName: ProductCategoryDescriptions
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

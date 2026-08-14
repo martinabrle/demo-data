@@ -1,0 +1,218 @@
+/// Addresses of vendors
+table 'Vendor Addresses'
+	lineageTag: c7ece74e-c6de-4b05-b769-d570f54dbb89
+	sourceLineageTag: [dbo].[vendor_addresses]
+
+	/// Unique identifier for the address
+	column 'Address ID'
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: bc7e04ae-240f-4328-be68-b6559d52aa71
+		sourceLineageTag: address_id
+		summarizeBy: none
+		sourceColumn: address_id
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// City of the address
+	column City
+		dataType: string
+		lineageTag: 081b3c55-0358-4d21-98a9-4cb60bd962d5
+		sourceLineageTag: city
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: city
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Postal code of the address
+	column 'Postal Code'
+		dataType: string
+		lineageTag: 9eb3e1ae-e718-4f6b-8be3-32586f886e0b
+		sourceLineageTag: postal_code
+		dataCategory: PostalCode
+		summarizeBy: none
+		sourceColumn: postal_code
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Street name of the address
+	column Street
+		dataType: string
+		lineageTag: 5d41d4d0-164d-4db1-9164-d3ec21fdaa57
+		sourceLineageTag: street
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: street
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Building number of the address
+	column Building
+		dataType: string
+		lineageTag: bef57aac-0ebd-4c75-b6f6-2e87a21ea50a
+		sourceLineageTag: building
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: building
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Country of the address
+	column Country
+		dataType: string
+		lineageTag: b0c0dc92-1cc3-41cf-91a4-ee5f08fa05f9
+		sourceLineageTag: country
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: country
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Administrative region, state, or province
+	column Region
+		dataType: string
+		lineageTag: 1ef8e641-6b13-4d96-bcf0-686952541d63
+		sourceLineageTag: region
+		summarizeBy: none
+		sourceColumn: region
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Classification of the address such as billing, shipping, or home
+	column 'Address Type'
+		dataType: string
+		lineageTag: 21d7efa7-a68f-461b-ad36-0356253c12a8
+		sourceLineageTag: address_type
+		summarizeBy: none
+		sourceColumn: address_type
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Date from which the address is considered valid
+	column 'Valid From'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 9ee9a55e-ef39-4c99-983e-f415089b1e6a
+		sourceLineageTag: validity_start_date
+		summarizeBy: none
+		sourceColumn: validity_start_date
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Date until which the address is considered valid
+	column 'Valid To'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 0719f9fd-6505-4cdf-9d5d-a8aa25b8a4e3
+		sourceLineageTag: validity_end_date
+		summarizeBy: none
+		sourceColumn: validity_end_date
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Geographical latitude coordinate of the address
+	column Latitude
+		dataType: double
+		lineageTag: 8a1f3046-d475-4901-93f5-c285257acc93
+		sourceLineageTag: latitude
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = DataCategory
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Geographical longitude coordinate of the address
+	column Longitude
+		dataType: double
+		lineageTag: 744465da-f908-401e-9054-f76552207daf
+		sourceLineageTag: longitude
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = DataCategory
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Vendor Addresses' = entity
+		mode: directLake
+		source
+			entityName: vendor_addresses
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

@@ -1,0 +1,63 @@
+table ProductCategoryNames
+	lineageTag: 63545add-8e55-4024-83c5-1cb59d6eb21a
+	sourceLineageTag: [dbo].[ProductCategoryNames]
+
+	column PRODCATEGORYID
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 3ddef8b0-6fd0-4295-a207-dfdff33103fa
+		sourceLineageTag: PRODCATEGORYID
+		summarizeBy: none
+		sourceColumn: PRODCATEGORYID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_NAME_EN
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 285118c8-b217-44e1-90ca-aa982b8d96eb
+		sourceLineageTag: PRODUCT_CATEGORY_NAME_EN
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_NAME_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_NAME_DE
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: cf7a3ed4-1274-4ff4-a436-f54dfe4f9eb0
+		sourceLineageTag: PRODUCT_CATEGORY_NAME_DE
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_NAME_DE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_NAME_FR
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 0fb46d1e-3c40-4124-990c-f045057c73ca
+		sourceLineageTag: PRODUCT_CATEGORY_NAME_FR
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_NAME_FR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_CATEGORY_NAME_ES
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 959482c9-9c4f-419c-bc32-852126f34b6c
+		sourceLineageTag: PRODUCT_CATEGORY_NAME_ES
+		summarizeBy: none
+		sourceColumn: PRODUCT_CATEGORY_NAME_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ProductCategoryNames = entity
+		mode: directLake
+		source
+			entityName: ProductCategoryNames
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

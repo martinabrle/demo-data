@@ -1,0 +1,286 @@
+/// Sales order records
+table 'Sales Orders'
+	lineageTag: 39e25438-c7e0-4aaf-86e7-903f09fc2f7c
+	sourceLineageTag: [dbo].[sales_orders]
+
+	/// Unique identifier of the sales order
+	column 'Sales Order ID'
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 7e6e09a8-6520-44e7-80b6-ca67fab2d8b1
+		sourceLineageTag: sales_order_id
+		summarizeBy: none
+		sourceColumn: sales_order_id
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Identifier of the user who created the sales order
+	column 'Created By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3115bfd9-0a8e-49ec-91a2-9ab630b7af29
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the sales order was created
+	column 'Created Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 76596a58-2071-4009-af72-37ef78c44dca
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who last modified the sales order
+	column 'Modified By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c25733bc-aa32-4f08-a4da-978e9de72e2a
+		sourceLineageTag: modified_by
+		summarizeBy: none
+		sourceColumn: modified_by
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the sales order was last modified
+	column 'Modified Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 242dc35c-7268-425f-884c-a35f17144abf
+		sourceLineageTag: modified_date
+		summarizeBy: none
+		sourceColumn: modified_date
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Fiscal variant associated with the sales order
+	column 'Fiscal Variant'
+		dataType: string
+		lineageTag: afccc211-e134-4a2a-b0ef-5e053f266659
+		sourceLineageTag: fisc_variant
+		summarizeBy: none
+		sourceColumn: fisc_variant
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Fiscal year and period for the sales order
+	column 'Fiscal Year Period'
+		dataType: string
+		lineageTag: 2e47681b-7cd6-4352-8abf-6ff2d2cd6366
+		sourceLineageTag: fiscal_year_period
+		summarizeBy: none
+		sourceColumn: fiscal_year_period
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of associated note
+	column 'Note ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4d2caf6d-3c77-4166-bfb2-87b79c04f61e
+		sourceLineageTag: note_id
+		summarizeBy: none
+		sourceColumn: note_id
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Identifier of the customer for this sales order
+	column 'Customer ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: f2a21a28-0d72-4199-a3b9-9f7c6c6286f3
+		sourceLineageTag: customer_id
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Sales organization responsible for the order
+	column 'Sales Organization'
+		dataType: string
+		lineageTag: 8f76f2b2-802e-4e1f-8517-7899c7ee2a4f
+		sourceLineageTag: sales_org
+		summarizeBy: none
+		sourceColumn: sales_org
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Currency of the sales order amounts
+	column Currency
+		dataType: string
+		lineageTag: 783436d3-6e1d-4522-9906-40d0810f6720
+		sourceLineageTag: currency
+		summarizeBy: none
+		sourceColumn: currency
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Gross amount of the sales order
+	column 'Gross Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: a71e5c2d-1dd2-48b9-bc23-a44f6c4dce35
+		sourceLineageTag: gross_amount
+		summarizeBy: sum
+		sourceColumn: gross_amount
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Net amount of the sales order
+	column 'Net Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: a29b2613-9e2c-46e4-9f20-11f80857d273
+		sourceLineageTag: net_amount
+		summarizeBy: sum
+		sourceColumn: net_amount
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tax amount of the sales order
+	column 'Tax Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7034ba6a-cba8-4fdc-93c4-c72b4eb18cdb
+		sourceLineageTag: tax_amount
+		summarizeBy: sum
+		sourceColumn: tax_amount
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Lifecycle status of the sales order (In Process, Completed, Cancelled, Unknown)
+	column 'Lifecycle Status'
+		dataType: string
+		lineageTag: 2264a9c2-0e71-4b69-9162-84d4e2b01661
+		sourceLineageTag: lifecycle_status
+		summarizeBy: none
+		sourceColumn: lifecycle_status
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Billing status of the sales order (Not Billed, Partially Billed, Completely Billed, Cancelled, Unknown)
+	column 'Billing Status'
+		dataType: string
+		lineageTag: 5b1382e5-d82a-46df-b91b-0c42829a2cc8
+		sourceLineageTag: billing_status
+		summarizeBy: none
+		sourceColumn: billing_status
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Delivery status of the sales order (Not Delivered, Partially Delivered, Completely Delivered, Cancelled, Unknown)
+	column 'Delivery Status'
+		dataType: string
+		lineageTag: 319af0c4-83d2-4e94-888d-78500fcfbde9
+		sourceLineageTag: delivery_status
+		summarizeBy: none
+		sourceColumn: delivery_status
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Sales Orders' = entity
+		mode: directLake
+		source
+			entityName: sales_orders
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

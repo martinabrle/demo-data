@@ -1,0 +1,227 @@
+/// Customer records
+table Customers
+	lineageTag: a0ab668d-54be-46cb-b9bd-e3479bc361ed
+	sourceLineageTag: [dbo].[customers]
+
+	/// Unique identifier of the customer
+	column 'Customer ID'
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 886481ed-1b29-4f43-bc18-de4cf7b521b9
+		sourceLineageTag: customer_id
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = SummarizeBy
+
+		annotation SummarizationSetBy = User
+
+	/// Customer email address
+	column Email
+		dataType: string
+		lineageTag: 5a54e7a1-fdc9-43ce-8b65-5c271b5cd1d6
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Customer phone number
+	column 'Phone No'
+		dataType: string
+		lineageTag: 18ad495b-ae58-4996-b85f-5716940cdecc
+		sourceLineageTag: phone_no
+		summarizeBy: none
+		sourceColumn: phone_no
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Customer fax number
+	column 'Fax No'
+		dataType: string
+		lineageTag: de996b7a-c209-46e7-b278-4e58a0fe4278
+		sourceLineageTag: fax_no
+		summarizeBy: none
+		sourceColumn: fax_no
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Customer website or URL
+	column URL
+		dataType: string
+		lineageTag: c6dee509-133b-42f3-b0c3-5b56542fd13b
+		sourceLineageTag: url
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: url
+
+		changedProperty = DataCategory
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier for the customer's address
+	column 'Address ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3dcbe1e9-830b-45d0-bc9a-79dbb0c29127
+		sourceLineageTag: address_id
+		summarizeBy: none
+		sourceColumn: address_id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = SummarizeBy
+
+		annotation SummarizationSetBy = User
+
+	/// Legal or registered name of the company
+	column Customer
+		dataType: string
+		lineageTag: e063a8b3-0689-4a81-aeef-3dfdb7fab24a
+		sourceLineageTag: company_name
+		summarizeBy: none
+		sourceColumn: company_name
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Legal form of the company, such as Ltd or Inc
+	column 'Legal Form'
+		dataType: string
+		lineageTag: 12cc8d87-c27e-42c5-a368-3aa7566743ae
+		sourceLineageTag: legal_form
+		summarizeBy: none
+		sourceColumn: legal_form
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who created the customer record
+	column 'Created By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 34140851-ae15-4447-87c8-55c6872622d3
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = IsHidden
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the customer record was created
+	column 'Created Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 0c2af2da-60a2-4a3f-8e32-c43e63dca7ec
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Date when the customer record was last modified
+	column 'Modified By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: cd688b9d-059e-4f73-bebb-fa8f79896282
+		sourceLineageTag: modified_by
+		summarizeBy: none
+		sourceColumn: modified_by
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = SummarizeBy
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the customer record was last modified
+	column 'Modified Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 61a9eaaf-22d0-4182-878b-035daff9f45e
+		sourceLineageTag: modified_date
+		summarizeBy: none
+		sourceColumn: modified_date
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Default currency associated with the customer
+	column Currency
+		dataType: string
+		lineageTag: 1a4aeab3-900b-41ca-a005-8e468768a5ab
+		sourceLineageTag: currency
+		summarizeBy: none
+		sourceColumn: currency
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Customers = entity
+		mode: directLake
+		source
+			entityName: customers
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

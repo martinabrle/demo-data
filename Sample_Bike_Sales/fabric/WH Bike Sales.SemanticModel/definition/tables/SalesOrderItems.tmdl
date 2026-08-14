@@ -1,0 +1,156 @@
+table SalesOrderItems
+	lineageTag: 06e457e0-76ff-4cb1-9631-24a03b56f546
+	sourceLineageTag: [dbo].[SalesOrderItems]
+
+	column SALESORDERID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 605764ba-436d-4dc6-a0d0-3bd63e5c7261
+		sourceLineageTag: SALESORDERID
+		summarizeBy: count
+		sourceColumn: SALESORDERID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SALESORDERITEM
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: b1067b73-1d82-463f-a94b-f1a0c27182df
+		sourceLineageTag: SALESORDERITEM
+		summarizeBy: sum
+		sourceColumn: SALESORDERITEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCTID
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 8ae58f38-bdec-4003-b6a4-a07558c7ff28
+		sourceLineageTag: PRODUCTID
+		summarizeBy: none
+		sourceColumn: PRODUCTID
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOTEID
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 0a392a20-d13b-4821-8593-9e92dc9c13e7
+		sourceLineageTag: NOTEID
+		summarizeBy: none
+		sourceColumn: NOTEID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENCY
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: 68c75a94-473e-4d15-bab1-3fcc9822d00b
+		sourceLineageTag: CURRENCY
+		summarizeBy: none
+		sourceColumn: CURRENCY
+
+		annotation SummarizationSetBy = Automatic
+
+	column GROSSAMOUNT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 9354126d-909b-4fcc-afb7-b83eff214d1c
+		sourceLineageTag: GROSSAMOUNT
+		summarizeBy: sum
+		sourceColumn: GROSSAMOUNT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column NETAMOUNT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 165c7560-76fe-4c8d-9d95-0c4807f86292
+		sourceLineageTag: NETAMOUNT
+		summarizeBy: sum
+		sourceColumn: NETAMOUNT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column TAXAMOUNT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 0be62e22-841c-4f31-9511-9d45f6495730
+		sourceLineageTag: TAXAMOUNT
+		summarizeBy: sum
+		sourceColumn: TAXAMOUNT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column ITEMATPSTATUS
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 300f89dd-c6b9-4b60-9f64-f70b02995a66
+		sourceLineageTag: ITEMATPSTATUS
+		summarizeBy: none
+		sourceColumn: ITEMATPSTATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column OPITEMPOS
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: b5c5a91c-8eff-41f2-8e4b-8125f9e62a46
+		sourceLineageTag: OPITEMPOS
+		summarizeBy: none
+		sourceColumn: OPITEMPOS
+
+		annotation SummarizationSetBy = Automatic
+
+	column QUANTITY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 7206d725-2d7a-4fd6-b5ee-6fcac5def926
+		sourceLineageTag: QUANTITY
+		summarizeBy: sum
+		sourceColumn: QUANTITY
+
+		annotation SummarizationSetBy = Automatic
+
+	column QUANTITYUNIT
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 7cec24ee-e74e-4516-b7ea-87993277f4b7
+		sourceLineageTag: QUANTITYUNIT
+		summarizeBy: none
+		sourceColumn: QUANTITYUNIT
+
+		annotation SummarizationSetBy = Automatic
+
+	column DELIVERYDATE
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 008050ac-9595-49bc-96cf-bc513f105883
+		sourceLineageTag: DELIVERYDATE
+		summarizeBy: none
+		sourceColumn: DELIVERYDATE
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SalesOrderItems = entity
+		mode: directLake
+		source
+			entityName: SalesOrderItems
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

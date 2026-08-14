@@ -1,0 +1,199 @@
+table SalesOrders
+	lineageTag: d9193010-a909-4601-993c-4ac6511fabdc
+	sourceLineageTag: [dbo].[SalesOrders]
+
+	column SALESORDERID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 9a1ba974-449a-4bfd-b851-9140a033cd33
+		sourceLineageTag: SALESORDERID
+		summarizeBy: count
+		sourceColumn: SALESORDERID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 6fedfac0-acb8-41bf-822a-c81202b20de6
+		sourceLineageTag: CREATEDBY
+		summarizeBy: sum
+		sourceColumn: CREATEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 354e3019-c6c0-4bf7-9a54-33cb61ce94a7
+		sourceLineageTag: CREATEDAT
+		summarizeBy: none
+		sourceColumn: CREATEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 9829398a-2103-43d1-8392-7ca7c6fd8fe0
+		sourceLineageTag: CHANGEDBY
+		summarizeBy: sum
+		sourceColumn: CHANGEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 2013808f-c37e-43b5-a1d2-cf709023129e
+		sourceLineageTag: CHANGEDAT
+		summarizeBy: none
+		sourceColumn: CHANGEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column FISCVARIANT
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 004fbb83-bcf0-4fdf-838b-b581ba1a62a3
+		sourceLineageTag: FISCVARIANT
+		summarizeBy: none
+		sourceColumn: FISCVARIANT
+
+		annotation SummarizationSetBy = Automatic
+
+	column FISCALYEARPERIOD
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 982303ba-12ab-462c-b165-9260969bc3fd
+		sourceLineageTag: FISCALYEARPERIOD
+		summarizeBy: sum
+		sourceColumn: FISCALYEARPERIOD
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOTEID
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: c52161e7-8c01-4a7e-bada-62fde6465693
+		sourceLineageTag: NOTEID
+		summarizeBy: none
+		sourceColumn: NOTEID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOMERID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: e0560102-42d0-483d-b853-38e484a0d908
+		sourceLineageTag: CUSTOMERID
+		summarizeBy: count
+		sourceColumn: CUSTOMERID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SALESORG
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 93be47dd-a121-4881-a735-342812a4333f
+		sourceLineageTag: SALESORG
+		summarizeBy: none
+		sourceColumn: SALESORG
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENCY
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: 88addab7-d28e-45e3-89a4-1a4c2a301c4e
+		sourceLineageTag: CURRENCY
+		summarizeBy: none
+		sourceColumn: CURRENCY
+
+		annotation SummarizationSetBy = Automatic
+
+	column GROSSAMOUNT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: a3ec850d-9fe8-4301-ad9f-b7b2ea8f7298
+		sourceLineageTag: GROSSAMOUNT
+		summarizeBy: sum
+		sourceColumn: GROSSAMOUNT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column NETAMOUNT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 290f718c-17f6-4205-9727-dce58cec1ad1
+		sourceLineageTag: NETAMOUNT
+		summarizeBy: sum
+		sourceColumn: NETAMOUNT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column TAXAMOUNT
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		sourceProviderType: decimal(10, 4)
+		lineageTag: 1aa8bb30-4295-4072-bbf3-50ac75393fa8
+		sourceLineageTag: TAXAMOUNT
+		summarizeBy: sum
+		sourceColumn: TAXAMOUNT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column LIFECYCLESTATUS
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: dcb9d4c1-cbb2-4ec3-90f3-2f9baa8a46e9
+		sourceLineageTag: LIFECYCLESTATUS
+		summarizeBy: none
+		sourceColumn: LIFECYCLESTATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column BILLINGSTATUS
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: a783540b-7441-45ec-abd2-d64d73b07542
+		sourceLineageTag: BILLINGSTATUS
+		summarizeBy: none
+		sourceColumn: BILLINGSTATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column DELIVERYSTATUS
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: df1b7bde-4d9b-4511-92c4-28a5f16b4b56
+		sourceLineageTag: DELIVERYSTATUS
+		summarizeBy: none
+		sourceColumn: DELIVERYSTATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SalesOrders = entity
+		mode: directLake
+		source
+			entityName: SalesOrders
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

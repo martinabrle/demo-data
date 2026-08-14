@@ -1,0 +1,68 @@
+/// Categories of products
+table 'Product Categories'
+	lineageTag: 1f4acfda-5c78-4cb5-bf28-52d9883ebea8
+	sourceLineageTag: [dbo].[product_categories]
+
+	/// Unique identifier of the product category
+	column 'Product Category ID'
+		dataType: string
+		isNullable: false
+		lineageTag: cbd113f6-a820-4037-8b15-801dc2576c18
+		sourceLineageTag: product_category_id
+		summarizeBy: none
+		sourceColumn: product_category_id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who created the product category
+	column 'Created By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 28104862-c9dd-4fd6-9926-d81ad64b570a
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the product category record was created
+	column 'Created Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 6212b1bd-3ac6-4554-a9f4-b5abf8814c9b
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		changedProperty = Name
+
+		changedProperty = IsHidden
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Product Categories' = entity
+		mode: directLake
+		source
+			entityName: product_categories
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

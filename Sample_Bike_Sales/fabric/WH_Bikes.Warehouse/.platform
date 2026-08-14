@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Warehouse",
+    "displayName": "WH_Bikes"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "db2061fa-0e40-a617-468a-2f74f512559a"
+  }
+}

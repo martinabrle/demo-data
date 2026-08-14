@@ -1,0 +1,214 @@
+/// Order items for sales orders
+table 'Sales Order Items'
+	lineageTag: 00da58e4-b307-4cf4-a9e4-3cc37ea4c6e0
+	sourceLineageTag: [dbo].[sales_order_items]
+
+	/// Identifier of the sales order
+	column 'Sales Order ID'
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 03ed18ff-c04f-4596-8ee2-22157a64cebb
+		sourceLineageTag: sales_order_id
+		summarizeBy: none
+		sourceColumn: sales_order_id
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Identifier of the sales order item
+	column 'Sales Order Item ID'
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: df8a2299-6bd7-48e7-95db-79dd1debab58
+		sourceLineageTag: sales_order_item_id
+		summarizeBy: none
+		sourceColumn: sales_order_item_id
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Identifier of the product for this order item
+	column 'Product ID'
+		dataType: string
+		lineageTag: 037f4090-a1d6-4b71-881a-25bd7afe7f7d
+		sourceLineageTag: product_id
+		summarizeBy: none
+		sourceColumn: product_id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of associated note for this item
+	column 'Note ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: b7b76ae6-4efb-469f-b9b7-4d1fe3e7cc1b
+		sourceLineageTag: note_id
+		summarizeBy: none
+		sourceColumn: note_id
+
+		changedProperty = Name
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Currency of the amounts for this order item
+	column Currency
+		dataType: string
+		lineageTag: 99dbbffb-f4f6-46f4-9200-4ec2a325a9c9
+		sourceLineageTag: currency
+		summarizeBy: none
+		sourceColumn: currency
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Gross amount for this order item
+	column 'Gross Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: b64d3fb0-1e92-4b62-8a88-cf02fefa7696
+		sourceLineageTag: gross_amount
+		summarizeBy: sum
+		sourceColumn: gross_amount
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Net amount for this order item
+	column 'Net Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: 307b2ccf-cf64-4dec-8786-f918b7d91175
+		sourceLineageTag: net_amount
+		summarizeBy: sum
+		sourceColumn: net_amount
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tax amount for this order item
+	column 'Tax Amount'
+		dataType: int64
+		formatString: 0
+		lineageTag: b432abeb-58dc-4dc4-a67a-57cf9fa5b7fb
+		sourceLineageTag: tax_amount
+		summarizeBy: sum
+		sourceColumn: tax_amount
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Available-to-promise status of the order item (Confirmed, Partially Confirmed, Not Confirmed, Cancelled / Not Relevant, Unknown)
+	column 'Item ATP Status'
+		dataType: string
+		lineageTag: 05e313ac-0ad2-46fa-bb5f-7c1363c4a654
+		sourceLineageTag: item_atp_status
+		summarizeBy: none
+		sourceColumn: item_atp_status
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Operational item position identifier
+	column 'OP Item Pos'
+		dataType: string
+		lineageTag: 6ae610e4-43d2-4c45-add1-f3b98a1b8df9
+		sourceLineageTag: op_item_pos
+		summarizeBy: none
+		sourceColumn: op_item_pos
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Quantity ordered for this item
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f089c19-63c4-4f23-ba27-51c0971c278d
+		sourceLineageTag: quantity
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Unit of measure for the ordered quantity
+	column 'Quantity Unit'
+		dataType: int64
+		formatString: 0
+		lineageTag: f1cdb32e-c3a1-45ba-8ae0-15c0ef8e4fb9
+		sourceLineageTag: quantity_unit
+		summarizeBy: sum
+		sourceColumn: quantity_unit
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Planned delivery date for the order item
+	column 'Delivery Date'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: adab094f-43c2-4d23-bec1-cfb0d8990a5e
+		sourceLineageTag: delivery_date
+		summarizeBy: none
+		sourceColumn: delivery_date
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Sales Order Items' = entity
+		mode: directLake
+		source
+			entityName: sales_order_items
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

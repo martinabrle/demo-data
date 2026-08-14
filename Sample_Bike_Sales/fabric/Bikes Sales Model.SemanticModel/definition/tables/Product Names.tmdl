@@ -1,0 +1,86 @@
+/// Localized product names
+table 'Product Names'
+	lineageTag: 9437b91c-f0f6-4fe3-ae98-0b2c116d7132
+	sourceLineageTag: [dbo].[product_names]
+
+	/// Unique identifier of the product
+	column 'Product ID'
+		dataType: string
+		isNullable: false
+		lineageTag: 3bacb4ca-988d-4fb3-a8f2-bb68bdf659af
+		sourceLineageTag: product_id
+		summarizeBy: none
+		sourceColumn: product_id
+
+		changedProperty = Description
+
+		changedProperty = Name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Product name in English
+	column 'Product (English)'
+		dataType: string
+		lineageTag: ba859f23-7fae-4e6d-9236-ffc0474d22ff
+		sourceLineageTag: product_name_en
+		summarizeBy: none
+		sourceColumn: product_name_en
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Product name in French
+	column 'Product (French)'
+		dataType: string
+		lineageTag: bc36aa3c-902c-4d0e-9d25-a77b7216dd7e
+		sourceLineageTag: product_name_fr
+		summarizeBy: none
+		sourceColumn: product_name_fr
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Product name in German
+	column 'Product (German)'
+		dataType: string
+		lineageTag: 2fd19f85-64b8-4514-9469-15cd07869b32
+		sourceLineageTag: product_name_de
+		summarizeBy: none
+		sourceColumn: product_name_de
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Product name in Spanish
+	column 'Product (Spanish)'
+		dataType: string
+		lineageTag: a12b9f68-fa15-4a9c-bded-ba527fc1c4cf
+		sourceLineageTag: product_name_es
+		summarizeBy: none
+		sourceColumn: product_name_es
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Product Names' = entity
+		mode: directLake
+		source
+			entityName: product_names
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

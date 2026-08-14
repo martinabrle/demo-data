@@ -1,0 +1,11 @@
+expression 'DirectLake - LH_Bikes' =
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/1a7264cf-5a08-47ab-aa00-41a6f005f2d3/6f4189fd-1e9b-4b03-b188-66b54ecf0c9b", [HierarchicalNavigation=true])
+		in
+		    Source
+	lineageTag: 2ca85c9b-1b3d-4e17-956f-7f44dedb98e6
+
+	annotation PBI_IncludeFutureArtifacts = False
+
+	annotation PBI_RemovedChildren = [{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[employee_addresses]"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[employees]"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[product_category_texts]"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"[dbo].[product_texts]"}},"objectType":"Table"}]
+

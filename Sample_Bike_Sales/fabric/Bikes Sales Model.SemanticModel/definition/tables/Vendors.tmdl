@@ -1,0 +1,227 @@
+/// Vendor records
+table Vendors
+	lineageTag: 813fdfd5-2ead-42c9-b154-8781a410a52b
+	sourceLineageTag: [dbo].[vendors]
+
+	/// Unique identifier of the vendor
+	column 'Vendor ID'
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 9beb3f6d-a52d-4d6d-b1ec-93e44bb6e668
+		sourceLineageTag: vendor_id
+		summarizeBy: none
+		sourceColumn: vendor_id
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Vendor email address
+	column Email
+		dataType: string
+		lineageTag: 52838dee-b069-4911-8c71-f64d96e0478e
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Vendor phone number
+	column 'Phone No'
+		dataType: string
+		lineageTag: 1dbaef86-e1b1-4dda-8179-441477cafbd2
+		sourceLineageTag: phone_no
+		summarizeBy: none
+		sourceColumn: phone_no
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Vendor fax number
+	column 'Fax No'
+		dataType: string
+		lineageTag: 7469f6b0-4fef-425a-97e1-34d2bb8f711b
+		sourceLineageTag: fax_no
+		summarizeBy: none
+		sourceColumn: fax_no
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Vendor website or URL
+	column URL
+		dataType: string
+		lineageTag: c2ff763b-d19c-4776-ac24-03e09824d16b
+		sourceLineageTag: url
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: url
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier for the vendor's address
+	column 'Address ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 801c5cca-35f3-4910-9297-f3248849f598
+		sourceLineageTag: address_id
+		summarizeBy: none
+		sourceColumn: address_id
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Legal or registered name of the vendor company
+	column Vendor
+		dataType: string
+		lineageTag: dcd46a3b-9377-48ee-86a2-b2b339264f82
+		sourceLineageTag: company_name
+		summarizeBy: none
+		sourceColumn: company_name
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Legal form of the vendor company, such as Ltd or Inc
+	column 'Legal Form'
+		dataType: string
+		lineageTag: 340f6b6f-77a0-4528-898d-52199459ecf6
+		sourceLineageTag: legal_form
+		summarizeBy: none
+		sourceColumn: legal_form
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who created the vendor record
+	column 'Created By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 24629ad1-d2bf-4eb5-bac0-3949a7fed825
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = IsHidden
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the vendor record was created
+	column 'Created Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 74ead07c-ada7-4fef-926e-ebb9b94a87f1
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		changedProperty = Name
+
+		changedProperty = IsHidden
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who last modified the vendor record
+	column 'Modified By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d7c5097b-c4bf-443e-ab91-569a521f29f6
+		sourceLineageTag: modified_by
+		summarizeBy: none
+		sourceColumn: modified_by
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = IsHidden
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the vendor record was last modified
+	column 'Modified Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 4544904f-9621-4ef7-8592-487de9e09bd9
+		sourceLineageTag: modified_date
+		summarizeBy: none
+		sourceColumn: modified_date
+
+		changedProperty = Name
+
+		changedProperty = IsHidden
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Default currency associated with the vendor
+	column Currency
+		dataType: string
+		lineageTag: 5b195b88-3793-4d25-a81b-7fa4984fb011
+		sourceLineageTag: currency
+		summarizeBy: none
+		sourceColumn: currency
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Vendors = entity
+		mode: directLake
+		source
+			entityName: vendors
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

@@ -1,0 +1,149 @@
+table Customers
+	lineageTag: 1af8a976-2289-4fd4-a0f4-6cb631950aa7
+	sourceLineageTag: [dbo].[Customers]
+
+	column CUSTOMERID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4d3d7eaa-496f-4724-b6e4-c830648602ef
+		sourceLineageTag: CUSTOMERID
+		summarizeBy: count
+		sourceColumn: CUSTOMERID
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMAILADDRESS
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 0bbb0edd-55f0-44af-a54b-73919bd7c5d1
+		sourceLineageTag: EMAILADDRESS
+		summarizeBy: none
+		sourceColumn: EMAILADDRESS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PHONENUMBER
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: e9a40e58-128d-4497-9902-7fa1ae947067
+		sourceLineageTag: PHONENUMBER
+		summarizeBy: none
+		sourceColumn: PHONENUMBER
+
+		annotation SummarizationSetBy = Automatic
+
+	column FAXNUMBER
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: 6bb5256a-c716-400e-b79f-b3f86310af9b
+		sourceLineageTag: FAXNUMBER
+		summarizeBy: none
+		sourceColumn: FAXNUMBER
+
+		annotation SummarizationSetBy = Automatic
+
+	column WEBADDRESS
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: e901233a-780d-4d91-88de-ddddae6aade3
+		sourceLineageTag: WEBADDRESS
+		summarizeBy: none
+		sourceColumn: WEBADDRESS
+
+		annotation SummarizationSetBy = Automatic
+
+	column ADDRESSID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: e22ec47d-5f9c-4eca-a739-e147ef94b9ff
+		sourceLineageTag: ADDRESSID
+		summarizeBy: count
+		sourceColumn: ADDRESSID
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMPANYNAME
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 4bde583b-b5d8-4fdf-867a-ccf08177493a
+		sourceLineageTag: COMPANYNAME
+		summarizeBy: none
+		sourceColumn: COMPANYNAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column LEGALFORM
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 40070152-7a3d-4c79-a744-d8e4974bcabd
+		sourceLineageTag: LEGALFORM
+		summarizeBy: none
+		sourceColumn: LEGALFORM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 5028c0b7-88d6-4ab6-a276-b1efe11a38ec
+		sourceLineageTag: CREATEDBY
+		summarizeBy: sum
+		sourceColumn: CREATEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: a8e01c49-60ef-4a2b-b998-edddc773cc80
+		sourceLineageTag: CREATEDAT
+		summarizeBy: none
+		sourceColumn: CREATEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 0d308bd3-2079-45e8-a1d2-1de105b6bf1a
+		sourceLineageTag: CHANGEDBY
+		summarizeBy: sum
+		sourceColumn: CHANGEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 2c283593-5111-4698-8116-726a58616d33
+		sourceLineageTag: CHANGEDAT
+		summarizeBy: none
+		sourceColumn: CHANGEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENCY
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: f27bc10a-8e7e-47d0-8542-8b04cf4d7e9f
+		sourceLineageTag: CURRENCY
+		summarizeBy: none
+		sourceColumn: CURRENCY
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Customers = entity
+		mode: directLake
+		source
+			entityName: Customers
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

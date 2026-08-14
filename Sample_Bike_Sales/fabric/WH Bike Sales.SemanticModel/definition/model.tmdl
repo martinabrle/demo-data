@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	collation: Latin1_General_100_BIN2_UTF8
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DatabaseQuery"]
+
+ref table CustomerAddresses
+ref table VendorAddresses
+ref table Customers
+ref table Vendors
+ref table ProductCategories
+ref table ProductCategoryNames
+ref table ProductCategoryDescriptions
+ref table Products
+ref table ProductNames
+ref table ProductDescriptions
+ref table SalesOrderItems
+ref table SalesOrders
+

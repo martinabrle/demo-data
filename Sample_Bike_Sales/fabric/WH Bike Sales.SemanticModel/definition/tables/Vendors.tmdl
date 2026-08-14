@@ -1,0 +1,149 @@
+table Vendors
+	lineageTag: 94b5c2cf-977b-4515-b485-16fcf84dbcbe
+	sourceLineageTag: [dbo].[Vendors]
+
+	column VENDORID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: b712d849-c16d-46c7-a57f-39faeae1223c
+		sourceLineageTag: VENDORID
+		summarizeBy: count
+		sourceColumn: VENDORID
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMAILADDRESS
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: f4a9a897-02c9-4f38-bb45-fc9512d517ce
+		sourceLineageTag: EMAILADDRESS
+		summarizeBy: none
+		sourceColumn: EMAILADDRESS
+
+		annotation SummarizationSetBy = Automatic
+
+	column PHONENUMBER
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: 6d3cb022-702b-4ec0-969a-3d16f61c1f4b
+		sourceLineageTag: PHONENUMBER
+		summarizeBy: none
+		sourceColumn: PHONENUMBER
+
+		annotation SummarizationSetBy = Automatic
+
+	column FAXNUMBER
+		dataType: string
+		sourceProviderType: varchar(20)
+		lineageTag: b72a1cfa-3706-4f03-bef7-f773fdee613d
+		sourceLineageTag: FAXNUMBER
+		summarizeBy: none
+		sourceColumn: FAXNUMBER
+
+		annotation SummarizationSetBy = Automatic
+
+	column WEBADDRESS
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: e76c03f7-7ca9-470a-b6be-4bb9ff1a7ece
+		sourceLineageTag: WEBADDRESS
+		summarizeBy: none
+		sourceColumn: WEBADDRESS
+
+		annotation SummarizationSetBy = Automatic
+
+	column ADDRESSID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 3085a0b1-f3aa-4067-8c10-353d0112e54f
+		sourceLineageTag: ADDRESSID
+		summarizeBy: count
+		sourceColumn: ADDRESSID
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMPANYNAME
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 5c334aaa-9db6-4407-a354-8bf009721f65
+		sourceLineageTag: COMPANYNAME
+		summarizeBy: none
+		sourceColumn: COMPANYNAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column LEGALFORM
+		dataType: string
+		sourceProviderType: varchar(1024)
+		lineageTag: 08093134-c011-4958-b8ed-9362fbb68999
+		sourceLineageTag: LEGALFORM
+		summarizeBy: none
+		sourceColumn: LEGALFORM
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 431e1b8f-88c1-46c9-9067-c373453173b2
+		sourceLineageTag: CREATEDBY
+		summarizeBy: sum
+		sourceColumn: CREATEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: d1e70a40-4786-4862-a5d8-9cce0df078da
+		sourceLineageTag: CREATEDAT
+		summarizeBy: none
+		sourceColumn: CREATEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 089b6e57-4b49-41b3-9873-df33ab98eb69
+		sourceLineageTag: CHANGEDBY
+		summarizeBy: sum
+		sourceColumn: CHANGEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CHANGEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 1643c09a-6e18-4ec3-9810-d3a8b2ab2507
+		sourceLineageTag: CHANGEDAT
+		summarizeBy: none
+		sourceColumn: CHANGEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENCY
+		dataType: string
+		sourceProviderType: varchar(3)
+		lineageTag: 405383ee-f6d0-4125-af8e-4b85758dd049
+		sourceLineageTag: CURRENCY
+		summarizeBy: none
+		sourceColumn: CURRENCY
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Vendors = entity
+		mode: directLake
+		source
+			entityName: Vendors
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,16 @@
+CREATE TABLE [dbo].[Vendors] (
+
+	[VENDORID] int NOT NULL, 
+	[EMAILADDRESS] varchar(1024) NULL, 
+	[PHONENUMBER] varchar(20) NULL, 
+	[FAXNUMBER] varchar(20) NULL, 
+	[WEBADDRESS] varchar(1024) NULL, 
+	[ADDRESSID] int NULL, 
+	[COMPANYNAME] varchar(256) NULL, 
+	[LEGALFORM] varchar(1024) NULL, 
+	[CREATEDBY] int NULL, 
+	[CREATEDAT] date NULL, 
+	[CHANGEDBY] int NULL, 
+	[CHANGEDAT] date NULL, 
+	[CURRENCY] varchar(3) NULL
+);

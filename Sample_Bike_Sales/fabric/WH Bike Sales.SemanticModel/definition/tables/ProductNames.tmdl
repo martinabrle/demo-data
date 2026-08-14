@@ -1,0 +1,73 @@
+table ProductNames
+	lineageTag: 096f2605-01b1-4857-b84c-209868433280
+	sourceLineageTag: [dbo].[ProductNames]
+
+	column PRODUCTID
+		dataType: string
+		sourceProviderType: varchar(10)
+		lineageTag: 05e1204c-3b07-455c-9c4b-52dda74b36d9
+		sourceLineageTag: PRODUCTID
+		summarizeBy: none
+		sourceColumn: PRODUCTID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LANGUAGE
+		dataType: string
+		sourceProviderType: varchar(5)
+		lineageTag: 756ee41f-142a-4afd-afba-74a24d0be277
+		sourceLineageTag: LANGUAGE
+		summarizeBy: none
+		sourceColumn: LANGUAGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_NAME_EN
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: d5ee437e-c287-4b7f-baf1-a8c3f34dbe63
+		sourceLineageTag: PRODUCT_NAME_EN
+		summarizeBy: none
+		sourceColumn: PRODUCT_NAME_EN
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_NAME_DE
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 792d7609-5efe-4e9c-a9c6-185d7f09e666
+		sourceLineageTag: PRODUCT_NAME_DE
+		summarizeBy: none
+		sourceColumn: PRODUCT_NAME_DE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_NAME_FR
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: 9024dfee-b59c-4aea-88c2-3bbc63c02d87
+		sourceLineageTag: PRODUCT_NAME_FR
+		summarizeBy: none
+		sourceColumn: PRODUCT_NAME_FR
+
+		annotation SummarizationSetBy = Automatic
+
+	column PRODUCT_NAME_ES
+		dataType: string
+		sourceProviderType: varchar(256)
+		lineageTag: fe97ce7d-5a8a-4794-8a2a-d04d1342999a
+		sourceLineageTag: PRODUCT_NAME_ES
+		summarizeBy: none
+		sourceColumn: PRODUCT_NAME_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ProductNames = entity
+		mode: directLake
+		source
+			entityName: ProductNames
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

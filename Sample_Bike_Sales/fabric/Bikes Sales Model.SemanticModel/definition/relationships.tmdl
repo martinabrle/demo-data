@@ -1,0 +1,63 @@
+relationship 337045b0-c7ac-b4aa-8063-aaf929f8cbc0
+	relyOnReferentialIntegrity
+	fromColumn: Products.'Product Category ID'
+	toColumn: 'Product Categories'.'Product Category ID'
+
+relationship 9e03c6c1-ce49-57b4-8292-b8dc16902d13
+	relyOnReferentialIntegrity
+	fromColumn: 'Sales Order Items'.'Sales Order ID'
+	toColumn: 'Sales Orders'.'Sales Order ID'
+
+relationship 7169f488-91ce-465b-b6ac-ca72e3207408
+	relyOnReferentialIntegrity
+	fromColumn: 'Sales Orders'.'Customer ID'
+	toColumn: Customers.'Customer ID'
+
+relationship 680628ad-138d-bbd8-34c9-02aa27f5c4a6
+	relyOnReferentialIntegrity
+	fromColumn: Products.'Vendor ID'
+	toColumn: Vendors.'Vendor ID'
+
+relationship e7d601d5-d99b-0d35-3709-1d3970a45bc9
+	relyOnReferentialIntegrity
+	fromColumn: Vendors.'Address ID'
+	toColumn: 'Vendor Addresses'.'Address ID'
+
+relationship 328ec975-0dc0-17c8-0c1e-241865d64a83
+	relyOnReferentialIntegrity
+	fromColumn: 'Sales Order Items'.'Product ID'
+	toColumn: Products.'Product ID'
+
+relationship d0722cc6-0bb2-0012-383d-939d422a1a83
+	relyOnReferentialIntegrity
+	fromColumn: Customers.'Address ID'
+	toColumn: 'Customer Addresses'.'Address ID'
+
+relationship 8a015e25-33ff-e2ef-2213-d4dcd4896a61
+	crossFilteringBehavior: bothDirections
+	relyOnReferentialIntegrity
+	fromCardinality: one
+	fromColumn: 'Product Descriptions'.'Product ID'
+	toColumn: Products.'Product ID'
+
+relationship 80c239bd-4cd8-0e31-dfe1-b0619c350ec2
+	crossFilteringBehavior: bothDirections
+	relyOnReferentialIntegrity
+	fromCardinality: one
+	fromColumn: 'Product Names'.'Product ID'
+	toColumn: Products.'Product ID'
+
+relationship 2d07dab5-be3e-6def-08e2-3c49d28674a4
+	crossFilteringBehavior: bothDirections
+	relyOnReferentialIntegrity
+	fromCardinality: one
+	fromColumn: 'Product Categories'.'Product Category ID'
+	toColumn: 'Product Category Names'.'Product Category ID'
+
+relationship 2b705368-2226-8b7b-095a-7c9d2b2ca3df
+	crossFilteringBehavior: bothDirections
+	relyOnReferentialIntegrity
+	fromCardinality: one
+	fromColumn: 'Product Category Descriptions'.'Product Category ID'
+	toColumn: 'Product Categories'.'Product Category ID'
+

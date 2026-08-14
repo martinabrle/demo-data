@@ -1,0 +1,316 @@
+/// Product records
+table Products
+	lineageTag: bbcc95ed-45e4-450b-b8bd-0b75c3a0e8f5
+	sourceLineageTag: [dbo].[products]
+
+	/// Unique identifier of the product
+	column 'Product ID'
+		dataType: string
+		lineageTag: b7024a8e-dead-48fa-a23a-fbf5a64da458
+		sourceLineageTag: product_id
+		summarizeBy: none
+		sourceColumn: product_id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Type code of the product
+	column 'Type Code'
+		dataType: string
+		lineageTag: 930cdbc5-cab4-49fe-aeb7-d46466d3d3fc
+		sourceLineageTag: type_code
+		summarizeBy: none
+		sourceColumn: type_code
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the product category
+	column 'Product Category ID'
+		dataType: string
+		lineageTag: 5dd65af0-52b0-435f-aef3-be7af1cd84cb
+		sourceLineageTag: product_category_id
+		summarizeBy: none
+		sourceColumn: product_category_id
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who created the product record
+	column 'Created By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6adc5fff-5317-4a63-98ac-3e8af2106fa3
+		sourceLineageTag: created_by
+		summarizeBy: none
+		sourceColumn: created_by
+
+		changedProperty = IsHidden
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the product record was created
+	column 'Created Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 7718bdd8-d684-4f7c-af28-b7895dadd15e
+		sourceLineageTag: created_date
+		summarizeBy: none
+		sourceColumn: created_date
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the user who last modified the product record
+	column 'Modified By'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 1e3876b9-e726-485f-b5e8-5c7792b8df72
+		sourceLineageTag: modified_by
+		summarizeBy: none
+		sourceColumn: modified_by
+
+		changedProperty = SummarizeBy
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Date when the product record was last modified
+	column 'Modified Date'
+		dataType: dateTime
+		isHidden
+		formatString: General Date
+		lineageTag: 94ae94a1-d2ea-4d93-a3e9-1cf5672e3b1d
+		sourceLineageTag: modified_date
+		summarizeBy: none
+		sourceColumn: modified_date
+
+		changedProperty = IsHidden
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Identifier of the vendor supplying the product
+	column 'Vendor ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5a7a9b66-70d0-4272-88d2-6436d166d24c
+		sourceLineageTag: vendor_id
+		summarizeBy: none
+		sourceColumn: vendor_id
+
+		changedProperty = SummarizeBy
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = User
+
+	/// Tax tariff or classification code for the product
+	column 'Tax Tariff Code'
+		dataType: string
+		lineageTag: 9928855b-46ad-404a-aebc-9e86f259c112
+		sourceLineageTag: tax_tariff_code
+		summarizeBy: none
+		sourceColumn: tax_tariff_code
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Unit of measure for the product quantity
+	column 'Quantity Unit'
+		dataType: string
+		lineageTag: fd16b8b7-cc78-4867-af2c-2c3d1079417a
+		sourceLineageTag: quantity_unit
+		summarizeBy: none
+		sourceColumn: quantity_unit
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Weight of the product
+	column 'Weight Measure'
+		dataType: double
+		lineageTag: 5bf41e6f-5f39-4739-9776-9864df834ebd
+		sourceLineageTag: weight_measure
+		summarizeBy: sum
+		sourceColumn: weight_measure
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Unit of weight
+	column 'Weight Unit'
+		dataType: string
+		lineageTag: cd191428-3455-4b46-ad15-9d2c926be5a4
+		sourceLineageTag: weight_unit
+		summarizeBy: none
+		sourceColumn: weight_unit
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Currency for the product pricing
+	column Currency
+		dataType: string
+		lineageTag: fb8f5c7a-d978-4236-a3fc-960d9d1ef9ba
+		sourceLineageTag: currency
+		summarizeBy: none
+		sourceColumn: currency
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Price of the product
+	column Price
+		dataType: int64
+		formatString: 0
+		lineageTag: f6946931-e36f-4a7e-b7a8-f9b768b1ee27
+		sourceLineageTag: price
+		summarizeBy: sum
+		sourceColumn: price
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Width of the product
+	column Width
+		dataType: double
+		lineageTag: 31584391-9cc9-4782-b6de-a6a7c0b52215
+		sourceLineageTag: width
+		summarizeBy: sum
+		sourceColumn: width
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Depth of the product
+	column Depth
+		dataType: double
+		lineageTag: 769ababd-102d-44b9-9155-c9efe1774af9
+		sourceLineageTag: depth
+		summarizeBy: sum
+		sourceColumn: depth
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Height of the product
+	column Height
+		dataType: double
+		lineageTag: 1201e234-c06b-4cec-bd32-febdb944efc6
+		sourceLineageTag: height
+		summarizeBy: sum
+		sourceColumn: height
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Unit for product dimensions
+	column 'Dimension Unit'
+		dataType: string
+		lineageTag: 4c4cfa39-2f6c-4fa9-a548-b4a99b7c1629
+		sourceLineageTag: dimension_unit
+		summarizeBy: none
+		sourceColumn: dimension_unit
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		annotation SummarizationSetBy = Automatic
+
+	/// URL to the product image
+	column 'Product Picture URL'
+		dataType: string
+		lineageTag: d2318f29-03ec-499f-90f2-ce5d12d1b066
+		sourceLineageTag: product_pic_url
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: product_pic_url
+
+		changedProperty = Name
+
+		changedProperty = Description
+
+		changedProperty = DataCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Products = entity
+		mode: directLake
+		source
+			entityName: products
+			expressionSource: 'DirectLake - LH_Bikes'
+
+	changedProperty = Name
+
+	changedProperty = Description
+

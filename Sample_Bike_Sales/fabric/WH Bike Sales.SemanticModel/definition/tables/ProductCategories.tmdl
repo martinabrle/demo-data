@@ -1,0 +1,45 @@
+table ProductCategories
+	lineageTag: 4c489393-9f2a-412a-be23-202a611a80a6
+	sourceLineageTag: [dbo].[ProductCategories]
+
+	column PRODCATEGORYID
+		dataType: string
+		sourceProviderType: varchar(2)
+		lineageTag: 9555fc1c-bde5-4ce8-a1f2-a32084553405
+		sourceLineageTag: PRODCATEGORYID
+		summarizeBy: none
+		sourceColumn: PRODCATEGORYID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDBY
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 6575505a-5b7d-422d-a418-6406eaff2ec0
+		sourceLineageTag: CREATEDBY
+		summarizeBy: sum
+		sourceColumn: CREATEDBY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CREATEDAT
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 8b3851f1-1f17-4fec-b55f-8cc7a0aee6da
+		sourceLineageTag: CREATEDAT
+		summarizeBy: none
+		sourceColumn: CREATEDAT
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ProductCategories = entity
+		mode: directLake
+		source
+			entityName: ProductCategories
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

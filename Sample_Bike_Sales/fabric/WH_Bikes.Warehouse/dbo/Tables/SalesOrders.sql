@@ -1,0 +1,20 @@
+CREATE TABLE [dbo].[SalesOrders] (
+
+	[SALESORDERID] int NOT NULL, 
+	[CREATEDBY] int NULL, 
+	[CREATEDAT] date NULL, 
+	[CHANGEDBY] int NULL, 
+	[CHANGEDAT] date NULL, 
+	[FISCVARIANT] varchar(10) NULL, 
+	[FISCALYEARPERIOD] int NULL, 
+	[NOTEID] varchar(10) NULL, 
+	[CUSTOMERID] int NOT NULL, 
+	[SALESORG] varchar(10) NULL, 
+	[CURRENCY] varchar(3) NULL, 
+	[GROSSAMOUNT] decimal(10,4) NULL, 
+	[NETAMOUNT] decimal(10,4) NULL, 
+	[TAXAMOUNT] decimal(10,4) NULL, 
+	[LIFECYCLESTATUS] varchar(10) NULL, 
+	[BILLINGSTATUS] varchar(10) NULL, 
+	[DELIVERYSTATUS] varchar(10) NULL
+);
